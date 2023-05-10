@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AboutTheGarden.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#code",
+                "query": "\"title: \\\"\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AboutTheGarden.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AboutTheGarden.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AboutTheGarden.md"
+                "file": "README.md"
               }
             }
           },
@@ -181,23 +182,23 @@
   },
   "active": "b03f114814d47503",
   "lastOpenFiles": [
-    "Atlas/思维导图/思维导图 - 模版.md",
+    "Ideas/Rate Limit.md",
+    "PHP/PHP 开发设置.md",
+    "PHP/PHP 错误码设计.md",
+    "Obsidian/Obsidian 插件.md",
+    "PHP/Laravel Pint 使用.md",
+    "Mac/iCloud 同步卡住.md",
+    "AboutTheGarden.md",
     "Extras/Templates/文档头.md",
+    "Atlas/思维导图/思维导图 - 模版.md",
+    "Thoughts/思考.md",
+    "Use/开发环境.md",
+    "Thoughts/3-2-1 的有趣想法.md",
+    "README.md",
     "Atlas/思维导图",
     "Atlas",
     "Extras",
-    "Mac/iCloud 同步卡住.md",
-    "README.md",
-    "AboutTheGarden.md",
-    "Obsidian/Obsidian 插件.md",
-    "Use/开发环境.md",
-    "Thoughts/思考.md",
-    "Thoughts/3-2-1 的有趣想法.md",
-    "Ideas/Rate Limit.md",
     "Use/随意.md",
-    "PHP/PHP 开发设置.md",
-    "PHP/PHP 错误码设计.md",
-    "PHP/Laravel Pint 使用.md",
     "Pasted image 20230509142351.png",
     "简历.md",
     "未命名.canvas",
