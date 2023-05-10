@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/文档头.md",
+                "file": "Atlas/思维导图/思维导图 - 模版.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/文档头.md",
+                "file": "Atlas/思维导图/思维导图 - 模版.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/文档头.md",
+                "file": "Atlas/思维导图/思维导图 - 模版.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/文档头.md"
+                "file": "Atlas/思维导图/思维导图 - 模版.md"
               }
             }
           },
@@ -179,10 +179,14 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "1dcfed1424b65adb",
+  "active": "b03f114814d47503",
   "lastOpenFiles": [
+    "Extras/Templates/文档头.md",
+    "Atlas/思维导图/思维导图 - 模版.md",
+    "Atlas/思维导图",
+    "Atlas",
+    "Extras",
     "Mac/iCloud 同步卡住.md",
-    "未命名",
     "README.md",
     "AboutTheGarden.md",
     "Obsidian/Obsidian 插件.md",
@@ -195,7 +199,6 @@
     "PHP/PHP 错误码设计.md",
     "PHP/Laravel Pint 使用.md",
     "Pasted image 20230509142351.png",
-    "Templates/文档头.md",
     "简历.md",
     "未命名.canvas",
     "Garden",
@@ -222,8 +225,6 @@
     "Home/Think",
     "Home/Use",
     "Home/Obsidian",
-    "Home/Ideas",
-    "Home/Templates",
     "Home/1.canvas"
   ]
 }
