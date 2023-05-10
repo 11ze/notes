@@ -1,0 +1,13 @@
+{
+  "trashOption": "system",
+  "useTab": false,
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute",
+  "tabSize": 2,
+  "showFrontmatter": true,
+  "spellcheck": true,
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "showInlineTitle": true
+}

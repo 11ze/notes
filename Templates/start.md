@@ -1,0 +1,8 @@
+---
+title: "{{title}}"
+date created: {{date:YYYY-MM-DD}}
+date modified: {{date:YYYY-MM-DD}}
+tags:
+- tag
+---
+

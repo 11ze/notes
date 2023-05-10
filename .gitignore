@@ -1,0 +1,47 @@
+# 带 token 的敏感插件数据屏蔽
+.obsidian/plugins/remotely-save/data.json
+.obsidian/plugins/obsidian-local-rest-api/data.json
+.obsidian/plugins/obsidian-weread-plugin/data.json
+.obsidian/plugins/simpread/data.json
+.obsidian/plugins/obsidian-to-notion/data.json
+.obsidian/plugins/obsidian-textgenerator-plugin/data.json
+.obsidian/plugins/ava/data.json
+.obsidian/plugins/digitalgarden/data.json
+.obsidian/plugins/smart-connections/data.json
+.obsidian/plugins/chatgpt-md/data.json
+
+# 没必要上传的数据屏蔽
+.obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/plugins/omnisearch/searchIndex.json
+.obsidian/plugins/omnisearch/notesCache.json
+.obsidian/plugins/obsidian-advanced-slides/**
+
+# billfish 配置文件忽略
+Extras/Media/.bf/**
+
+# workspace 文件若不上传，会导致用户下载库以后，新打开的界面的布局信息丢失
+# .obsidian/workspace
+
+# obsidian 发布用文件不需要上传
+publish.css
+publish.js
+
+# 不上传 pdf epub mobi 文件
+*.pdf
+*.epub
+*.mobi
+
+# 不上传 office 文件
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.doc
+*.docx
+
+
+# Ignore Smart Connections folder because embeddings file is large and updated frequently
+.smart-connections
+
+.git.nosync/
+
