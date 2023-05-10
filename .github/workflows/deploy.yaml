@@ -1,0 +1,30 @@
+name: Send submodule updates to parent repo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: zhangsan/dg3 # 设置你用户名/发布仓库的仓库名,作用是将子模块更新到父仓库dg3
+          token: ${{ secrets.TOKEN }}
+          # 把子模块打开
+          submodules: 'true'
+
+      - name: Pull & update submodules recursively
+        run: |
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
+      - name: Commit
+        run: |
+          git config user.email "wangzecn@qq.com"
+          git config user.name "11ze"
+          git add --all
+          git commit -m "docs: update" || echo "chore: no changes to commit"
+          git push
