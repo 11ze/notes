@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repository: zhangsan/dg3 # 设置你用户名/发布仓库的仓库名,作用是将子模块更新到父仓库dg3
+          repository: 11ze/ob-publish # 设置你用户名/发布仓库的仓库名,作用是将子模块更新到父仓库dg3
           token: ${{ secrets.TOKEN }}
           # 把子模块打开
           submodules: 'true'
