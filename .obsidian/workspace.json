@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/思维导图/思维导图 - 模版.md",
+                "file": "AboutTheGarden.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/思维导图/思维导图 - 模版.md",
+                "file": "AboutTheGarden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/思维导图/思维导图 - 模版.md",
+                "file": "AboutTheGarden.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/思维导图/思维导图 - 模版.md"
+                "file": "AboutTheGarden.md"
               }
             }
           },
@@ -181,8 +181,8 @@
   },
   "active": "b03f114814d47503",
   "lastOpenFiles": [
-    "Extras/Templates/文档头.md",
     "Atlas/思维导图/思维导图 - 模版.md",
+    "Extras/Templates/文档头.md",
     "Atlas/思维导图",
     "Atlas",
     "Extras",
