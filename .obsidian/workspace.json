@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "title",
+                "query": "11ze",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +179,7 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "b03f114814d47503",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
     "README.md",
     "Ideas/Rate Limit.md",
