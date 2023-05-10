@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Templates/文档头.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Templates/文档头.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Templates/文档头.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Templates/文档头.md"
               }
             }
           },
@@ -179,22 +179,23 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "b03f114814d47503",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
-    "AboutTheGarden.md",
+    "Mac/iCloud 同步卡住.md",
+    "未命名",
     "README.md",
+    "AboutTheGarden.md",
     "Obsidian/Obsidian 插件.md",
     "Use/开发环境.md",
     "Thoughts/思考.md",
     "Thoughts/3-2-1 的有趣想法.md",
-    "Mac/iCloud 同步卡住.md",
     "Ideas/Rate Limit.md",
     "Use/随意.md",
     "PHP/PHP 开发设置.md",
     "PHP/PHP 错误码设计.md",
     "PHP/Laravel Pint 使用.md",
     "Pasted image 20230509142351.png",
-    "Templates/start.md",
+    "Templates/文档头.md",
     "简历.md",
     "未命名.canvas",
     "Garden",
@@ -209,7 +210,6 @@
     "Home/PHP/PHP 开发设置 WIP.md",
     "Home/Mac/iCloud 同步卡住.md",
     "Home/PHP/Laravel Pint 使用 WIP.md",
-    "Home/PHP/PHP 错误码设计 WIP.md",
     "Pasted image 20230508195502.png",
     "Pasted image 20230508195406.png",
     "Pasted image 20230508195333.png",
@@ -224,7 +224,6 @@
     "Home/Obsidian",
     "Home/Ideas",
     "Home/Templates",
-    "Home/权限管理",
     "Home/1.canvas"
   ]
 }
