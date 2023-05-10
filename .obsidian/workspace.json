@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AboutTheGarden.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"title: \\\"\"",
+                "query": "title",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AboutTheGarden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AboutTheGarden.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AboutTheGarden.md"
               }
             }
           },
@@ -182,6 +181,7 @@
   },
   "active": "b03f114814d47503",
   "lastOpenFiles": [
+    "README.md",
     "Ideas/Rate Limit.md",
     "PHP/PHP 开发设置.md",
     "PHP/PHP 错误码设计.md",
@@ -194,7 +194,6 @@
     "Thoughts/思考.md",
     "Use/开发环境.md",
     "Thoughts/3-2-1 的有趣想法.md",
-    "README.md",
     "Atlas/思维导图",
     "Atlas",
     "Extras",
