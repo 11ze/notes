@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Use/Tools/Oh My Zsh.md",
+                "file": "工具/方法/思维导图.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Use/Tools/Oh My Zsh.md",
+                "file": "工具/方法/思维导图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Use/Tools/Oh My Zsh.md",
+                "file": "工具/方法/思维导图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Use/Tools/Oh My Zsh.md"
+                "file": "工具/方法/思维导图.md"
               }
             }
           },
@@ -178,13 +178,22 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "b03f114814d47503",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
-    "Use/开发环境.md",
-    "Use/Tools/Oh My Zsh.md",
-    "Use/Tools/Linux 安装 oh-my-zsh.md",
-    "Use/Tools/Capslock.md",
+    "工具/方法",
+    "学习/背英语单词技巧.md",
+    "工具/方法/思维导图.md",
+    "学习/学习方法.md",
+    "Ideas/Rate Limit.md",
     "Obsidian/Obsidian 插件.md",
+    "思考/Tips.md",
+    "思考/3-2-1 的有趣想法.md",
+    "Atlas/About Atlas.md",
+    "工具/Mac/iCloud 同步卡住.md",
+    "工具/开发环境.md",
+    "工具/应用/Oh My Zsh.md",
+    "工具/应用/Linux 安装 oh-my-zsh.md",
+    "工具/应用/Capslock.md",
     "PHP/PHP 开发设置.md",
     "Extras/Templates/新文件模版.md",
     "README.md",
@@ -195,20 +204,11 @@
     "Extras/Templates/Mdnotes Default Template.md",
     "PHP/PHP-FPM 配置.md",
     "PHP/未命名.md",
-    "Learning/文章收集箱.md",
-    "Learning/思维导图.md",
-    "Atlas/About Atlas.md",
-    "Learning/背英语单词技巧.md",
-    "Learning/学习方法.md",
-    "Learning",
+    "学习/文章收集箱.md",
+    "学习",
     "未命名",
     "Thoughts/背英语单词技巧.md",
-    "Thoughts/学习方法.md",
-    "Oh My Zsh.md",
-    "Use/系统设置.md",
-    "系统设置.md",
-    "Capslock.md",
-    "Use/Tools",
+    "工具/应用",
     "Use/未命名",
     "Atlas/思维导图",
     "Atlas",
