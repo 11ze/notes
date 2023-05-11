@@ -3,7 +3,6 @@ title: Oh My Zsh
 date created: 2023-05-11
 date modified: 2023-05-11
 tags:
-- tool
 - 工具
 - 软件
 ---

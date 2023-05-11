@@ -1,11 +1,8 @@
 ---
 title: Rate Limit
 date created: 2023-05-05
-date modified: 2023-05-07
+date modified: 2023-05-12
 tags:
-- ratelimit
-- code
-- design
 - 开发
 - 设计
 - 编程
