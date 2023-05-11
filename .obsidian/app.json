@@ -9,5 +9,6 @@
   "spellcheck": true,
   "defaultViewMode": "source",
   "livePreview": true,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "newFileLocation": "current"
 }

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Use/开发环境.md",
+                "file": "Use/Tools/Linux 安装 oh-my-zsh.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Use/开发环境.md",
+                "file": "Use/Tools/Linux 安装 oh-my-zsh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Use/开发环境.md",
+                "file": "Use/Tools/Linux 安装 oh-my-zsh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Use/开发环境.md"
+                "file": "Use/Tools/Linux 安装 oh-my-zsh.md"
               }
             }
           },
@@ -181,6 +181,9 @@
   },
   "active": "b03f114814d47503",
   "lastOpenFiles": [
+    "Use/Tools/Oh My Zsh.md",
+    "Use/Tools/Capslock.md",
+    "Use/开发环境.md",
     "README.md",
     "AboutTheGarden.md",
     "Atlas/未命名.md",
@@ -200,17 +203,14 @@
     "未命名",
     "Thoughts/背英语单词技巧.md",
     "Thoughts/学习方法.md",
-    "Use/Tools/Oh My Zsh.md",
     "Oh My Zsh.md",
     "Use/系统设置.md",
     "系统设置.md",
-    "Use/Tools/Capslock.md",
     "Capslock.md",
     "Use/Capslock.md",
     "Use/Tools",
     "Use/未命名",
     "Ideas/Rate Limit.md",
-    "PHP/PHP 开发设置.md",
     "Atlas/思维导图",
     "Atlas",
     "Extras",
