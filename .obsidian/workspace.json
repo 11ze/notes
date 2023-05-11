@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Use/Tools/Capslock.md",
+                "file": "Extras/Templates/新文件模版.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "11ze",
+                "query": "\"title: \"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Use/Tools/Capslock.md",
+                "file": "Extras/Templates/新文件模版.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Use/Tools/Capslock.md",
+                "file": "Extras/Templates/新文件模版.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Use/Tools/Capslock.md"
+                "file": "Extras/Templates/新文件模版.md"
               }
             }
           },
@@ -181,9 +182,9 @@
   },
   "active": "b03f114814d47503",
   "lastOpenFiles": [
+    "Use/Tools/Capslock.md",
     "Use/Tools/Linux 安装 oh-my-zsh.md",
     "Use/Tools/Oh My Zsh.md",
-    "Use/Tools/Capslock.md",
     "Use/开发环境.md",
     "README.md",
     "AboutTheGarden.md",
