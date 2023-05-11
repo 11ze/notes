@@ -26,10 +26,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/方法/思维导图.md",
-                "mode": "source",
+                "file": "学习/背英语单词技巧.md",
+                "mode": "preview",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/方法/思维导图.md",
+                "file": "学习/背英语单词技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/方法/思维导图.md",
+                "file": "学习/背英语单词技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/方法/思维导图.md"
+                "file": "学习/背英语单词技巧.md"
               }
             }
           },
@@ -178,33 +178,33 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "1dcfed1424b65adb",
+  "active": "b03f114814d47503",
   "lastOpenFiles": [
-    "工具/方法",
+    "学习/推荐阅读.md",
     "学习/背英语单词技巧.md",
-    "工具/方法/思维导图.md",
-    "学习/学习方法.md",
-    "Ideas/Rate Limit.md",
-    "Obsidian/Obsidian 插件.md",
     "思考/Tips.md",
-    "思考/3-2-1 的有趣想法.md",
     "Atlas/About Atlas.md",
+    "README.md",
+    "工具/方法/思维导图.md",
+    "工具/应用/Linux 安装 oh-my-zsh.md",
     "工具/Mac/iCloud 同步卡住.md",
+    "Ideas/Rate Limit.md",
+    "AboutTheGarden.md",
+    "工具/方法",
+    "学习/学习方法.md",
+    "Obsidian/Obsidian 插件.md",
+    "思考/3-2-1 的有趣想法.md",
     "工具/开发环境.md",
     "工具/应用/Oh My Zsh.md",
-    "工具/应用/Linux 安装 oh-my-zsh.md",
     "工具/应用/Capslock.md",
     "PHP/PHP 开发设置.md",
     "Extras/Templates/新文件模版.md",
-    "README.md",
-    "AboutTheGarden.md",
     "Atlas/未命名.md",
     "Extras/Templates/未命名.md",
     "Extras/Templates/新建空白文件.md",
     "Extras/Templates/Mdnotes Default Template.md",
     "PHP/PHP-FPM 配置.md",
     "PHP/未命名.md",
-    "学习/文章收集箱.md",
     "学习",
     "未命名",
     "Thoughts/背英语单词技巧.md",
@@ -223,7 +223,6 @@
     "Pasted image 20230508195102.png",
     "_debug_remotely_save",
     "Pasted image 20230508094238.png",
-    "Home/Mac",
     "Home/1.canvas"
   ]
 }
