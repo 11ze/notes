@@ -1,6 +1,4 @@
 [
-  "obsidian-image-auto-upload-plugin",
-  "obsidian-linter",
   "table-editor-obsidian",
   "obsidian-advanced-uri",
   "obsidian-auto-link-title",
@@ -8,5 +6,8 @@
   "dataview",
   "obsidian-style-settings",
   "supercharged-links-obsidian",
-  "various-complements"
+  "various-complements",
+  "obsidian-image-auto-upload-plugin",
+  "obsidian-linter",
+  "templater-obsidian"
 ]

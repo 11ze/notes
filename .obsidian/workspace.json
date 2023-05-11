@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AboutTheGarden.md",
+                "file": "Use/开发环境.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AboutTheGarden.md",
+                "file": "Use/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AboutTheGarden.md",
+                "file": "Use/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AboutTheGarden.md"
+                "file": "Use/开发环境.md"
               }
             }
           },
@@ -179,40 +179,44 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "1dcfed1424b65adb",
+  "active": "b03f114814d47503",
   "lastOpenFiles": [
     "README.md",
+    "AboutTheGarden.md",
+    "Atlas/未命名.md",
+    "Extras/Templates/未命名.md",
+    "Extras/Templates/新文件模版.md",
+    "Extras/Templates/新建空白文件.md",
+    "Extras/Templates/Mdnotes Default Template.md",
+    "PHP/PHP-FPM 配置.md",
+    "PHP/未命名.md",
+    "Use/Tools/Linux 安装 oh-my-zsh.md",
+    "Learning/文章收集箱.md",
+    "Learning/思维导图.md",
+    "Atlas/About Atlas.md",
+    "Learning/背英语单词技巧.md",
+    "Learning/学习方法.md",
+    "Learning",
+    "未命名",
+    "Thoughts/背英语单词技巧.md",
+    "Thoughts/学习方法.md",
+    "Use/Tools/Oh My Zsh.md",
+    "Oh My Zsh.md",
+    "Use/系统设置.md",
+    "系统设置.md",
+    "Use/Tools/Capslock.md",
+    "Capslock.md",
+    "Use/Capslock.md",
+    "Use/Tools",
+    "Use/未命名",
     "Ideas/Rate Limit.md",
     "PHP/PHP 开发设置.md",
-    "PHP/PHP 错误码设计.md",
-    "Obsidian/Obsidian 插件.md",
-    "PHP/Laravel Pint 使用.md",
-    "Mac/iCloud 同步卡住.md",
-    "AboutTheGarden.md",
-    "Extras/Templates/文档头.md",
-    "Atlas/思维导图/思维导图 - 模版.md",
-    "Thoughts/思考.md",
-    "Use/开发环境.md",
-    "Thoughts/3-2-1 的有趣想法.md",
     "Atlas/思维导图",
     "Atlas",
     "Extras",
-    "Use/随意.md",
     "Pasted image 20230509142351.png",
-    "简历.md",
     "未命名.canvas",
     "Garden",
-    "Home/Templates/start.md",
-    "Home/Think/3-2-1 的有趣想法.md",
-    "Home/Think/速记.md",
-    "Home/简历 WIP.md",
-    "Home/README.md",
-    "Home/Use/开发环境.md",
-    "Home/Ideas/Rate Limit.md",
-    "Home/Obsidian/Obsidian 插件.md",
-    "Home/PHP/PHP 开发设置 WIP.md",
-    "Home/Mac/iCloud 同步卡住.md",
-    "Home/PHP/Laravel Pint 使用 WIP.md",
     "Pasted image 20230508195502.png",
     "Pasted image 20230508195406.png",
     "Pasted image 20230508195333.png",
@@ -221,10 +225,6 @@
     "_debug_remotely_save",
     "Pasted image 20230508094238.png",
     "Home/Mac",
-    "Home/未命名",
-    "Home/Think",
-    "Home/Use",
-    "Home/Obsidian",
     "Home/1.canvas"
   ]
 }

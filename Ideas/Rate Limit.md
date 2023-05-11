@@ -3,10 +3,11 @@ title: Rate Limit
 date created: 2023-05-05
 date modified: 2023-05-07
 tags:
-- idea
 - ratelimit
 - code
 - design
+- 开发
+- 设计
 ---
 
 ## 功能

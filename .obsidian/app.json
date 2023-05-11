@@ -7,7 +7,7 @@
   "tabSize": 2,
   "showFrontmatter": true,
   "spellcheck": true,
-  "defaultViewMode": "preview",
-  "livePreview": false,
+  "defaultViewMode": "source",
+  "livePreview": true,
   "showInlineTitle": true
 }
