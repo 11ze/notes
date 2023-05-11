@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Extras/Templates/新文件模版.md",
+                "file": "Use/Tools/Oh My Zsh.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -88,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Extras/Templates/新文件模版.md",
+                "file": "Use/Tools/Oh My Zsh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Extras/Templates/新文件模版.md",
+                "file": "Use/Tools/Oh My Zsh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Extras/Templates/新文件模版.md"
+                "file": "Use/Tools/Oh My Zsh.md"
               }
             }
           },
@@ -161,8 +160,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,15 +180,17 @@
   },
   "active": "b03f114814d47503",
   "lastOpenFiles": [
-    "Use/Tools/Capslock.md",
-    "Use/Tools/Linux 安装 oh-my-zsh.md",
-    "Use/Tools/Oh My Zsh.md",
     "Use/开发环境.md",
+    "Use/Tools/Oh My Zsh.md",
+    "Use/Tools/Linux 安装 oh-my-zsh.md",
+    "Use/Tools/Capslock.md",
+    "Obsidian/Obsidian 插件.md",
+    "PHP/PHP 开发设置.md",
+    "Extras/Templates/新文件模版.md",
     "README.md",
     "AboutTheGarden.md",
     "Atlas/未命名.md",
     "Extras/Templates/未命名.md",
-    "Extras/Templates/新文件模版.md",
     "Extras/Templates/新建空白文件.md",
     "Extras/Templates/Mdnotes Default Template.md",
     "PHP/PHP-FPM 配置.md",
@@ -208,10 +208,8 @@
     "Use/系统设置.md",
     "系统设置.md",
     "Capslock.md",
-    "Use/Capslock.md",
     "Use/Tools",
     "Use/未命名",
-    "Ideas/Rate Limit.md",
     "Atlas/思维导图",
     "Atlas",
     "Extras",

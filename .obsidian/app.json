@@ -3,7 +3,7 @@
   "useTab": false,
   "strictLineBreaks": true,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "shortest",
   "tabSize": 2,
   "showFrontmatter": true,
   "spellcheck": true,

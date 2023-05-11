@@ -8,7 +8,7 @@ tags:
 - 软件
 ---
 
-Linux 用户请看：[[Use/Tools/Linux 安装 oh-my-zsh]]
+Linux 用户请看：[[Linux 安装 oh-my-zsh]]
 
 ## 安装
 
