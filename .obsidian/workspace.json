@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/英语/英语.md",
+                "file": "Github/常见错误.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/英语/英语.md",
+                "file": "Github/常见错误.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/英语/英语.md",
+                "file": "Github/常见错误.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/英语/英语.md"
+                "file": "Github/常见错误.md"
               }
             }
           },
@@ -146,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -167,8 +168,10 @@
   },
   "active": "d0b71929028ed08e",
   "lastOpenFiles": [
-    "学习/英语/背英语单词技巧.md",
     "学习/英语/英语.md",
+    "Github/常见错误.md",
+    "Github",
+    "学习/英语/背英语单词技巧.md",
     "学习/英语",
     "学习/学英语.md",
     "学习/推荐阅读.md",
@@ -200,7 +203,6 @@
     "Extras/Templates/未命名.md",
     "AboutTheGarden.md",
     "Extras/Templates/新文件模版.md",
-    "Learning",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
     "Pasted image 20230508195502.png",
