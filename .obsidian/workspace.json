@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/英语/背英语单词技巧.md",
+                "file": "学习/英语/英语.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/英语/背英语单词技巧.md",
+                "file": "学习/英语/英语.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/英语/背英语单词技巧.md",
+                "file": "学习/英语/英语.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/英语/背英语单词技巧.md"
+                "file": "学习/英语/英语.md"
               }
             }
           },
@@ -146,8 +146,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,9 +167,9 @@
   },
   "active": "d0b71929028ed08e",
   "lastOpenFiles": [
+    "学习/英语/背英语单词技巧.md",
     "学习/英语/英语.md",
     "学习/英语",
-    "学习/英语/背英语单词技巧.md",
     "学习/学英语.md",
     "学习/推荐阅读.md",
     "工具/方法/思维导图.md",
