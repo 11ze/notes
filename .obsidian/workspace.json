@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/Obsidian 插件.md",
+                "file": "学习/英语/背英语单词技巧.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "b03f114814d47503",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/背英语单词技巧.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"title: \"",
+                "query": "11ze",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/背英语单词技巧.md",
+                "file": "学习/英语/背英语单词技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/背英语单词技巧.md",
+                "file": "学习/英语/背英语单词技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/背英语单词技巧.md"
+                "file": "学习/英语/背英语单词技巧.md"
               }
             }
           },
@@ -160,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -175,53 +162,53 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "random-note:开始漫游笔记": false
+      "random-note:开始漫游笔记": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "b03f114814d47503",
+  "active": "d0b71929028ed08e",
   "lastOpenFiles": [
+    "学习/英语/英语.md",
+    "学习/英语",
+    "学习/英语/背英语单词技巧.md",
+    "学习/学英语.md",
     "学习/推荐阅读.md",
-    "学习/背英语单词技巧.md",
-    "思考/Tips.md",
-    "Atlas/About Atlas.md",
-    "README.md",
     "工具/方法/思维导图.md",
-    "工具/应用/Linux 安装 oh-my-zsh.md",
-    "工具/Mac/iCloud 同步卡住.md",
-    "Ideas/Rate Limit.md",
-    "AboutTheGarden.md",
     "工具/方法",
-    "学习/学习方法.md",
-    "Obsidian/Obsidian 插件.md",
+    "工具/未命名",
+    "思考/Tips.md",
+    "思考/tips.md",
+    "思考/思考.md",
     "思考/3-2-1 的有趣想法.md",
-    "工具/开发环境.md",
+    "思考",
+    "工具/Mac/iCloud 同步卡住.md",
+    "工具/Mac",
+    "学习/学习方法.md",
+    "学习/文章收集箱.md",
+    "学习/思维导图.md",
+    "学习",
+    "工具/应用/Linux 安装 oh-my-zsh.md",
     "工具/应用/Oh My Zsh.md",
     "工具/应用/Capslock.md",
-    "PHP/PHP 开发设置.md",
-    "Extras/Templates/新文件模版.md",
+    "工具/应用",
+    "工具/开发环境.md",
+    "工具",
+    "Use/应用/Oh My Zsh.md",
+    "Use/应用/Linux 安装 oh-my-zsh.md",
+    "Use/应用/Capslock.md",
+    "Use/应用",
     "Atlas/未命名.md",
     "Extras/Templates/未命名.md",
-    "Extras/Templates/新建空白文件.md",
-    "Extras/Templates/Mdnotes Default Template.md",
-    "PHP/PHP-FPM 配置.md",
-    "PHP/未命名.md",
-    "学习",
-    "未命名",
-    "Thoughts/背英语单词技巧.md",
-    "工具/应用",
-    "Use/未命名",
-    "Atlas/思维导图",
-    "Atlas",
-    "Extras",
+    "AboutTheGarden.md",
+    "Extras/Templates/新文件模版.md",
+    "Learning",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
-    "Garden",
     "Pasted image 20230508195502.png",
     "Pasted image 20230508195406.png",
     "Pasted image 20230508195333.png",
     "Pasted image 20230508195112.png",
     "Pasted image 20230508195102.png",
-    "_debug_remotely_save",
     "Pasted image 20230508094238.png",
     "Home/1.canvas"
   ]
