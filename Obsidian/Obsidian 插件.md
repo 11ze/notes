@@ -3,7 +3,6 @@ title: Obsidian 插件
 date created: 2023-05-07
 date modified: 2023-05-07
 tags:
-- plugin
 - Obsidian
 - 插件
 ---

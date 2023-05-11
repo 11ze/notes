@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github/常见错误.md",
+                "file": "工具/应用/油猴脚本.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "11ze",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github/常见错误.md",
+                "file": "工具/应用/油猴脚本.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Github/常见错误.md",
+                "file": "工具/应用/油猴脚本.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github/常见错误.md"
+                "file": "工具/应用/油猴脚本.md"
               }
             }
           },
@@ -168,15 +168,23 @@
   },
   "active": "d0b71929028ed08e",
   "lastOpenFiles": [
-    "Ideas/Rate Limit.md",
+    "工具/方法/思维导图.md",
+    "工具/开发环境.md",
+    "工具/应用/油猴脚本.md",
     "Github/常见错误.md",
+    "Atlas/About Atlas.md",
+    "学习/学习方法.md",
+    "学习/推荐阅读.md",
     "学习/英语/英语.md",
+    "学习/英语/背单词技巧.md",
+    "工具/应用/Capslock.md",
+    "工具/应用/Linux 安装 oh-my-zsh.md",
+    "工具/应用/Oh My Zsh.md",
+    "Obsidian/Obsidian 插件.md",
+    "Ideas/Rate Limit.md",
     "Github",
-    "学习/英语/背英语单词技巧.md",
     "学习/英语",
     "学习/学英语.md",
-    "学习/推荐阅读.md",
-    "工具/方法/思维导图.md",
     "工具/方法",
     "工具/未命名",
     "思考/Tips.md",
@@ -186,24 +194,16 @@
     "思考",
     "工具/Mac/iCloud 同步卡住.md",
     "工具/Mac",
-    "学习/学习方法.md",
     "学习/文章收集箱.md",
     "学习/思维导图.md",
     "学习",
-    "工具/应用/Linux 安装 oh-my-zsh.md",
-    "工具/应用/Oh My Zsh.md",
-    "工具/应用/Capslock.md",
     "工具/应用",
-    "工具/开发环境.md",
     "工具",
     "Use/应用/Oh My Zsh.md",
     "Use/应用/Linux 安装 oh-my-zsh.md",
     "Use/应用/Capslock.md",
     "Use/应用",
     "Atlas/未命名.md",
-    "Extras/Templates/未命名.md",
-    "AboutTheGarden.md",
-    "Extras/Templates/新文件模版.md",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
     "Pasted image 20230508195502.png",
