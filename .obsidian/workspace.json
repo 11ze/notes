@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网站管理/搭建/搭建流程.md",
+                "file": "AboutTheGarden.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "卡",
+                "query": "脚本",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网站管理/搭建/搭建流程.md",
+                "file": "AboutTheGarden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网站管理/搭建/搭建流程.md",
+                "file": "AboutTheGarden.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网站管理/搭建/搭建流程.md"
+                "file": "AboutTheGarden.md"
               }
             }
           },
@@ -163,9 +163,11 @@
   },
   "active": "2a21e90cb2d295cb",
   "lastOpenFiles": [
+    "网站管理/问题/发布笔记 404.md",
+    "我的设置/Chrome/油猴脚本.md",
+    "网站管理/搭建/搭建流程.md",
     "LICENSE",
     "网站管理/搭建/同步方案.md",
-    "网站管理/搭建/搭建流程.md",
     "我的设置/Mac/iCloud 不同步指定文件.md",
     "网站管理/搭建/发布方案.md",
     "我的设置/软件/Obsidian.md",
@@ -179,7 +181,6 @@
     "学习笔记",
     "极客时间专栏笔记.md",
     "未命名.md",
-    "我的设置/Chrome/油猴脚本.md",
     "我的设置/Chrome",
     "我的设置/方法/思维导图.md",
     "我的设置/应用/油猴脚本.md",
@@ -192,11 +193,9 @@
     "我的设置/Mac",
     "我的设置",
     "网站管理/搭建",
-    "网站管理/问题/发布笔记 404.md",
     "网站管理/问题合集.md",
     "网站管理/问题",
     "网站管理/遇见问题.md",
-    "网站管理",
     "日记/2023-05-12.md",
     "2023-05-12.md",
     "Pasted image 20230509142351.png",
