@@ -1,7 +1,7 @@
 ---
 title: PHP-FPM 配置
-date created: 2023-05-11
-date modified: 2023-05-11
+publishDate: 2023-05-11
+lastmod: 2023-05-11
 tags:
 - PHP
 - php-fpm

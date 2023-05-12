@@ -1,10 +1,10 @@
 ---
 comments: true
-date created: 2023-05-10
-date modified: 2023-05-11
+publishDate: 2023-05-10
+lastmod: 2023-05-12
 id: home
 layout: page
-title: AboutTheGarden
+title: 🪴11ze's Garden
 dg-home: true
 dg-publish: true
 permalink: /

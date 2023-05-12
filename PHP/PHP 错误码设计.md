@@ -1,7 +1,7 @@
 ---
 title: PHP 错误码设计
-date created: 2023-05-09
-date modified: 2023-05-09
+publishDate: 2023-05-09
+lastmod: 2023-05-09
 tags:
 - WIP
 ---

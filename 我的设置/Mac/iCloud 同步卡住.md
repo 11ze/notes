@@ -1,7 +1,7 @@
 ---
 title: iCloud 同步卡住
-date created: 2023-05-08
-date modified: 2023-05-08
+publishDate: 2023-05-08
+lastmod: 2023-05-08
 tags:
 - Mac
 - iCloud
