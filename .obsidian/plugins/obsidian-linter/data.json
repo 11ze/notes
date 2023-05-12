@@ -42,10 +42,10 @@
     "yaml-timestamp": {
       "enabled": false,
       "date-created": true,
-      "date-created-key": "date created",
+      "date-created-key": "publishDate",
       "force-retention-of-create-value": false,
       "date-modified": true,
-      "date-modified-key": "date modified",
+      "date-modified-key": "lastmod",
       "format": "dddd, MMMM Do YYYY, h:mm:ss a"
     },
     "yaml-title": {
@@ -222,13 +222,7 @@
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
   "settingsConvertedToConfigKeyValues": true,
-  "foldersToIgnore": [
-    ".git",
-    ".obsidian",
-    ".Trash",
-    ".trash",
-    "Template"
-  ],
+  "foldersToIgnore": [".git", ".obsidian", ".Trash", ".trash", "Template"],
   "linterLocale": "system-default",
   "logLevel": 4,
   "lintCommands": [],
