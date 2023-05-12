@@ -4,7 +4,7 @@ publishDate: 2023-05-10
 lastmod: 2023-05-12
 id: home
 layout: page
-title: 🪴11ze's Garden
+title: 🪴 11ze's Garden
 tags:
 - 关于
 ---
