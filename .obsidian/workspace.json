@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7274219d5a5a980b",
+        "id": "57d07bf031291a07",
         "type": "tabs",
         "children": [
           {
-            "id": "d0b71929028ed08e",
+            "id": "2a21e90cb2d295cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github/常见错误.md",
+                "file": "博客管理/遇见问题.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github/常见错误.md",
+                "file": "博客管理/遇见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Github/常见错误.md",
+                "file": "博客管理/遇见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github/常见错误.md"
+                "file": "博客管理/遇见问题.md"
               }
             }
           },
@@ -146,8 +146,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -165,10 +164,15 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "d0b71929028ed08e",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
-    "工具/方法/思维导图.md",
+    "日记",
+    "博客管理/遇见问题.md",
     "工具/应用/油猴脚本.md",
+    "日记/2023-05-12.md",
+    "Github/常见错误.md",
+    "博客管理",
+    "工具/方法/思维导图.md",
     "工具/应用/Capslock.md",
     "工具/应用/Linux 安装 oh-my-zsh.md",
     "工具/应用/Oh My Zsh.md",
@@ -181,7 +185,6 @@
     "学习/推荐阅读.md",
     "学习/学习方法.md",
     "Atlas/About Atlas.md",
-    "Github/常见错误.md",
     "Ideas/Rate Limit.md",
     "PHP/Laravel Pint 使用.md",
     "PHP/PHP 错误码设计.md",
@@ -199,10 +202,6 @@
     "工具/Mac/iCloud 同步卡住.md-E-E",
     "工具/开发环境.md-E-E",
     "工具/方法/思维导图.md-E-E",
-    "学习/英语/英语.md-E-E",
-    "学习/学英语.md",
-    "思考/tips.md",
-    "思考/思考.md",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
     "Pasted image 20230508195502.png",
