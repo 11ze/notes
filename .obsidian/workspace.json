@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "89c33f60f79138e9",
+        "id": "57d07bf031291a07",
         "type": "tabs",
         "children": [
           {
-            "id": "2e76d88bf6c91158",
+            "id": "2a21e90cb2d295cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我的设置/Mac/iCloud 不同步指定文件.md",
+                "file": "网站管理/搭建/搭建流程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,46 +21,19 @@
             }
           },
           {
-            "id": "15e960ab5928ee5e",
+            "id": "b7bff2397bb1c946",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网站管理/问题/发布笔记 404.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4aae90a129a713c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/Vault.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f49369b1fc5783d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网站管理/搭建/多端同步方案.md",
+                "file": "网站管理/搭建/同步方案.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "已损坏",
+                "query": "卡",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网站管理/问题/发布笔记 404.md",
+                "file": "网站管理/搭建/搭建流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,27 +103,19 @@
             }
           },
           {
-            "id": "5ab0e1ae7de55211",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "550825e97225f9c4",
+            "id": "407ad85f82b5ca64",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网站管理/问题/发布笔记 404.md",
+                "file": "网站管理/搭建/搭建流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "24946992d560bac9",
+            "id": "3eb107616811674b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -161,17 +126,25 @@
             }
           },
           {
-            "id": "dd7007b792869dfa",
+            "id": "895108ceb6c3fa45",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "网站管理/问题/发布笔记 404.md"
+                "file": "网站管理/搭建/搭建流程.md"
               }
+            }
+          },
+          {
+            "id": "5ab0e1ae7de55211",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -180,52 +153,52 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "graph:查看关系图谱": false,
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "15e960ab5928ee5e",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
-    "Github/常见错误.md",
+    "网站管理/搭建/同步方案.md",
+    "网站管理/搭建/搭建流程.md",
+    "我的设置/Mac/iCloud 不同步指定文件.md",
+    "网站管理/搭建/发布方案.md",
+    "我的设置/软件/Obsidian.md",
+    "我的设置/Mac/iCloud 同步卡住.md",
+    "Obsidian/Vault.md",
+    "学习笔记/极客时间专栏笔记.md",
+    "我的设置/软件/Oh My Zsh.md",
+    "我的设置/软件/Linux 安装 oh-my-zsh.md",
+    "我的设置/软件/Capslock.md",
+    "我的设置/软件",
+    "学习笔记",
+    "极客时间专栏笔记.md",
+    "未命名.md",
+    "我的设置/Chrome/油猴脚本.md",
+    "我的设置/Chrome",
+    "我的设置/方法/思维导图.md",
+    "我的设置/应用/油猴脚本.md",
+    "我的设置/应用/Oh My Zsh.md",
+    "我的设置/应用/Linux 安装 oh-my-zsh.md",
+    "我的设置/应用/Capslock.md",
+    "我的设置/方法",
+    "我的设置/开发环境.md",
+    "我的设置/应用",
+    "我的设置/Mac",
+    "我的设置",
+    "网站管理/搭建",
     "网站管理/问题/发布笔记 404.md",
     "网站管理/问题合集.md",
-    "网站管理/搭建/多端同步方案.md",
-    "网站管理/搭建/发布方案.md",
-    "Extras/Templates/新文件模版.md",
-    "Obsidian/Vault.md",
-    "我的设置/Mac/iCloud 不同步指定文件.md",
-    "我的设置/应用/Capslock.md",
-    "极客时间专栏笔记.md",
-    "README.md",
-    "我的设置/方法/思维导图.md",
-    "AboutTheGarden.md",
-    "我的设置/开发环境.md",
-    "我的设置/Chrome",
-    "网站管理/搭建",
-    "日记/2023-05-12.md",
-    "思考/3-2-1 的有趣想法.md",
-    "PHP/Laravel Pint 使用.md",
-    "Obsidian/Obsidian 插件.md",
-    "我的设置/应用/Linux 安装 oh-my-zsh.md",
-    "我的设置/Chrome/油猴脚本.md",
-    "PHP/PHP 错误码设计.md",
-    "学习/推荐阅读.md",
-    "学习/英语/背单词技巧.md",
-    "PHP/PHP 开发设置.md",
-    "思考/Tips.md",
     "网站管理/问题",
     "网站管理/遇见问题.md",
     "网站管理",
-    "日记",
-    "博客管理",
-    "思考/3-2-1 的有趣想法.md-E-E",
-    "思考/Tips.md-E-E",
-    "工具/应用/油猴脚本.md-E-E",
-    "工具/应用/Linux 安装 oh-my-zsh.md-E-E",
+    "日记/2023-05-12.md",
+    "2023-05-12.md",
+    "博客管理/遇见问题.md",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
     "Pasted image 20230508195502.png",

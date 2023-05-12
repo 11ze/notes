@@ -8,11 +8,11 @@ tags:
 
 ## 说明
 
-iCloud 不同步带有 .nosync 后缀的文件和文件夹，适用于 git 仓库
+iCloud 不同步带有 .nosync 后缀的文件和文件夹
 
 ## 使用场景
 
-### 在 iCloud 中同步本地 Git 仓库
+### 在 iCloud 中忽略 .git 且 Git 命令可以正常使用
 
 ```bash
 cd repo
