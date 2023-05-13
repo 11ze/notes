@@ -1,6 +1,6 @@
 ---
 title: Oh My Zsh
-publishDate: 2023-05-11
+publishDate: 2023-05-11T00:00:00+08:00
 tags:
 - 工具
 - 软件

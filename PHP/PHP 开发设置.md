@@ -1,6 +1,6 @@
 ---
 title: PHP 开发设置
-publishDate: 2023-05-06
+publishDate: 2023-05-06T00:00:00+08:00
 tags:
 - PHP
 - WIP

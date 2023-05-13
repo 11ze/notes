@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a985eaeec978255",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我的设置/开发环境.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "81e2c4cf6432bb95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "管理花园/问题/文章最后更新时间错误.md",
+                "file": "Extras/Templates/新文件模版.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +21,12 @@
             }
           },
           {
-            "id": "1218642acb2e53b9",
+            "id": "56f5b01dc6bab225",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "管理花园/搭建/搭建流程.md",
+                "file": "管理花园/问题/发布笔记 404.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -104,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我的设置/开发环境.md",
+                "file": "Extras/Templates/新文件模版.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我的设置/开发环境.md",
+                "file": "Extras/Templates/新文件模版.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我的设置/开发环境.md"
+                "file": "Extras/Templates/新文件模版.md"
               }
             }
           },
@@ -174,11 +161,15 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "7a985eaeec978255",
+  "active": "81e2c4cf6432bb95",
   "lastOpenFiles": [
+    "Extras/Templates/adf.md",
+    "管理花园/问题/发布笔记 404.md",
+    "Extras/Templates/新文件模版.md",
+    "管理花园/问题/文章最后更新时间错误.md",
+    "我的设置/开发环境.md",
     "管理花园/搭建/搭建流程.md",
     "管理花园/问题合集.md",
-    "管理花园/问题/文章最后更新时间错误.md",
     "管理花园/搭建/配置图床.md",
     "学习/英语/背单词技巧.md",
     "管理花园/搭建/同步方案.md",
@@ -187,7 +178,6 @@
     "README.md",
     "Atlas/About Atlas.md",
     "ISO8601.md",
-    "管理花园/问题/发布笔记 404.md",
     "Other",
     "管理花园/搭建/配置自定义域名.md",
     "管理花园/搭建/换新设备.md",
@@ -196,14 +186,11 @@
     "学习笔记/极客时间专栏笔记.md",
     "管理花园/搭建/添加评论区.md",
     "日记/2023-05-13.md",
-    "我的设置/开发环境.md",
     "LICENSE",
     "我的设置/Mac/iCloud 不同步指定文件.md",
     "我的设置/软件/Obsidian.md",
     "我的设置/Mac/iCloud 同步卡住.md",
     "Obsidian/Vault.md",
-    "我的设置/软件/Oh My Zsh.md",
-    "我的设置/软件/Linux 安装 oh-my-zsh.md",
     "我的设置/软件",
     "学习笔记",
     "我的设置/Chrome",

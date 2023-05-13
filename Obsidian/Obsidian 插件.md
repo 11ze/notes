@@ -1,6 +1,6 @@
 ---
 title: Obsidian 插件
-publishDate: 2023-05-07
+publishDate: 2023-05-07T00:00:00+08:00
 tags:
 - Obsidian
 - 插件
