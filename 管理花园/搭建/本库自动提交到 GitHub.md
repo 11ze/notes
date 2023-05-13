@@ -5,5 +5,6 @@ tags:
 - 搭建
 ---
 
-- [本库如何自动每日同步至 Github](https://garden.oldwinter.top/%E6%9C%AC%E5%BA%93%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E6%AF%8F%E6%97%A5%E5%90%8C%E6%AD%A5%E8%87%B3github)
+- 配置 crontab 每天自动执行 [auto_push.sh](https://github.com/11ze/knowledge-garden/blob/main/auto_push.sh)
+  - 可能遇到的问题：[[Crontab 执行提示没有权限]]
 - 由于已配置 GitHub Action，自动提交后会触发 Action 自动部署网站

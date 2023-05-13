@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "81e2c4cf6432bb95",
+            "id": "63f85d24d7467021",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "56f5b01dc6bab225",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "管理花园/搭建/配置图床.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "管理花园/搭建/配置图床.md",
+                "file": "管理花园/搭建/本库自动提交到 GitHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "管理花园/搭建/配置图床.md",
+                "file": "管理花园/搭建/本库自动提交到 GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "管理花园/搭建/配置图床.md"
+                "file": "管理花园/搭建/本库自动提交到 GitHub.md"
               }
             }
           },
@@ -162,36 +148,36 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "56f5b01dc6bab225",
+  "active": "63f85d24d7467021",
   "lastOpenFiles": [
-    "管理花园/搭建/搭建流程.md",
-    "管理花园/搭建/本库自动提交到 GitHub.md",
-    "管理花园/问题/发布笔记 404.md",
-    "管理花园/问题合集.md",
-    "管理花园/搭建/配置图床.md",
-    "管理花园/问题/文章最后更新时间错误.md",
-    "Extras/Templates/新文件模版.md",
-    "Extras/Templates/adf.md",
-    "我的设置/开发环境.md",
-    "学习/英语/背单词技巧.md",
-    "管理花园/搭建/同步方案.md",
-    "管理花园/搭建/发布方案.md",
-    "AboutTheGarden.md",
-    "README.md",
+    "我的设置/软件/Crontab 执行提示没有权限.md",
+    "学习/英语/背单词.md",
+    "学习/英语/英语.md",
+    "学习笔记/极客时间专栏笔记.md",
     "Atlas/About Atlas.md",
-    "ISO8601.md",
-    "Other",
+    "Github/常见错误.md",
+    "Ideas/Rate Limit.md",
+    "Obsidian/Obsidian 插件.md",
+    "学习/推荐阅读.md",
+    "管理花园/搭建/配置 Google Analytics.md",
+    "管理花园/问题/问题合集.md",
+    "管理花园/问题/文章最后更新时间错误.md",
+    "管理花园/问题/发布笔记 404.md",
+    "管理花园/搭建/搭建流程.md",
+    "管理花园/搭建/添加评论区.md",
+    "管理花园/搭建/发布方案.md",
+    "管理花园/搭建/配置图床.md",
+    "管理花园/搭建/同步方案.md",
     "管理花园/搭建/配置自定义域名.md",
     "管理花园/搭建/换新设备.md",
-    "我的设置/软件/油猴脚本.md",
-    "极客时间专栏笔记.md",
-    "学习笔记/极客时间专栏笔记.md",
-    "管理花园/搭建/添加评论区.md",
-    "日记/2023-05-13.md",
-    "LICENSE",
-    "我的设置/Mac/iCloud 不同步指定文件.md",
-    "我的设置/软件/Obsidian.md",
+    "管理花园/搭建/本库自动提交到 GitHub.md",
     "我的设置/Mac/iCloud 同步卡住.md",
+    "Extras/Templates/新文件模版.md",
+    "Extras/Templates/adf.md",
+    "我的设置/Mac/开发环境.md",
+    "AboutTheGarden.md",
+    "Other",
+    "LICENSE",
     "我的设置/软件",
     "学习笔记",
     "我的设置/Chrome",

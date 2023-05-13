@@ -1,9 +1,12 @@
 #!/bin/bash
 
 # 说明：
-#   请在 crontab 中配置定时任务，例如每 8 小时执行一次
-#     * */8 * * * cd "dirname" && ./auto_push.sh
-#   执行日志请在脚本同目录下查看 auto_push.log
+# 请在 crontab 中配置定时任务，例如每 8 小时执行一次
+#   * */8 * * * cd "dirname" && ./auto_push.sh
+# 执行日志请在脚本同目录下查看 auto_push.log
+# 使用此脚本需要使用 git 格式的远程库链接，且已经配置好 ssh key
+#   git remote set-url origin git@github...
+# 可能遇到的问题：https://itprohelper.com/how-to-fix-cron-operation-not-permitted-error-in-macos/
 
 # 代理，可修改或删除
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
@@ -19,7 +22,7 @@ git pull >> auto_push.log 2>&1
 git add . >> auto_push.log 2>&1
 
 # echo "$ git commit" >> auto_push.log
-git commit -m "docs: aotu commit" >> auto_push.log 2>&1
+git commit -m "docs: auto commit" >> auto_push.log 2>&1
 
 # echo "$ git push" >> auto_push.log
 git push >> auto_push.log 2>&1
