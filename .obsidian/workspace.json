@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "管理花园/搭建/同步方案.md",
+                "file": "管理花园/搭建/配置图床.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "管理花园/搭建/同步方案.md",
+                "file": "管理花园/搭建/配置图床.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "管理花园/搭建/同步方案.md",
+                "file": "管理花园/搭建/配置图床.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "管理花园/搭建/同步方案.md"
+                "file": "管理花园/搭建/配置图床.md"
               }
             }
           },
@@ -150,6 +150,9 @@
   },
   "active": "81e2c4cf6432bb95",
   "lastOpenFiles": [
+    "学习/英语/背单词技巧.md",
+    "管理花园/搭建/配置图床.md",
+    "管理花园/搭建/同步方案.md",
     "管理花园/搭建/搭建流程.md",
     "管理花园/搭建/发布方案.md",
     "AboutTheGarden.md",
@@ -160,7 +163,6 @@
     "Other",
     "管理花园/搭建/配置自定义域名.md",
     "管理花园/搭建/换新设备.md",
-    "管理花园/搭建/同步方案.md",
     "我的设置/软件/油猴脚本.md",
     "极客时间专栏笔记.md",
     "学习笔记/极客时间专栏笔记.md",
@@ -179,8 +181,6 @@
     "学习笔记",
     "未命名.md",
     "我的设置/Chrome",
-    "我的设置/方法/思维导图.md",
-    "我的设置/应用/油猴脚本.md",
     "我的设置/方法",
     "我的设置/应用",
     "我的设置/Mac",

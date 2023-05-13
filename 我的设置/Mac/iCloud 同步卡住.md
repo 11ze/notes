@@ -24,8 +24,8 @@ $ killicloud
 ```
 
 3. 点击访达侧边栏的 iCloud ，观察同步进度，若还是卡住，继续 kill iCloud 进程直到正常
-  - ![image.png](https://raw.githubusercontent.com/11ze/static/main/images/iCloud-sync-failed.png)
-  - ![image.png](https://raw.githubusercontent.com/11ze/static/main/images/iCloud-sync-stuck.png)
+  - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/iCloud-sync-failed.png)
+  - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/iCloud-sync-stuck.png)
 
 每小时 kill 一次确保 iCloud 一直进行同步
 
