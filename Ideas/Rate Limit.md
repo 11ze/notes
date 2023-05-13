@@ -1,7 +1,6 @@
 ---
 title: Rate Limit
 publishDate: 2023-05-05
-lastmod: 2023-05-12
 tags:
 - 开发
 - 设计

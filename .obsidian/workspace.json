@@ -8,12 +8,38 @@
         "type": "tabs",
         "children": [
           {
+            "id": "7a985eaeec978255",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我的设置/开发环境.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "81e2c4cf6432bb95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "管理花园/搭建/配置图床.md",
+                "file": "管理花园/问题/文章最后更新时间错误.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1218642acb2e53b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "管理花园/搭建/搭建流程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "管理花园/搭建/配置图床.md",
+                "file": "我的设置/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "管理花园/搭建/配置图床.md",
+                "file": "我的设置/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "管理花园/搭建/配置图床.md"
+                "file": "我的设置/开发环境.md"
               }
             }
           },
@@ -148,12 +174,14 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "81e2c4cf6432bb95",
+  "active": "7a985eaeec978255",
   "lastOpenFiles": [
-    "学习/英语/背单词技巧.md",
-    "管理花园/搭建/配置图床.md",
-    "管理花园/搭建/同步方案.md",
     "管理花园/搭建/搭建流程.md",
+    "管理花园/问题合集.md",
+    "管理花园/问题/文章最后更新时间错误.md",
+    "管理花园/搭建/配置图床.md",
+    "学习/英语/背单词技巧.md",
+    "管理花园/搭建/同步方案.md",
     "管理花园/搭建/发布方案.md",
     "AboutTheGarden.md",
     "README.md",
@@ -176,10 +204,8 @@
     "Obsidian/Vault.md",
     "我的设置/软件/Oh My Zsh.md",
     "我的设置/软件/Linux 安装 oh-my-zsh.md",
-    "我的设置/软件/Capslock.md",
     "我的设置/软件",
     "学习笔记",
-    "未命名.md",
     "我的设置/Chrome",
     "我的设置/方法",
     "我的设置/应用",

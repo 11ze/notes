@@ -1,7 +1,6 @@
 ---
 title: Linux 安装 oh-my-zsh
 publishDate: 2023-05-11
-lastmod: 2023-05-11
 tags:
 - Linux
 - zsh

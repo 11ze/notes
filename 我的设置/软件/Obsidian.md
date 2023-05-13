@@ -1,7 +1,6 @@
 ---
 title: Obsidian
 publishDate: 2023-05-12
-lastmod: 2023-05-12
 tags:
 - 软件
 ---

@@ -1,7 +1,6 @@
 ---
 title: PHP 开发设置
 publishDate: 2023-05-06
-lastmod: 2023-05-06
 tags:
 - PHP
 - WIP

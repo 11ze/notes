@@ -1,7 +1,6 @@
 ---
 title: Capslock
 publishDate: 2023-05-11
-lastmod: 2023-05-11
 tags:
 - 软件
 - 工具

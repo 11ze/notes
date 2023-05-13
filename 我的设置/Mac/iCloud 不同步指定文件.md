@@ -1,7 +1,6 @@
 ---
 title: iCloud 不同步指定文件
 publishDate: 2023-05-12
-lastmod: 2023-05-12
 tags:
 - iCloud
 ---
