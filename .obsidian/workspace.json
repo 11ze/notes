@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网站管理/搭建/发布方案.md",
+                "file": "管理花园/搭建/同步方案.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 264.5
   },
   "right": {
     "id": "a0aa357a115ebd80",
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网站管理/搭建/发布方案.md",
+                "file": "管理花园/搭建/同步方案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网站管理/搭建/发布方案.md",
+                "file": "管理花园/搭建/同步方案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网站管理/搭建/发布方案.md"
+                "file": "管理花园/搭建/同步方案.md"
               }
             }
           },
@@ -150,42 +150,42 @@
   },
   "active": "81e2c4cf6432bb95",
   "lastOpenFiles": [
-    "网站管理/搭建/搭建流程.md",
-    "网站管理/搭建/添加评论区.md",
-    "网站管理/搭建/发布方案.md",
-    "网站管理/搭建/配置自定义域名.md",
-    "日记/2023-05-13.md",
-    "网站管理/搭建/同步方案.md",
+    "管理花园/搭建/搭建流程.md",
+    "管理花园/搭建/发布方案.md",
     "AboutTheGarden.md",
-    "我的设置/开发环境.md",
     "README.md",
+    "Atlas/About Atlas.md",
     "ISO8601.md",
-    "网站管理/问题/发布笔记 404.md",
-    "我的设置/Chrome/油猴脚本.md",
+    "管理花园/问题/发布笔记 404.md",
+    "Other",
+    "管理花园/搭建/配置自定义域名.md",
+    "管理花园/搭建/换新设备.md",
+    "管理花园/搭建/同步方案.md",
+    "我的设置/软件/油猴脚本.md",
+    "极客时间专栏笔记.md",
+    "学习笔记/极客时间专栏笔记.md",
+    "管理花园/搭建/添加评论区.md",
+    "日记/2023-05-13.md",
+    "我的设置/开发环境.md",
     "LICENSE",
     "我的设置/Mac/iCloud 不同步指定文件.md",
     "我的设置/软件/Obsidian.md",
     "我的设置/Mac/iCloud 同步卡住.md",
     "Obsidian/Vault.md",
-    "学习笔记/极客时间专栏笔记.md",
     "我的设置/软件/Oh My Zsh.md",
     "我的设置/软件/Linux 安装 oh-my-zsh.md",
     "我的设置/软件/Capslock.md",
     "我的设置/软件",
     "学习笔记",
-    "极客时间专栏笔记.md",
     "未命名.md",
     "我的设置/Chrome",
     "我的设置/方法/思维导图.md",
     "我的设置/应用/油猴脚本.md",
-    "我的设置/应用/Oh My Zsh.md",
-    "我的设置/应用/Linux 安装 oh-my-zsh.md",
     "我的设置/方法",
     "我的设置/应用",
     "我的设置/Mac",
     "我的设置",
-    "网站管理/搭建",
-    "网站管理/问题",
+    "管理花园/搭建",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
     "Pasted image 20230508195502.png",
