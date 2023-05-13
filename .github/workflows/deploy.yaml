@@ -26,5 +26,5 @@ jobs:
           git config user.email "wangzecn@qq.com"
           git config user.name "11ze"
           git add --all
-          git commit -m "docs: update" || echo "chore: no changes to commit"
+          git commit -m "chore: update submodule" || echo "chore: no changes to commit"
           git push
