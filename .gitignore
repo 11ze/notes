@@ -43,5 +43,6 @@ publish.js
 # Ignore Smart Connections folder because embeddings file is large and updated frequently
 .smart-connections
 
-.git.nosync/
-
+# 无用状态文件屏蔽
+.DS_Store
+.trash
