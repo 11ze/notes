@@ -46,3 +46,6 @@ publish.js
 # 无用状态文件屏蔽
 .DS_Store
 .trash
+
+# 自动提交日志文件屏蔽
+auto_push.log
