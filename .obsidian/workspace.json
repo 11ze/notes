@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "管理花园/搭建/本地预览.md",
+                "file": "AboutTheGarden.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "324b00f9373602bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "管理花园/问题/文章最后更新时间错误.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "管理花园/搭建/本地预览.md",
+                "file": "管理花园/问题/文章最后更新时间错误.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "管理花园/搭建/本地预览.md",
+                "file": "管理花园/问题/文章最后更新时间错误.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "管理花园/搭建/本地预览.md"
+                "file": "管理花园/问题/文章最后更新时间错误.md"
               }
             }
           },
@@ -148,11 +162,14 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "51635f62d9d3072d",
+  "active": "324b00f9373602bc",
   "lastOpenFiles": [
+    "管理花园/搭建/本地预览.md",
+    "AboutTheGarden.md",
+    "管理花园/问题/文章最后更新时间错误.md",
+    "思考/3-2-1 的有趣想法.md",
     "管理花园/搭建/搭建花园.md",
     "我的设置/Mac/iCloud 不同步指定文件.md",
-    "AboutTheGarden.md",
     "管理花园/搭建/添加评论区.md",
     "管理花园/搭建/配置自定义域名.md",
     "学习/收藏文章.md",
@@ -161,9 +178,7 @@
     "管理花园/搭建/同步方案.md",
     "管理花园/搭建/换新设备.md",
     "管理花园/搭建/发布方案.md",
-    "管理花园/搭建/本地预览.md",
     "管理花园/问题/问题合集.md",
-    "管理花园/问题/文章最后更新时间错误.md",
     "管理花园/问题/发布笔记 404.md",
     "我的设置/Mac/开发环境.md",
     "管理花园/搭建/本库自动提交到 GitHub.md",
@@ -175,7 +190,6 @@
     "Github/常见错误.md",
     "Ideas/Rate Limit.md",
     "Obsidian/Obsidian 插件.md",
-    "我的设置/Mac/iCloud 同步卡住.md",
     "Other",
     "LICENSE",
     "我的设置/软件",
