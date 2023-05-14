@@ -3,6 +3,7 @@ title: 配置 Google Analytics
 publishDate: 2023-05-13T18:35:42+08:00
 tags:
 - 搭建
+- Google
 ---
 
 ## 配置方法
