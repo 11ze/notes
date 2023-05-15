@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "8a32a02b2e93e0ce",
+        "id": "57d07bf031291a07",
         "type": "tabs",
         "children": [
           {
-            "id": "51635f62d9d3072d",
+            "id": "2a21e90cb2d295cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AboutTheGarden.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "324b00f9373602bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ideas/抢红包系统.md",
+                "file": "我的设置/Mac/iCloud 同步卡住.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "开发",
+                "query": "卡",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 242.5
   },
   "right": {
     "id": "a0aa357a115ebd80",
@@ -92,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ideas/抢红包系统.md",
+                "file": "我的设置/Mac/iCloud 同步卡住.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ideas/抢红包系统.md",
+                "file": "我的设置/Mac/iCloud 同步卡住.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ideas/抢红包系统.md"
+                "file": "我的设置/Mac/iCloud 同步卡住.md"
               }
             }
           },
@@ -144,8 +130,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -162,44 +147,44 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "324b00f9373602bc",
+  "active": "2a21e90cb2d295cb",
   "lastOpenFiles": [
-    "Ideas/秒杀系统.md",
-    "Ideas/抢红包系统.md",
+    "我的设置/软件/Crontab 执行提示没有权限.md",
     "管理花园/问题/文章最后更新时间错误.md",
-    "管理花园/搭建/本地预览.md",
-    "AboutTheGarden.md",
-    "思考/3-2-1 的有趣想法.md",
-    "管理花园/搭建/搭建花园.md",
-    "我的设置/Mac/iCloud 不同步指定文件.md",
-    "管理花园/搭建/添加评论区.md",
     "管理花园/搭建/配置自定义域名.md",
-    "学习/收藏文章.md",
-    "管理花园/搭建/配置 Google Analytics.md",
-    "管理花园/搭建/配置图床.md",
     "管理花园/搭建/同步方案.md",
+    "管理花园/搭建/搭建花园.md",
+    "管理花园/搭建/配置 Google Analytics.md",
+    "学习/英语/背单词.md",
+    "管理花园/搭建/本地预览.md",
+    "管理花园/搭建/配置图床.md",
+    "auto_push.log",
     "管理花园/搭建/换新设备.md",
     "管理花园/搭建/发布方案.md",
-    "管理花园/问题/问题合集.md",
-    "管理花园/问题/发布笔记 404.md",
-    "我的设置/Mac/开发环境.md",
-    "管理花园/搭建/本库自动提交到 GitHub.md",
-    "我的设置/软件/Crontab 执行提示没有权限.md",
-    "学习/英语/背单词.md",
-    "学习/英语/英语.md",
-    "学习笔记/极客时间专栏笔记.md",
-    "Atlas/About Atlas.md",
-    "Github/常见错误.md",
-    "Other",
+    "学习/收藏文章.md",
+    "AboutTheGarden.md",
+    "auto_push.sh",
     "LICENSE",
-    "我的设置/软件",
-    "学习笔记",
-    "我的设置/Chrome",
-    "我的设置/方法",
-    "我的设置/应用",
-    "我的设置/Mac",
-    "我的设置",
+    "README.md",
+    "管理花园/问题",
     "管理花园/搭建",
+    "管理花园",
+    "学习 2/英语/英语.md",
+    "学习 2/英语/背单词技巧.md",
+    "学习 2/推荐阅读.md",
+    "学习 2/英语",
+    "学习 2/学习方法.md",
+    "学习 2",
+    "我的设置 2/Mac/iCloud 同步卡住.md",
+    "我的设置 2/Mac/iCloud 不同步指定文件.md",
+    "我的设置 2/方法/思维导图.md",
+    "我的设置 2/软件/Oh My Zsh.md",
+    "我的设置 2/软件/Obsidian.md",
+    "我的设置 2/软件/Linux 安装 oh-my-zsh.md",
+    "我的设置 2/软件/Capslock.md",
+    "我的设置 2/Chrome/油猴脚本.md",
+    "我的设置 2/Mac",
+    "我的设置 2/方法",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
     "Pasted image 20230508195502.png",

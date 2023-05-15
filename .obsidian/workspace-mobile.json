@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "管理花园/搭建/本库自动提交到 GitHub.md",
+                "file": "管理花园/问题/文章最后更新时间错误.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "管理花园/搭建/本库自动提交到 GitHub.md",
+            "file": "管理花园/问题/文章最后更新时间错误.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "管理花园/搭建/本库自动提交到 GitHub.md",
+            "file": "管理花园/问题/文章最后更新时间错误.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "管理花园/搭建/本库自动提交到 GitHub.md"
+            "file": "管理花园/问题/文章最后更新时间错误.md"
           }
         }
       }
@@ -135,6 +135,7 @@
   },
   "active": "8f0ff2ce831a25cb",
   "lastOpenFiles": [
+    "管理花园/搭建/本库自动提交到 GitHub.md",
     "管理花园/搭建/搭建花园.md",
     "管理花园/搭建/配置图床.md",
     "管理花园/搭建/配置 Google Analytics.md",
@@ -150,7 +151,6 @@
     "我的设置/方法/思维导图.md",
     "Github/常见错误.md",
     "auto_push.sh",
-    "管理花园/搭建/本库自动提交到 GitHub.md",
     "auto_push.log",
     "管理花园/问题/文章最后更新时间错误.md",
     "我的设置/Mac/iCloud 不同步指定文件.md",
