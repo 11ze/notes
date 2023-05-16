@@ -1,7 +1,7 @@
 {
-  "accentColor": "#e64747",
+  "accentColor": "#e66565",
   "theme": "system",
-  "baseFontSize": 15,
+  "baseFontSize": 13,
   "cssTheme": "Blue Topaz",
   "interfaceFontFamily": "JetBrains Mono",
   "translucency": false,

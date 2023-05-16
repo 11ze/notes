@@ -1,5 +1,5 @@
 {
-  "trashOption": "system",
+  "trashOption": "local",
   "useTab": false,
   "strictLineBreaks": true,
   "alwaysUpdateLinks": true,
@@ -10,5 +10,5 @@
   "defaultViewMode": "source",
   "livePreview": true,
   "showInlineTitle": true,
-  "newFileLocation": "root"
+  "newFileLocation": "current"
 }
