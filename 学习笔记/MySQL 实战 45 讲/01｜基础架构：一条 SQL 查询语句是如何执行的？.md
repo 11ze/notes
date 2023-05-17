@@ -3,7 +3,6 @@
 title: 01｜基础架构：一条 SQL 查询语句是如何执行的？
 tags:
 - MySQL
-- 笔记
 publishDate: 2023-05-17T09:36:32+08:00
 mindmap-plugin: basic
 

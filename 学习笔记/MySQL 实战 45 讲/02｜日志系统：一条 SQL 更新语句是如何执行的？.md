@@ -3,7 +3,6 @@
 title: 02｜日志系统：一条 SQL 更新语句是如何执行的？
 tags:
 - MySQL
-- 笔记
 publishDate: 2023-05-17T09:52:27+08:00
 mindmap-plugin: basic
 

@@ -2,8 +2,7 @@
 
 title: 16｜“order by”是怎么工作的？
 tags:
-- 极客时间
-- 笔记
+- MySQL
 - mindmap-plugin: basic
 publishDate: 2023-05-17T20:29:51+08:00
 

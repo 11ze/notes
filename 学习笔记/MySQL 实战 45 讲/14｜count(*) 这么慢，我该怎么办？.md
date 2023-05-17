@@ -2,8 +2,7 @@
 
 title: 14｜count(*) 这么慢，我该怎么办？
 tags:
-- 极客时间
-- 笔记
+- MySQL
 - mindmap-plugin: basic
 publishDate: 2023-05-17T15:25:11+08:00
 

@@ -2,8 +2,7 @@
 
 title: 40｜insert 语句的锁为什么这么多？
 tags:
-- 极客时间
-- 笔记
+- MySQL
 - mindmap-plugin: basic
 publishDate: 2023-05-17T22:17:02+08:00
 

@@ -2,8 +2,7 @@
 
 title: 10｜MySQL 为什么有时候会选错索引？
 tags:
-- 极客时间
-- 笔记
+- MySQL
 - mindmap-plugin: basic
 publishDate: 2023-05-17T15:18:30+08:00
 

@@ -2,8 +2,7 @@
 
 title: 22｜MySQL有哪些“饮鸩止渴”提高性能的方法？
 tags:
-- 极客时间
-- 笔记
+- MySQL
 - mindmap-plugin: basic
 publishDate: 2023-05-17T21:07:09+08:00
 

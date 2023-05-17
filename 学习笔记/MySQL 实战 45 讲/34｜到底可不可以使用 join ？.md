@@ -2,8 +2,7 @@
 
 title: 34｜到底可不可以使用 join ？
 tags:
-- 极客时间
-- 笔记
+- MySQL
 - mindmap-plugin: basic
 publishDate: 2023-05-17T21:59:52+08:00
 

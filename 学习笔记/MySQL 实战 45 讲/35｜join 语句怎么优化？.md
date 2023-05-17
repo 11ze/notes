@@ -2,8 +2,7 @@
 
 title: 35｜join 语句怎么优化？
 tags:
-- 极客时间
-- 笔记
+- MySQL
 - mindmap-plugin: basic
 publishDate: 2023-05-17T22:03:17+08:00
 

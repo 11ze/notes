@@ -11,8 +11,13 @@
             "id": "968bcd6d1ce1e723",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "开发",
+                "query": "\"- 笔记\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md"
+              }
             }
           },
           {
@@ -139,34 +148,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "968bcd6d1ce1e723",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
-    "学习笔记/极客时间专栏笔记.md",
-    "学习笔记/未命名",
-    "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
-    "学习笔记/MySQL 实战 45 讲/27｜主库出问题了，从库怎么办？.md",
-    "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
-    "学习笔记/MySQL 实战 45 讲/22｜MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
-    "学习笔记/MySQL 实战 45 讲/45｜自增 id 用完怎么办？.md",
-    "学习笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md",
+    "管理花园/问题/发布笔记 404.md",
     "学习笔记/MySQL 实战 45 讲/43｜要不要使用分区表？.md",
+    "Extras/Templates/新文件模版.md",
+    "学习笔记/MySQL 实战 45 讲/45｜自增 id 用完怎么办？.md",
     "学习笔记/MySQL 实战 45 讲/42｜grant 之后要跟着 flush privileges 吗？.md",
-    "学习笔记/MySQL 实战 45 讲/41｜怎么最快地复制一张表？.md",
-    "学习笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md",
+    "学习笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md",
     "学习笔记/MySQL 实战 45 讲/39｜自增主键为什么不是连续的？.md",
-    "学习笔记/MySQL 实战 45 讲/38｜都说 InnoDB 好，那还要不要使用 Memory 引擎？.md",
     "学习笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
-    "学习笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
+    "学习笔记/MySQL 实战 45 讲/38｜都说 InnoDB 好，那还要不要使用 Memory 引擎？.md",
+    "学习笔记/MySQL 实战 45 讲/41｜怎么最快地复制一张表？.md",
+    "学习笔记/MySQL 实战 45 讲/32｜为什么还有 kill 不掉的语句？.md",
     "学习笔记/MySQL 实战 45 讲/35｜join 语句怎么优化？.md",
+    "学习笔记/MySQL 实战 45 讲/31｜误删数据后除了跑路，还能怎么办？.md",
+    "学习笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md",
+    "学习笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
     "学习笔记/MySQL 实战 45 讲/34｜到底可不可以使用 join ？.md",
     "学习笔记/MySQL 实战 45 讲/33｜我查这么多数据，会不会把数据库内存打爆？.md",
-    "学习笔记/MySQL 实战 45 讲/32｜为什么还有 kill 不掉的语句？.md",
-    "学习笔记/MySQL 实战 45 讲/31｜误删数据后除了跑路，还能怎么办？.md",
     "学习笔记/MySQL 实战 45 讲/30｜答疑文章（二）：用动态的观点看加锁.md",
     "学习笔记/MySQL 实战 45 讲/29｜如何判断一个数据库是不是出问题了？.md",
+    "学习笔记/MySQL 实战 45 讲/22｜MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
+    "学习笔记/MySQL 实战 45 讲/27｜主库出问题了，从库怎么办？.md",
+    "学习笔记/MySQL 实战 45 讲/19｜为什么我只查一行的语句，也执行这么慢？.md",
+    "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
     "学习笔记/MySQL 实战 45 讲/28｜读写分离有哪些坑？.md",
     "学习笔记/MySQL 实战 45 讲/26｜备库为什么会延迟好几个小时？.md",
     "学习笔记/MySQL 实战 45 讲/25｜MySQL 是怎么保证高可用的？.md",
+    "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",
     "工具/Obsidian",

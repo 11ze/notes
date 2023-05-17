@@ -2,8 +2,7 @@
 
 title: 18｜为什么这些 SQL 语句逻辑相同，性能却差异巨大？
 tags:
-- 极客时间
-- 笔记
+- MySQL
 - mindmap-plugin: basic
 publishDate: 2023-05-17T20:43:38+08:00
 

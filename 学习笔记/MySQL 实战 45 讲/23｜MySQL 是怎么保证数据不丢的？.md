@@ -2,8 +2,7 @@
 
 title: 23｜MySQL 是怎么保证数据不丢的？
 tags:
-- 极客时间
-- 笔记
+- MySQL
 - mindmap-plugin: basic
 publishDate: 2023-05-17T21:13:18+08:00
 

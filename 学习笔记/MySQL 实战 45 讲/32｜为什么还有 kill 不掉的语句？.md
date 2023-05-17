@@ -2,8 +2,7 @@
 
 title: 32｜为什么还有 kill 不掉的语句？
 tags:
-- 极客时间
-- 笔记
+- MySQL
 - mindmap-plugin: basic
 publishDate: 2023-05-17T21:51:21+08:00
 

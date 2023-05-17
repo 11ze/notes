@@ -2,8 +2,7 @@
 
 title: 12｜为什么我的 MySQL 会“抖”一下？
 tags:
-- 极客时间
-- 笔记
+- MySQL
 - mindmap-plugin: basic
 publishDate: 2023-05-17T15:19:54+08:00
 

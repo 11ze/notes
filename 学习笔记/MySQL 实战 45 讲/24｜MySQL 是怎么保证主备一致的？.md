@@ -2,8 +2,7 @@
 
 title: 24｜MySQL 是怎么保证主备一致的？
 tags:
-- 极客时间
-- 笔记
+- MySQL
 - mindmap-plugin: basic
 publishDate: 2023-05-17T21:21:01+08:00
 
