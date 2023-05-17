@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "管理花园/问题/文章最后更新时间错误.md",
-                "mode": "preview",
+                "file": "AboutTheGarden.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "管理花园/问题/文章最后更新时间错误.md",
+            "file": "AboutTheGarden.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "管理花园/问题/文章最后更新时间错误.md",
+            "file": "AboutTheGarden.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "管理花园/问题/文章最后更新时间错误.md"
+            "file": "AboutTheGarden.md"
           }
         }
       }
@@ -135,6 +135,14 @@
   },
   "active": "8f0ff2ce831a25cb",
   "lastOpenFiles": [
+    "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+    "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
+    "管理花园/问题/文章最后更新时间错误.md",
+    "学习笔记/MySQL 实战 45 讲/04｜深入浅出索引（上）.md",
+    "学习笔记/MySQL 实战 45 讲/05｜深入浅出索引（下）.md",
+    "管理花园/问题/特殊字符.md",
+    "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
+    "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
     "管理花园/搭建/本库自动提交到 GitHub.md",
     "管理花园/搭建/搭建花园.md",
     "管理花园/搭建/配置图床.md",
@@ -152,18 +160,10 @@
     "Github/常见错误.md",
     "auto_push.sh",
     "auto_push.log",
-    "管理花园/问题/文章最后更新时间错误.md",
     "我的设置/Mac/iCloud 不同步指定文件.md",
     "LICENSE",
     "管理花园/搭建/添加评论区.md",
     "我的设置/开发环境.md",
-    "我的设置/软件/油猴脚本.md",
-    "README.md",
-    "管理花园/问题/发布笔记 404.md",
-    "我的设置/软件/Obsidian.md",
-    "思考/3-2-1 的有趣想法.md",
-    "我的设置/软件/Oh My Zsh.md",
-    "Extras/Templates/新文件模版.md",
     "Thoughts",
     "Garden/Use",
     "Garden/Mac",
