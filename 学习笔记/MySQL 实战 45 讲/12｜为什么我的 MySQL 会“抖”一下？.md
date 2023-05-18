@@ -15,7 +15,7 @@ publishDate: 2023-05-17T15:19:54+08:00
 - 即何时内存中的脏页往硬盘上刷？
 
     - 1. redo log 满
-        ![image.png](https://raw.githubusercontent.com/11ze/static/main/images/mysql45-12-1.png)
+        ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-12-1.png)
 
 
         - 把绿色部分的日志对应的所有脏页都 flush 到磁盘上
@@ -111,7 +111,7 @@ publishDate: 2023-05-17T15:19:54+08:00
 
 
             - 根据上述算得的 F1(M) 和 F2(N) 两个值，取其中较大的值记为 R，之后引擎就可以按照 innodb_io_capacity 定义的能力乘以 R% 来控制刷脏页的速度。
-                ![image.png](https://raw.githubusercontent.com/11ze/static/main/images/mysql45-12-2.png)
+                ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-12-2.png)
 
 
 

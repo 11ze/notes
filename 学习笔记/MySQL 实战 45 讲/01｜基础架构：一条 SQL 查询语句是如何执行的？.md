@@ -9,7 +9,7 @@ mindmap-plugin: basic
 ---
 
 - MySQL 的逻辑链接架构图
-  - ![image.png](https://raw.githubusercontent.com/11ze/static/main/images/mysql45-01-1.png)
+  - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-01-1.png)
 
   - Server 层（共用）
     - 连接器

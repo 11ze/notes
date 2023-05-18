@@ -9,9 +9,9 @@ mindmap-plugin: basic
 ---
 
 - MySQL 的逻辑链接架构图
-  - ![image.png](https://raw.githubusercontent.com/11ze/static/main/images/mysql45-01-1.png)
+  - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-01-1.png)
 - update 语句执行流程
-  - ![image.png](https://raw.githubusercontent.com/11ze/static/main/images/mysql45-02-1.png)
+  - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-02-1.png)
 
 - 重要的日志模块：redo log
   - 是 InnoDB 引擎特有的日志
@@ -19,7 +19,7 @@ mindmap-plugin: basic
     - 先写日志，再写磁盘
     - 当有一条记录需要更新的时候，InnoDB 引擎先把记录写到 redo log，并更新内存，引擎会在适当的时候，将这个操作记录更新到磁盘，这个更新往往是在系统比较空闲的时候做
   - redo log 大小固定，比如可以配置为一组 4 个文件，每个文件的大小是 1GB，所有文件组成一块“粉板”
-    - ![image.png](https://raw.githubusercontent.com/11ze/static/main/images/mysql45-02-2.png)
+    - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-02-2.png)
     - write pos 是当前记录的位置，一边写一边后移，写到文件末尾后会回到文件开头
     - checkpoint 是当前要擦除的位置，也是往后推移并且循环的，擦除记录前要把记录更新到数据文件
     - write pos 和 checkpoint 之间的是“粉板”上还空着的部分，可以用来记录新的操作。
@@ -73,7 +73,7 @@ mindmap-plugin: basic
   - 不引入两个日志，也就没有两阶段提交的必要了。只用 binlog 来支持崩溃恢复，又能支持归档，不就可以了？
     - 历史原因的话，那就是 InnoDB 并不是 MySQL 的原生存储引擎。MySQL 的原生引擎是 MyISAM，设计之初就有没有支持崩溃恢复。
     - binlog 没有崩溃恢复的能力
-      - ![image.png](https://raw.githubusercontent.com/11ze/static/main/images/mysql45-02-3.png)
+      - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-02-3.png)
       - binlog 没有能力恢复“数据页”
         - 如果图中标的位置，binlog2 写完了，但是整个事务还没有 commit 的时候，MySQL 发生了 crash。重启后引擎内部事务 2 会回滚，然后应用 binlog2 可以补回来；但是对于事务 1，系统已经认为提交完成了，不会再应用一次 binlog1。但是，binlog 引擎使用的是 WAL 技术，执行事务的时候，写完内存和日志，事务就算完成了。如果之后崩溃，要依赖于日志来恢复数据页。如果在图中这个位置发生崩溃的话，事务 1 也是可能丢失了的，而且是数据页级的丢失。此时，binlog 里面并没有记录数据页的更新细节，是补不回来的。
         - 如果优化一下 binlog 的内容，让它来记录数据页的更新可以吗？这其实就是又做了一个 redo log 出来。至少现在的 binlog 能力还不支持崩溃恢复。

@@ -2,13 +2,13 @@
 
 title: MySQL 实战 45 讲
 tags:
-- 极客时间
 - MySQL
+- 极客时间
 publishDate: 2023-05-17T09:23:16+08:00
 
 ---
 
-> 内容整理自极客时间《MySQL 实战 45 讲》专栏
+> 内容整理自极客时间[《MySQL 实战 45 讲》](https://time.geekbang.org/column/intro/100020801)
 
 ## 章节分类
 
