@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "管理花园/问题/文章最后更新时间错误.md",
+                "file": "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "管理花园/问题/文章最后更新时间错误.md",
+                "file": "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "管理花园/问题/文章最后更新时间错误.md",
+                "file": "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "管理花园/问题/文章最后更新时间错误.md"
+                "file": "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md"
               }
             }
           },
@@ -150,7 +150,9 @@
   },
   "active": "968bcd6d1ce1e723",
   "lastOpenFiles": [
+    "学习笔记/Redis 核心技术与实战/11｜“万金油”的 String，为什么不好用了？.md",
     "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
+    "管理花园/问题/文章最后更新时间错误.md",
     "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
     "学习笔记/Redis 核心技术与实战/09｜切片集群：数据增多了，是该加内存还是加实例？.md",
     "学习笔记/Redis 核心技术与实战/08｜哨兵集群：哨兵挂了，主从库还能切换吗？.md",
@@ -174,8 +176,6 @@
     "学习笔记/MySQL 实战 45 讲/38｜都说 InnoDB 好，那还要不要使用 Memory 引擎？.md",
     "学习笔记/MySQL 实战 45 讲/41｜怎么最快地复制一张表？.md",
     "学习笔记/MySQL 实战 45 讲/32｜为什么还有 kill 不掉的语句？.md",
-    "学习笔记/MySQL 实战 45 讲/35｜join 语句怎么优化？.md",
-    "学习笔记/MySQL 实战 45 讲/31｜误删数据后除了跑路，还能怎么办？.md",
     "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",
