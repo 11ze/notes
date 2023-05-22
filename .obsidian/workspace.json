@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/Redis 核心技术与实战/12｜有一亿个 keys 要统计，应该用哪种集合？.md",
+                "file": "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/Redis 核心技术与实战/12｜有一亿个 keys 要统计，应该用哪种集合？.md",
+                "file": "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/Redis 核心技术与实战/12｜有一亿个 keys 要统计，应该用哪种集合？.md",
+                "file": "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/Redis 核心技术与实战/12｜有一亿个 keys 要统计，应该用哪种集合？.md"
+                "file": "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md"
               }
             }
           },
@@ -150,7 +150,13 @@
   },
   "active": "968bcd6d1ce1e723",
   "lastOpenFiles": [
+    "学习笔记/Redis 核心技术与实战/18｜波动的响应延迟：如何应对变慢的 Redis？（上）.md",
     "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
+    "学习笔记/Redis 核心技术与实战/14｜如何在 Redis 中保存时间序列数据？.md",
+    "学习笔记/Redis 核心技术与实战/17｜为什么 CPU 结构也会影响 Redis 的性能？.md",
+    "学习笔记/Redis 核心技术与实战/16｜异步机制：如何避免单线程模型的阻塞？.md",
+    "学习笔记/Redis 核心技术与实战/15｜消息队列的考验：Redis 有哪些解决方案？.md",
+    "学习笔记/Redis 核心技术与实战/13｜GEO 是什么？还可以定义新的数据类型吗？.md",
     "学习笔记/Redis 核心技术与实战/12｜有一亿个 keys 要统计，应该用哪种集合？.md",
     "学习笔记/Redis 核心技术与实战/11｜“万金油”的 String，为什么不好用了？.md",
     "管理花园/问题/文章最后更新时间错误.md",
@@ -170,12 +176,6 @@
     "学习笔记/MySQL 实战 45 讲/43｜要不要使用分区表？.md",
     "Extras/Templates/新文件模版.md",
     "学习笔记/MySQL 实战 45 讲/45｜自增 id 用完怎么办？.md",
-    "学习笔记/MySQL 实战 45 讲/42｜grant 之后要跟着 flush privileges 吗？.md",
-    "学习笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md",
-    "学习笔记/MySQL 实战 45 讲/39｜自增主键为什么不是连续的？.md",
-    "学习笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
-    "学习笔记/MySQL 实战 45 讲/38｜都说 InnoDB 好，那还要不要使用 Memory 引擎？.md",
-    "学习笔记/MySQL 实战 45 讲/41｜怎么最快地复制一张表？.md",
     "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",
