@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "215a7e9be06c8882",
+        "id": "9d72bd0dd4556c8c",
         "type": "tabs",
         "children": [
           {
-            "id": "f7b6eb223d7bb241",
+            "id": "968bcd6d1ce1e723",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"- 笔记\"",
+                "query": "开发环境",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md"
+              }
             }
           },
           {
@@ -139,29 +148,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f7b6eb223d7bb241",
+  "active": "968bcd6d1ce1e723",
   "lastOpenFiles": [
+    "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
+    "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+    "工具/Mac/开发环境.md",
+    "学习笔记/PHP/PHP 开发设置.md",
+    "学习笔记/Redis 核心技术与实战/35｜Codis VS Redis Cluster：我该选择哪一个集群方案？.md",
     "学习笔记/Redis 核心技术与实战/Redis 的使用规范小建议.md",
-    "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
-    "学习笔记/Redis 核心技术与实战/Redis 有哪些好用的运维工具？.md",
-    "学习笔记/Redis 核心技术与实战/经典的 Redis 学习资料.md",
-    "学习笔记/Redis 核心技术与实战/Redis 学习路径.md",
-    "学习笔记/Redis 核心技术与实战/Redis 客户端如何与服务端交换命令和数据？.md",
     "学习笔记/Redis 核心技术与实战/从微博的 Redis 实践中，我们可以学到哪些经验？.md",
-    "管理花园/问题/特殊字符.md",
-    "管理花园/搭建/本地预览.md",
-    "学习笔记/秒杀系统.md",
-    "学习笔记/Redis 核心技术与实战/41｜第 35～40 讲课后思考题答案及常见问题答疑.md",
-    "学习笔记/Redis 核心技术与实战/40｜Redis 的下一步：基于 NVM 内存的实践.md",
+    "学习笔记/Redis 核心技术与实战/Redis 客户端如何与服务端交换命令和数据？.md",
+    "学习笔记/Redis 核心技术与实战/Redis 学习路径.md",
+    "学习笔记/Redis 核心技术与实战/经典的 Redis 学习资料.md",
     "学习笔记/Redis 核心技术与实战/39｜Redis 6.0 的新特性：多线程、客户端缓存与安全.md",
+    "学习笔记/Redis 核心技术与实战/40｜Redis 的下一步：基于 NVM 内存的实践.md",
+    "学习笔记/Redis 核心技术与实战/Redis 有哪些好用的运维工具？.md",
     "学习笔记/Redis 核心技术与实战/38｜通信开销：限制 Redis Cluster 规模的关键因素.md",
     "学习笔记/Redis 核心技术与实战/37｜数据分布优化：如何应对数据倾斜？.md",
     "学习笔记/Redis 核心技术与实战/36｜Redis 支撑秒杀场景的关键技术和实践都有哪些？.md",
-    "学习笔记/Redis 核心技术与实战/35｜Codis VS Redis Cluster：我该选择哪一个集群方案？.md",
+    "学习笔记/Redis 核心技术与实战/41｜第 35～40 讲课后思考题答案及常见问题答疑.md",
+    "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
     "学习笔记/Redis 核心技术与实战/33｜脑裂：一次奇怪的数据丢失.md",
     "学习笔记/Redis 核心技术与实战/32｜Redis 主从同步与故障切换，有哪些坑？.md",
     "学习笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
-    "工具/Mac/开发环境.md",
     "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
     "学习笔记/Redis 核心技术与实战/29｜无锁的原子操作：Redis 如何应对并发访问？.md",
     "学习笔记/Redis 核心技术与实战/28｜Pika：如何基于 SSD 实现大容量 Redis？.md",
