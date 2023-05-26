@@ -8,10 +8,13 @@ mindmap-plugin: basic
 
 ---
 
-- MySQL 的逻辑链接架构图
-  - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-01-1.png)
-- update 语句执行流程
-  - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-02-1.png)
+## MySQL 的逻辑链接架构图
+
+![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-01-1.png)
+
+## Update 语句执行流程
+
+![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-02-1.png)
 
 - 重要的日志模块：redo log
   - 是 InnoDB 引擎特有的日志

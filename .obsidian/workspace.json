@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "9d72bd0dd4556c8c",
+        "id": "a3c3ee0190ad9123",
         "type": "tabs",
         "children": [
           {
-            "id": "968bcd6d1ce1e723",
+            "id": "be78f4d97b0dbe89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b687aa1d6add9b31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工具/Obsidian/Obsidian 插件.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "开发环境",
+                "query": "验证码",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+                "file": "工具/Obsidian/Obsidian 插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+                "file": "工具/Obsidian/Obsidian 插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md"
+                "file": "工具/Obsidian/Obsidian 插件.md"
               }
             }
           },
@@ -148,11 +162,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "968bcd6d1ce1e723",
+  "active": "b687aa1d6add9b31",
   "lastOpenFiles": [
-    "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
+    "工具/软件/Obsidian.md",
     "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+    "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
     "工具/Mac/开发环境.md",
+    "工具/Mac/应用已损坏.md",
     "学习笔记/PHP/PHP 开发设置.md",
     "学习笔记/Redis 核心技术与实战/35｜Codis VS Redis Cluster：我该选择哪一个集群方案？.md",
     "学习笔记/Redis 核心技术与实战/Redis 的使用规范小建议.md",
@@ -174,8 +190,6 @@
     "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
     "学习笔记/Redis 核心技术与实战/29｜无锁的原子操作：Redis 如何应对并发访问？.md",
     "学习笔记/Redis 核心技术与实战/28｜Pika：如何基于 SSD 实现大容量 Redis？.md",
-    "学习笔记/Redis 核心技术与实战/27｜缓存被污染了，该怎么办？.md",
-    "学习笔记/Redis 核心技术与实战/26｜缓存异常（下）：如何解决缓存雪崩、击穿、穿透难题？.md",
     "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",
