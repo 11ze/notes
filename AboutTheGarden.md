@@ -17,4 +17,4 @@ tags:
   - [[搭建数字花园]]
   - [[MySQL 实战 45 讲]]
   - [[Redis 核心技术与实战]]
-  - [所有标签](https://wangze.tech/tags/)
+  - [[tags]]

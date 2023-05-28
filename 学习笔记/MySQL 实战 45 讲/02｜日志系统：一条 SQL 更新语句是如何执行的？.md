@@ -7,10 +7,6 @@ publishDate: 2023-05-17T09:52:27+08:00
 
 ---
 
-## MySQL 的逻辑链接架构图
-
-![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-01-1.png)
-
 ## Update 语句执行流程
 
 ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-02-1.png)
