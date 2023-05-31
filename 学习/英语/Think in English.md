@@ -2,8 +2,7 @@
 
 title: Think in English
 tags:
-- Redis
-- mindmap-plugin: basic
+- 英语
 publishDate: 2023-05-30T10:44:21+08:00
 
 ---

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "管理花园/搭建/本地预览.md",
+                "file": "AboutTheGarden.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "管理花园/搭建/本地预览.md",
+            "file": "AboutTheGarden.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "管理花园/搭建/本地预览.md",
+            "file": "AboutTheGarden.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "管理花园/搭建/本地预览.md"
+            "file": "AboutTheGarden.md"
           }
         }
       }
@@ -133,8 +133,10 @@
       "templates:插入模板": false
     }
   },
-  "active": "8f0ff2ce831a25cb",
+  "active": "f753d562e1c27fe8",
   "lastOpenFiles": [
+    "管理花园/搭建/本地预览.md",
+    "学习/英语/Think in English.md",
     "AboutTheGarden.md",
     "工具/Mac/应用已损坏.md",
     "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
@@ -159,8 +161,6 @@
     "学习笔记/Redis 核心技术与实战/25｜缓存异常（上）：如何解决缓存和数据库的数据不一致问题？.md",
     "学习笔记/Redis 核心技术与实战/17｜为什么 CPU 结构也会影响 Redis 的性能？.md",
     "学习笔记/Redis 核心技术与实战/29｜无锁的原子操作：Redis 如何应对并发访问？.md",
-    "学习笔记/Redis 核心技术与实战/23｜旁路缓存：Redis 是如何工作的？.md",
-    "学习笔记/Redis 核心技术与实战/15｜消息队列的考验：Redis 有哪些解决方案？.md",
     "auto_push.sh",
     "auto_push.log",
     "LICENSE",
