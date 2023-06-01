@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/收藏文章.md",
+                "file": "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "验证码",
+                "query": "\"⚠️ \"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/收藏文章.md",
+                "file": "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/收藏文章.md",
+                "file": "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/收藏文章.md"
+                "file": "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md"
               }
             }
           },
@@ -148,12 +148,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "be78f4d97b0dbe89",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
+    "工具/Mac/开发环境.md",
+    "学习/收藏文章.md",
     "学习/英语/Think in English.md",
     "Extras/Templates/新文件模版.md",
     "AboutTheGarden.md",
-    "工具/Mac/开发环境.md",
     "学习/英语/Think in English 1.md",
     "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
     "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
@@ -175,7 +176,6 @@
     "学习笔记/Redis 核心技术与实战/37｜数据分布优化：如何应对数据倾斜？.md",
     "学习笔记/Redis 核心技术与实战/36｜Redis 支撑秒杀场景的关键技术和实践都有哪些？.md",
     "学习笔记/Redis 核心技术与实战/41｜第 35～40 讲课后思考题答案及常见问题答疑.md",
-    "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
     "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",
