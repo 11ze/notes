@@ -1,8 +1,8 @@
 {
   "accentColor": "#e66565",
   "theme": "system",
-  "baseFontSize": 13,
-  "cssTheme": "Blue Topaz",
+  "baseFontSize": 14,
+  "cssTheme": "Things",
   "interfaceFontFamily": "JetBrains Mono",
   "translucency": false,
   "nativeMenus": true,
