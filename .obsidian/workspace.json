@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+                "file": "学习/英语/Think in English.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55c7d4d6da66e05d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AboutTheGarden.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+                "file": "AboutTheGarden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+                "file": "AboutTheGarden.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md"
+                "file": "AboutTheGarden.md"
               }
             }
           },
@@ -148,12 +162,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1dcfed1424b65adb",
+  "active": "55c7d4d6da66e05d",
   "lastOpenFiles": [
-    "学习笔记/MySQL 实战 45 讲/04｜深入浅出索引（上）.md",
-    "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
-    "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
     "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+    "学习笔记/MySQL 实战 45 讲/04｜深入浅出索引（上）.md",
+    "学习笔记/MySQL 实战 45 讲/05｜深入浅出索引（下）.md",
+    "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
+    "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
     "工具/Mac/开发环境.md",
     "学习/收藏文章.md",
     "学习/英语/Think in English.md",
@@ -175,7 +190,6 @@
     "学习笔记/Redis 核心技术与实战/40｜Redis 的下一步：基于 NVM 内存的实践.md",
     "学习笔记/Redis 核心技术与实战/Redis 有哪些好用的运维工具？.md",
     "学习笔记/Redis 核心技术与实战/38｜通信开销：限制 Redis Cluster 规模的关键因素.md",
-    "学习笔记/Redis 核心技术与实战/37｜数据分布优化：如何应对数据倾斜？.md",
     "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",
