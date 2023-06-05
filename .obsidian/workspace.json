@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AboutTheGarden.md",
+                "file": "工具/Mac/开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"⚠️ \"",
+                "query": "微信",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -92,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AboutTheGarden.md",
+                "file": "工具/Mac/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AboutTheGarden.md",
+                "file": "工具/Mac/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AboutTheGarden.md"
+                "file": "工具/Mac/开发环境.md"
               }
             }
           },
@@ -164,16 +165,18 @@
   },
   "active": "55c7d4d6da66e05d",
   "lastOpenFiles": [
+    "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
+    "学习笔记/MySQL 实战 45 讲/05｜深入浅出索引（下）.md",
+    "学习笔记/PHP/PHP 错误码设计.md",
+    "学习/收藏文章.md",
+    "工具/Mac/开发环境.md",
+    "AboutTheGarden.md",
     "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
     "学习笔记/MySQL 实战 45 讲/04｜深入浅出索引（上）.md",
-    "学习笔记/MySQL 实战 45 讲/05｜深入浅出索引（下）.md",
     "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
     "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
-    "工具/Mac/开发环境.md",
-    "学习/收藏文章.md",
     "学习/英语/Think in English.md",
     "Extras/Templates/新文件模版.md",
-    "AboutTheGarden.md",
     "学习/英语/Think in English 1.md",
     "tags.md",
     "工具/Obsidian/Obsidian 插件.md",
@@ -188,8 +191,6 @@
     "学习笔记/Redis 核心技术与实战/经典的 Redis 学习资料.md",
     "学习笔记/Redis 核心技术与实战/39｜Redis 6.0 的新特性：多线程、客户端缓存与安全.md",
     "学习笔记/Redis 核心技术与实战/40｜Redis 的下一步：基于 NVM 内存的实践.md",
-    "学习笔记/Redis 核心技术与实战/Redis 有哪些好用的运维工具？.md",
-    "学习笔记/Redis 核心技术与实战/38｜通信开销：限制 Redis Cluster 规模的关键因素.md",
     "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",
