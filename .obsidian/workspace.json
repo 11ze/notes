@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -93,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Mac/开发环境.md"
+                "file": "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md"
               }
             }
           },
@@ -165,11 +164,11 @@
   },
   "active": "55c7d4d6da66e05d",
   "lastOpenFiles": [
-    "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
     "学习笔记/MySQL 实战 45 讲/05｜深入浅出索引（下）.md",
+    "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
+    "工具/Mac/开发环境.md",
     "学习笔记/PHP/PHP 错误码设计.md",
     "学习/收藏文章.md",
-    "工具/Mac/开发环境.md",
     "AboutTheGarden.md",
     "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
     "学习笔记/MySQL 实战 45 讲/04｜深入浅出索引（上）.md",
