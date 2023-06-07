@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/07｜行锁功过：怎么减少锁对性能的影响？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/07｜行锁功过：怎么减少锁对性能的影响？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/07｜行锁功过：怎么减少锁对性能的影响？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md"
+                "file": "学习笔记/MySQL 实战 45 讲/07｜行锁功过：怎么减少锁对性能的影响？.md"
               }
             }
           },
@@ -164,8 +164,8 @@
   },
   "active": "55c7d4d6da66e05d",
   "lastOpenFiles": [
-    "学习笔记/MySQL 实战 45 讲/05｜深入浅出索引（下）.md",
     "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
+    "学习笔记/MySQL 实战 45 讲/05｜深入浅出索引（下）.md",
     "工具/Mac/开发环境.md",
     "学习笔记/PHP/PHP 错误码设计.md",
     "学习/收藏文章.md",
