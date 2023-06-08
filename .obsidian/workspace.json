@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0e79e9f3bb24a574",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/英语/Think in English.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "55c7d4d6da66e05d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/07｜行锁功过：怎么减少锁对性能的影响？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/08｜事务到底是隔离的还是不隔离的？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 369.5
   },
   "right": {
     "id": "a0aa357a115ebd80",
@@ -92,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/07｜行锁功过：怎么减少锁对性能的影响？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/08｜事务到底是隔离的还是不隔离的？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/07｜行锁功过：怎么减少锁对性能的影响？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/08｜事务到底是隔离的还是不隔离的？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/07｜行锁功过：怎么减少锁对性能的影响？.md"
+                "file": "学习笔记/MySQL 实战 45 讲/08｜事务到底是隔离的还是不隔离的？.md"
               }
             }
           },
@@ -164,17 +150,20 @@
   },
   "active": "55c7d4d6da66e05d",
   "lastOpenFiles": [
+    "学习笔记/MySQL 实战 45 讲/07｜行锁功过：怎么减少锁对性能的影响？.md",
+    "学习笔记/MySQL 实战 45 讲/08｜事务到底是隔离的还是不隔离的？.md",
+    "学习/英语/Think in English.md",
     "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
     "学习笔记/MySQL 实战 45 讲/05｜深入浅出索引（下）.md",
+    "学习笔记/MySQL 实战 45 讲/04｜深入浅出索引（上）.md",
+    "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
+    "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+    "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
+    "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
     "工具/Mac/开发环境.md",
     "学习笔记/PHP/PHP 错误码设计.md",
     "学习/收藏文章.md",
     "AboutTheGarden.md",
-    "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
-    "学习笔记/MySQL 实战 45 讲/04｜深入浅出索引（上）.md",
-    "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
-    "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
-    "学习/英语/Think in English.md",
     "Extras/Templates/新文件模版.md",
     "学习/英语/Think in English 1.md",
     "tags.md",
@@ -187,9 +176,6 @@
     "学习笔记/Redis 核心技术与实战/从微博的 Redis 实践中，我们可以学到哪些经验？.md",
     "学习笔记/Redis 核心技术与实战/Redis 客户端如何与服务端交换命令和数据？.md",
     "学习笔记/Redis 核心技术与实战/Redis 学习路径.md",
-    "学习笔记/Redis 核心技术与实战/经典的 Redis 学习资料.md",
-    "学习笔记/Redis 核心技术与实战/39｜Redis 6.0 的新特性：多线程、客户端缓存与安全.md",
-    "学习笔记/Redis 核心技术与实战/40｜Redis 的下一步：基于 NVM 内存的实践.md",
     "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",
