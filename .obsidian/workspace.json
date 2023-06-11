@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "学习笔记/MySQL 实战 45 讲/10｜MySQL 为什么有时候会选错索引？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "学习笔记/MySQL 实战 45 讲/10｜MySQL 为什么有时候会选错索引？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "学习笔记/MySQL 实战 45 讲/10｜MySQL 为什么有时候会选错索引？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Mac/开发环境.md"
+                "file": "学习笔记/MySQL 实战 45 讲/10｜MySQL 为什么有时候会选错索引？.md"
               }
             }
           },
@@ -148,12 +148,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1dcfed1424b65adb",
+  "active": "55c7d4d6da66e05d",
   "lastOpenFiles": [
+    "学习笔记/MySQL 实战 45 讲/09｜普通索引和唯一索引，应该怎么选择？.md",
+    "学习笔记/PHP/PHP 错误码设计.md",
+    "工具/Mac/开发环境.md",
     "学习笔记/支付技术方案.md",
     "学习笔记/MySQL 实战 45 讲/08｜事务到底是隔离的还是不隔离的？.md",
     "学习笔记/MySQL 实战 45 讲/07｜行锁功过：怎么减少锁对性能的影响？.md",
-    "学习笔记/MySQL 实战 45 讲/09｜普通索引和唯一索引，应该怎么选择？.md",
     "学习笔记/MySQL 实战 45 讲/12｜为什么我的 MySQL 会“抖”一下？.md",
     "学习笔记/MySQL 实战 45 讲/11｜怎么给字符串字段加索引？.md",
     "学习笔记/MySQL 实战 45 讲/10｜MySQL 为什么有时候会选错索引？.md",
@@ -161,13 +163,11 @@
     "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
     "学习笔记/MySQL 实战 45 讲/04｜深入浅出索引（上）.md",
     "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
-    "工具/Mac/开发环境.md",
     "学习笔记/PHP/PHP 开发设置.md",
     "学习/英语/Think in English.md",
     "学习笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
     "学习笔记/MySQL 实战 45 讲/05｜深入浅出索引（下）.md",
     "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
-    "学习笔记/PHP/PHP 错误码设计.md",
     "学习/收藏文章.md",
     "AboutTheGarden.md",
     "Extras/Templates/新文件模版.md",

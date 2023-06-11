@@ -29,3 +29,4 @@ tags:
 ## 参考
 
 - [Using attributes to add value](https://laravel-news.com/using-attributes-to-add-value?utm_medium=email&utm_campaign=Laravel%20News%20Daily%202023-04-27&utm_content=Laravel%20News%20Daily%202023-04-27+CID_8d1e7adeaf80f59533f51d1e5bc52d9d&utm_source=email%20marketing&utm_term=Using%20attributes%20to%20add%20value)
+- [PHP 异常与错误处理](https://mp.weixin.qq.com/s/H3iLccKXIp6tkzbNULYFKw)
