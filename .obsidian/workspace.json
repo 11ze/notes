@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/18｜为什么这些 SQL 语句逻辑相同，性能却差异巨大？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/18｜为什么这些 SQL 语句逻辑相同，性能却差异巨大？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/18｜为什么这些 SQL 语句逻辑相同，性能却差异巨大？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md"
+                "file": "学习笔记/MySQL 实战 45 讲/18｜为什么这些 SQL 语句逻辑相同，性能却差异巨大？.md"
               }
             }
           },
@@ -149,23 +148,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ebfc4117a1f079da",
+  "active": "55c7d4d6da66e05d",
   "lastOpenFiles": [
+    "学习笔记/MySQL 实战 45 讲/17｜如何正确地显示随机消息？.md",
+    "学习笔记/MySQL 实战 45 讲/16｜“order by”是怎么工作的？.md",
+    "学习笔记/MySQL 实战 45 讲/15｜答疑文章（一）：日志和索引相关问题.md",
+    "学习笔记/MySQL 实战 45 讲/14｜count(*) 这么慢，我该怎么办？.md",
+    "学习笔记/MySQL 实战 45 讲/13｜为什么表数据删掉一半，表文件大小不变？.md",
+    "学习笔记/MySQL 实战 45 讲/12｜为什么我的 MySQL 会“抖”一下？.md",
+    "学习笔记/MySQL 实战 45 讲/11｜怎么给字符串字段加索引？.md",
+    "学习笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md",
     "学习笔记/MySQL 实战 45 讲/34｜到底可不可以使用 join ？.md",
     "学习笔记/MySQL 实战 45 讲/33｜我查这么多数据，会不会把数据库内存打爆？.md",
     "学习笔记/MySQL 实战 45 讲/18｜为什么这些 SQL 语句逻辑相同，性能却差异巨大？.md",
-    "学习笔记/MySQL 实战 45 讲/15｜答疑文章（一）：日志和索引相关问题.md",
     "管理花园/搭建/本地预览.md",
     "学习笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md",
     "学习笔记/MySQL 实战 45 讲/39｜自增主键为什么不是连续的？.md",
     "学习笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
     "学习笔记/MySQL 实战 45 讲/30｜答疑文章（二）：用动态的观点看加锁.md",
     "学习笔记/MySQL 实战 45 讲/20｜幻读是什么，幻读有什么问题？.md",
-    "学习笔记/MySQL 实战 45 讲/14｜count(*) 这么慢，我该怎么办？.md",
     "学习笔记/MySQL 实战 45 讲/19｜为什么我只查一行的语句，也执行这么慢？.md",
-    "学习笔记/MySQL 实战 45 讲/13｜为什么表数据删掉一半，表文件大小不变？.md",
-    "学习笔记/MySQL 实战 45 讲/12｜为什么我的 MySQL 会“抖”一下？.md",
-    "学习笔记/MySQL 实战 45 讲/11｜怎么给字符串字段加索引？.md",
     "学习笔记/MySQL 实战 45 讲/10｜MySQL 为什么有时候会选错索引？.md",
     "工具/Mac/开发环境.md",
     "学习笔记/MySQL 实战 45 讲/09｜普通索引和唯一索引，应该怎么选择？.md",
@@ -174,9 +176,6 @@
     "学习笔记/MySQL 实战 45 讲/08｜事务到底是隔离的还是不隔离的？.md",
     "学习笔记/MySQL 实战 45 讲/07｜行锁功过：怎么减少锁对性能的影响？.md",
     "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
-    "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
-    "学习笔记/MySQL 实战 45 讲/04｜深入浅出索引（上）.md",
-    "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
     "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",
