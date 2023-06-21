@@ -66,48 +66,23 @@ publishDate: 2023-05-17T15:19:54+08:00
 ## 思考题
 
 - 一个内存配置为 128GB、innodb_io_capacity 设置为 20000 的大规格实例，正常会建议你将 redo log 设置成 4 个 1GB 的文件。
-
-
 - 但如果你在配置的时候不慎将 redo log 设置成了 1 个 100M 的文件，会发生什么情况呢？又为什么会出现这样的情况呢？
-
   - 每次事务提交都要写 redo log，如果设置太小，很快就会被写满，write pos 一直追着 CP
-
-
   - 系统不得不停止所有更新，推进 checkpoint
-
-
   - 现象：磁盘压力很小，但是数据库出现间歇性的性能下跌
 
 ## 评论区
 
 - redo log 在“重放”的时候，如果一个数据页已经刷过，会识别出来并跳过
-
   - 基于 LSN（log sequence number 日志序列号）
-
-
-  - 每个数据页头部有 LSN，8字节，每次修改都会变大。
-
-
+  - 每个数据页头部有 LSN，8 字节，每次修改都会变大。
   - 对比这个 LSN 跟 checkpoint 的 LSN，比 checkpoint 小的一定是干净页
-
-
 - 将脏页 flush 到磁盘上是直接将脏页数据覆盖到对应磁盘上的数据
-
-
 - 断电重启后从 checkpoint 的位置往后扫，已经扫过盘的不会重复应用 redo log
-
-
 - 名词解释
-
-  - plush 刷脏页
-
-
-  - purge 清 undo log
-
-
-  - merge 应用 change buffer
-      - change buffer 只对非唯一索引有效
-
-
+  - plush：刷脏页
+  - purge：清 undo log
+  - merge：应用 change buffer
+    - change buffer 只对非唯一索引有效
 - 常见的误用场景
-  - 很多测试人员再做压力测试的时候 出现刚开始 insert update 很快 一会 就出现很慢,并且延迟很大，大部分是因为 redo log 设置太小引起的
+  - 很多测试人员在做压力测试的时候 出现刚开始 insert update 很快 一会 就出现很慢,并且延迟很大，大部分是因为 redo log 设置太小（跟上面思考题相同原理）
