@@ -50,7 +50,7 @@ publishDate: 2023-05-17T15:19:54+08:00
           - 伪代码
             - `F1(M){ if M>=innodb_max_dirty_pages_pct then return 100; return 100*M/innodb_max_dirty_pages_pct;}`
       2. redo log 写盘速度
-          - InnoDB 每次写入的日志都有一个序号，当前写入的序号跟 checkpoint 对应的序号之间的差值，我们假设为 N。InnoDB 会根据这个 N 算出一个范围在 0 到 100 之间的数字，这个计算公式可以记为 F2(N)。F2(N) 算法比较复杂，你只要知道 N 越大，算出来的值越大就好了。
+        - InnoDB 每次写入的日志都有一个序号，当前写入的序号跟 checkpoint 对应的序号之间的差值，我们假设为 N。InnoDB 会根据这个 N 算出一个范围在 0 到 100 之间的数字，这个计算公式可以记为 F2(N)。F2(N) 算法比较复杂，你只要知道 N 越大，算出来的值越大就好了。
         - 根据上述算得的 F1(M) 和 F2(N) 两个值，取其中较大的值记为 R，之后引擎就可以按照 `innodb_io_capacity` 定义的能力乘以 R% 来控制刷脏页的速度。
         - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-12-2.png)
 - 在 InnoDB 中，`innodb_flush_neighbors` 参数就是用来控制这个行为的，值为 1 的时候会有上述的“连坐”机制，值为 0 时表示不找邻居，自己刷自己的。
