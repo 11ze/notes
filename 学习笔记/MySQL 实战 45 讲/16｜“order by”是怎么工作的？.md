@@ -3,7 +3,6 @@
 title: 16｜“order by”是怎么工作的？
 tags:
 - MySQL
-- mindmap-plugin: basic
 publishDate: 2023-05-17T20:29:51+08:00
 
 ---
