@@ -11,8 +11,13 @@
             "id": "26cf6f460adb1ab1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/MySQL 实战 45 讲/17｜如何正确地显示随机消息？.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "学习笔记/MySQL 实战 45 讲/17｜如何正确地显示随机消息？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "学习笔记/MySQL 实战 45 讲/17｜如何正确地显示随机消息？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "学习笔记/MySQL 实战 45 讲/17｜如何正确地显示随机消息？.md"
+              }
             }
           },
           {
@@ -141,9 +150,9 @@
   },
   "active": "26cf6f460adb1ab1",
   "lastOpenFiles": [
-    "学习笔记/MySQL 实战 45 讲/17｜如何正确地显示随机消息？.md",
     "学习笔记/MySQL 实战 45 讲/16｜“order by”是怎么工作的？.md",
     "学习笔记/MySQL 实战 45 讲/15｜答疑文章（一）：日志和索引相关问题.md",
+    "学习笔记/MySQL 实战 45 讲/17｜如何正确地显示随机消息？.md",
     "学习笔记/MySQL 实战 45 讲/14｜count(*) 这么慢，我该怎么办？.md",
     "学习笔记/MySQL 实战 45 讲/13｜为什么表数据删掉一半，表文件大小不变？.md",
     "学习笔记/MySQL 实战 45 讲/11｜怎么给字符串字段加索引？.md",
