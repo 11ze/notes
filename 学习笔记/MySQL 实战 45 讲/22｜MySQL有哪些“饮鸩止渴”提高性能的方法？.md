@@ -3,7 +3,6 @@
 title: 22｜MySQL有哪些“饮鸩止渴”提高性能的方法？
 tags:
 - MySQL
-- mindmap-plugin: basic
 publishDate: 2023-05-17T21:07:09+08:00
 
 ---

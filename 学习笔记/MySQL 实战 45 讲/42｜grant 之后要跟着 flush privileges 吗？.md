@@ -3,7 +3,6 @@
 title: 42｜grant 之后要跟着 flush privileges 吗？
 tags:
 - MySQL
-- mindmap-plugin: basic
 publishDate: 2023-05-17T22:23:12+08:00
 
 ---

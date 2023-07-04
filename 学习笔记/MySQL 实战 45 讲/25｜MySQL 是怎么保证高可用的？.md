@@ -3,7 +3,6 @@
 title: 25｜MySQL 是怎么保证高可用的？
 tags:
 - MySQL
-- mindmap-plugin: basic
 publishDate: 2023-05-17T21:27:01+08:00
 
 ---

@@ -3,7 +3,6 @@
 title: 24｜MySQL 是怎么保证主备一致的？
 tags:
 - MySQL
-- mindmap-plugin: basic
 publishDate: 2023-05-17T21:21:01+08:00
 
 ---
