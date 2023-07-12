@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "思考/Tips.md",
+                "file": "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思考/Tips.md",
+                "file": "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思考/Tips.md",
+                "file": "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思考/Tips.md"
+                "file": "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md"
               }
             }
           },
@@ -151,11 +151,14 @@
   },
   "active": "6b024024067288e6",
   "lastOpenFiles": [
-    "思考/3-2-1 的有趣想法.md",
-    "学习笔记/MySQL 实战 45 讲/20｜幻读是什么，幻读有什么问题？.md",
-    "工具/Mac/开发环境.md",
-    "学习笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
     "学习笔记/MySQL 实战 45 讲/22｜MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
+    "学习笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
+    "学习笔记/MySQL 实战 45 讲/20｜幻读是什么，幻读有什么问题？.md",
+    "学习笔记/MySQL 实战 45 讲/19｜为什么我只查一行的语句，也执行这么慢？.md",
+    "思考/Tips.md",
+    "工具/Mac/Mac 应用已损坏.md",
+    "思考/3-2-1 的有趣想法.md",
+    "工具/Mac/开发环境.md",
     "学习笔记/MySQL 实战 45 讲/23｜MySQL 是怎么保证数据不丢的？.md",
     "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
     "学习笔记/MySQL 实战 45 讲/25｜MySQL 是怎么保证高可用的？.md",
@@ -174,9 +177,6 @@
     "学习笔记/MySQL 实战 45 讲/38｜都说 InnoDB 好，那还要不要使用 Memory 引擎？.md",
     "学习笔记/MySQL 实战 45 讲/39｜自增主键为什么不是连续的？.md",
     "学习笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md",
-    "学习笔记/MySQL 实战 45 讲/41｜怎么最快地复制一张表？.md",
-    "学习笔记/MySQL 实战 45 讲/42｜grant 之后要跟着 flush privileges 吗？.md",
-    "学习笔记/MySQL 实战 45 讲/43｜要不要使用分区表？.md",
     "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",
