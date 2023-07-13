@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
+                "file": "学习笔记/MySQL 实战 45 讲/22｜MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
+                "file": "学习笔记/MySQL 实战 45 讲/22｜MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
+                "file": "学习笔记/MySQL 实战 45 讲/22｜MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md"
+                "file": "学习笔记/MySQL 实战 45 讲/22｜MySQL有哪些“饮鸩止渴”提高性能的方法？.md"
               }
             }
           },
@@ -151,8 +151,10 @@
   },
   "active": "6b024024067288e6",
   "lastOpenFiles": [
-    "学习笔记/MySQL 实战 45 讲/22｜MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
     "学习笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
+    "学习/收藏文章.md",
+    "学习笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
+    "学习笔记/MySQL 实战 45 讲/22｜MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
     "学习笔记/MySQL 实战 45 讲/20｜幻读是什么，幻读有什么问题？.md",
     "学习笔记/MySQL 实战 45 讲/19｜为什么我只查一行的语句，也执行这么慢？.md",
     "思考/Tips.md",
@@ -175,8 +177,6 @@
     "学习笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
     "学习笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
     "学习笔记/MySQL 实战 45 讲/38｜都说 InnoDB 好，那还要不要使用 Memory 引擎？.md",
-    "学习笔记/MySQL 实战 45 讲/39｜自增主键为什么不是连续的？.md",
-    "学习笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md",
     "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",

@@ -8,4 +8,4 @@ tags:
 
 参考：
 
-- https://laraveldaily.com/post/laravel-pint-pre-commit-hooks-github-actions
+- <https://laraveldaily.com/post/laravel-pint-pre-commit-hooks-github-actions>
