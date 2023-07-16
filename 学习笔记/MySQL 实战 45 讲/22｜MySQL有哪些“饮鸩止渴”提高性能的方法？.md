@@ -9,88 +9,101 @@ publishDate: 2023-05-17T21:07:09+08:00
 
 ## 短连接风暴
 
-  - max_connections 参数控制一个 MySQL 实例同时存在的连接数上限
+- max_connections 参数控制一个 MySQL 实例同时存在的连接数上限
 
-    - 超过这个数，系统就会拒绝接下来的连接请求，并报错提示“Too many connections”
-    - 只要连着就会计数
+  - 超过这个数，系统就会拒绝接下来的连接请求，并报错提示“Too many connections”
+  - 只要连着就会计数
 
-  - 解决方案
+- 解决方案
 
-    - 一、先处理掉那些占着连接但是不工作的线程
+  - 一、先处理掉那些占着连接但是不工作的线程
 
-        - wait_timeout 参数设置一个线程在多少秒后会被 MySQL 直接断开连接
-        - 在服务端执行命令：kill connection + id
+      - wait_timeout 参数设置一个线程在多少秒后会被 MySQL 直接断开连接
+      - 在服务端执行命令：kill connection + id
 
-          - 直到客户端在发起下一个请求的时候，才会收到这样的报错“ERROR 2013 (HY000): Lost connection to MySQL server during query”。
+        - 直到客户端在发起下一个请求的时候，才会收到这样的报错“ERROR 2013 (HY000): Lost connection to MySQL server during query”。
 
-      - 在 show processlist 的结果里找到可以踢掉的连接
+    - 在 show processlist 的结果里找到可以踢掉的连接
 
-        -   先断开事务外空闲的连接
-        -   还不够的情况下再考虑断开事务内空闲太久的连接
+      -   先断开事务外空闲的连接
+      -   还不够的情况下再考虑断开事务内空闲太久的连接
 
-          -   会导致事务回滚
+        -   会导致事务回滚
 
-        -   查看事务具体状态
+      -   查看事务具体状态
 
-          -   查 information_schema 库的 innodb_trx 表
+        -   查 information_schema 库的 innodb_trx 表
 
-    - 二、减少连接过程的消耗
+  - 二、减少连接过程的消耗
 
-      - 使用 --skip-grant-tables 参数启动 MySQL，整个 MySQL 会跳过所有的权限验证阶段，包括连接过程和语句执行过程在内
-      - 风险极高，MySQL 8.0 会默认把 --skip-networking 参数打开，表示只能被本地客户端连接
+    - 使用 --skip-grant-tables 参数启动 MySQL，整个 MySQL 会跳过所有的权限验证阶段，包括连接过程和语句执行过程在内
+    - 风险极高，MySQL 8.0 会默认把 --skip-networking 参数打开，表示只能被本地客户端连接
 
 ## 慢查询性能问题
 
-  - 1. 索引没有设计好
+- 1. 索引没有设计好
 
-    - MySQL 5.6 后创建索引支持 Online DDL，对于高峰期数据库，最高校的做法是直接 alter table
+  - MySQL 5.6 后创建索引支持 Online DDL，对于高峰期数据库，最高效的做法是直接 alter table
 
-      - 理想流程
+    - 理想流程
 
-        - 1. 在备库 B 上执行 set sql_log_bin=off，也就是不写 binlog，然后执行 alter table 语句加上索引；
-        - 2. 执行主备切换；
-        - 3. 这时候主库是 B，备库是 A。在 A 上执行 set sql_log_bin=off，然后执行 alter table 语句加上索引。
+      1. 在备库 B 上执行 set sql_log_bin=off，也就是不写 binlog，然后执行 alter table 语句加上索引；
+      2. 执行主备切换；
+      3. 这时候主库是 B，备库是 A。在 A 上执行 set sql_log_bin=off，然后执行 alter table 语句加上索引。
 
-    - 会有大量 binlog 日志，所以需要先关闭
-    - 但是，会导致 binlog 缺少这个 DDL 语句，需要另一个知识点（主备同步协议），在后面的文章有说明
+  - 会有大量 binlog 日志，所以需要先关闭
+  - ⚠️ （待整理出最近方案）但是，会导致 binlog 缺少这个 DDL 语句，需要另一个知识点（主备同步协议），在后面的文章有说明
 
-      - 假设，这两个互为主备关系的库还是实例 X 和实例 Y，且当前主库是 X，并且都打开了 GTID 模式。这时的主备切换流程可以变成下面这样：1. 在实例 X 上执行 stop slave。2. 在实例 Y 上执行 DDL 语句。注意，这里并不需要关闭 binlog。3. 执行完成后，查出这个 DDL 语句对应的 GTID，并记为 server_uuid_of_Y:gno。4. 到实例 X 上执行以下语句序列：set GTID_NEXT="server_uuid_of_Y:gno";begin;commit;set gtid_next=automatic;start slave;这样做的目的在于，既可以让实例 Y 的更新有 binlog 记录，同时也可以确保不会在实例 X 上执行这条更新。接下来，执行完主备切换，然后照着上述流程再执行一遍即可。
+    - 假设，这两个互为主备关系的库还是实例 X 和实例 Y，且当前主库是 X，并且都打开了 GTID 模式。这时的主备切换流程可以变成下面这样：
+      1. 在实例 X 上执行 stop slave。
+      2. 在实例 Y 上执行 DDL 语句。注意，这里并不需要关闭 binlog。
+      3. 执行完成后，查出这个 DDL 语句对应的 GTID，并记为 server_uuid_of_Y:gno。
+      4. 到实例 X 上执行以下语句序列：
+          
+          ```sql
+        set GTID_NEXT="server_uuid_of_Y:gno";
+        begin;commit;
+        set gtid_next=automatic;
+        start slave;    
+          ```
+          
+      1. 这样做的目的在于，既可以让实例 Y 的更新有 binlog 记录，同时也可以确保不会在实例 X 上执行这条更新。接下来，执行完主备切换，然后照着上述流程再执行一遍即可。
 
-    - 更稳妥的做法是考虑类似 gh-ost 的方案
+  - 更稳妥的做法是考虑类似 gh-ost 的方案
 
-  - 2. SQL 语句没写好
+- 2. SQL 语句没写好
 
-    - 5.7 提供了 query_rewrite 功能，可以把输入的一种语句改写成另外一种模式
-    - 查看是否重写成功
-      - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-22-1.png)
+  - 5.7 提供了 query_rewrite 功能，可以把输入的一种语句改写成另外一种模式
+  - 查看是否重写成功
+    - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-22-1.png)
 
 
-  - 3. MySQL 选错了索引
+- 3. MySQL 选错了索引
 
-    - 在原语句加上 force index
-    - 使用查询重写功能给语句加上 force index
+  - 在原语句加上 force index
+  - 使用查询重写功能给语句加上 force index
 
-  - 通过此过程可以预先发现问题
+- 通过以下操作可以预先发现问题
 
-    - 1. 上线前，在测试环境，把慢查询日志（slow log）打开，并且把 long_query_time 设置成 0，确保每个语句都会被记录入慢查询日志；
-    - 2. 在测试表里插入模拟线上的数据，做一遍回归测试；
-    - 3. 观察慢查询日志里每类语句的输出，特别留意 Rows_examined 字段是否与预期一致。（我们在前面文章中已经多次用到过 Rows_examined 方法了，相信你已经动手尝试过了。如果还有不明白的，欢迎给我留言，我们一起讨论）。
+  - 1. 上线前，在测试环境，把慢查询日志（slow log）打开，并且把 long_query_time 设置成 0，确保每个语句都会被记录入慢查询日志；
+  - 2. 在测试表里插入模拟线上的数据，做一遍回归测试；
+  - 3. 观察慢查询日志里每类语句的输出，特别留意 Rows_examined 字段是否与预期一致。
 
-  - 全量测试时，使用工具检查所有的 SQL 语句的返回结果
+- 全量测试时，使用工具检查所有的 SQL 语句的返回结果
 
-    - 比如 [pt-query-digest](https://docs.percona.com/percona-toolkit/pt-query-digest.html)
+  - 比如 [pt-query-digest](https://docs.percona.com/percona-toolkit/pt-query-digest.html)
 
 ## QPS 突增问题
 
-  - 最理想的情况是让业务把功能下掉
-  - 对于从数据库端处理
+- 最理想的情况是让业务把功能下掉
+- 对于从数据库端处理
 
-    - 1. 一种是由全新业务的 bug 导致的。假设你的 DB 运维是比较规范的，也就是说白名单是一个个加的。这种情况下，如果你能够确定业务方会下掉这个功能，只是时间上没那么快，那么就可以从数据库端直接把白名单去掉。
-    - 2. 如果这个新功能使用的是单独的数据库用户，可以用管理员账号把这个用户删掉，然后断开现有连接。这样，这个新功能的连接不成功，由它引发的 QPS 就会变成 0。
-    - 3. 如果这个新增的功能跟主体功能是部署在一起的，那么我们只能通过处理语句来限制。这时，我们可以使用上面提到的查询重写功能，把压力最大的 SQL 语句直接重写成"select 1"返回。
+  - 1. 一种是由全新业务的 bug 导致的。假设你的 DB 运维是比较规范的，也就是说白名单是一个个加的。这种情况下，如果你能够确定业务方会下掉这个功能，只是时间上没那么快，那么就可以从数据库端直接把白名单去掉。
+  - 2. 如果这个新功能使用的是单独的数据库用户，可以用管理员账号把这个用户删掉，然后断开现有连接。这样，这个新功能的连接不成功，由它引发的 QPS 就会变成 0。
+  - 3. 如果这个新增的功能跟主体功能是部署在一起的，那么我们只能通过处理语句来限制。这时，我们可以使用上面提到的查询重写功能，把压力最大的 SQL 语句直接重写成"select 1"返回。
 
-      - a. 如果别的功能里面也用到了这个 SQL 语句模板，会有误伤；
-      - b. 很多业务并不是靠这一个语句就能完成逻辑的，所以如果单独把这一个语句以 select 1 的结果返回的话，可能会导致后面的业务逻辑一起失败。
+    - a. 如果别的功能里面也用到了这个 SQL 语句模板，会有误伤；
+    - b. 很多业务并不是靠这一个语句就能完成逻辑的，所以如果单独把这一个语句以 select 1 的结果返回的话，可能会导致后面的业务逻辑一起失败。
 
 ## 思考题
 
