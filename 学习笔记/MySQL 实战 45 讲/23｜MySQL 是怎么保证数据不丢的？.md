@@ -119,9 +119,9 @@ publishDate: 2023-05-17T21:13:18+08:00
   - 2. 如果客户端收到事务失败（比如主键冲突、回滚等）的消息，事务就一定失败了；
   - 3. 如果客户端收到“执行异常”的消息，应用需要重连后通过查询当前状态来继续后续的逻辑。此时数据库只需要保证内部（数据和日志之间，主库和备库之间）一致就可以了。
 
-- 思考题
+## 思考题
 
-- 你的生产库设置的是“双 1”吗？ 如果平时是的话，你有在什么场景下改成过“非双 1”吗？你的这个操作又是基于什么决定的？
+- 你的生产库设置的是「双 1」吗？ 如果平时是的话，你有在什么场景下改成过“非双 1”吗？你的这个操作又是基于什么决定的？
 
   - 1. 业务高峰期
   - 2. 备库延迟
@@ -129,19 +129,19 @@ publishDate: 2023-05-17T21:13:18+08:00
   - 4. 批量导入数据的时候
 
 - 我们都知道这些设置可能有损，如果发生了异常，你的止损方案是什么？
-- 一般情况下，把生产库改成“非双 1 ”配置，是设置innodb_flush_logs_at_trx_commit=2sync_binlog=1000
+- 一般情况下，把生产库改成“非双 1 ”配置，是设置`innodb_flush_logs_at_trx_commit=2sync_binlog=1000`
 
-- 评论区
+## 评论区
 
-  - 看到的“binlog的记录”，也是从 page cache 读的page cache 是操作系统文件系统上的
+- 看到的“binlog 的记录”，也是从 page cache 读的，page cache 是操作系统文件系统上的
 
-    - ls 的结果也是
+  - ls 的结果也是
 
-  - 为什么 binlog cache 是每个线程自己维护的，而 redo log buffer 是全局共用的？
+- 为什么 binlog cache 是每个线程自己维护的，而 redo log buffer 是全局共用的？
 
-    - binlog存储是以 statement 或者 row 格式存储的，而 redo log 是以 page 页格式存储的。page 格式，天生就是共有的，而 row 格式，只跟当前事务相关
-    - 我跟这位同学一样，在这里联系到 binlog 的格式，statement 记录的是更新的 SQL，但是要写上下文，因此不能中断，要不同步到从库无法恢复一样的数据内容
+  - binlog 存储是以 statement 或者 row 格式存储的，而 redo log 是以 page 页格式存储的。page 格式，天生就是共有的，而 row 格式，只跟当前事务相关
+  - 在这里联系到 binlog 的格式，statement 记录的是更新的 SQL，但是要写上下文，因此不能中断，要不同步到从库无法恢复一样的数据内容
 
-  - 如果       sync_binlog = N       binlog_group_commit_sync_no_delay_count = M       binlog_group_commit_sync_delay = 很大值这种情况 fsync 什么时候发生
+- 如果 `sync_binlog = N｜binlog_group_commit_sync_no_delay_count = M｜binlog_group_commit_sync_delay = 很大值`，这种情况 fsync 什么时候发生
 
-    - sync_delay 和 sync_no_delay_count 的逻辑先走，因此该等还是会等。等到满足了这两个条件之一，就进入 sync_binlog 阶段。这时候如果判断 sync_binlog=0，就直接跳过，还是不调 fsync。
+  - sync_delay 和 sync_no_delay_count 的逻辑先走，因此该等还是会等。等到满足了这两个条件之一，就进入 sync_binlog 阶段。这时候如果判断 sync_binlog=0，就直接跳过，还是不调 fsync。
