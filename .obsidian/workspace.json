@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1693d719a82e8f75",
+        "id": "a1f6ececfa27df9f",
         "type": "tabs",
         "children": [
           {
-            "id": "6b024024067288e6",
+            "id": "6c35e892fad4282a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工具/Mac/开发环境.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -58,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -150,7 +144,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6b024024067288e6",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
     "学习笔记/MySQL 实战 45 讲/23｜MySQL 是怎么保证数据不丢的？.md",
     "学习笔记/MySQL 实战 45 讲/22｜MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
