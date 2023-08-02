@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "管理花园/搭建/换新设备.md",
+                "file": "学习/英语/Think in English.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "管理花园/搭建/换新设备.md",
+            "file": "学习/英语/Think in English.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "管理花园/搭建/换新设备.md",
+            "file": "学习/英语/Think in English.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "管理花园/搭建/换新设备.md"
+            "file": "学习/英语/Think in English.md"
           }
         }
       }
@@ -135,9 +135,10 @@
   },
   "active": "f753d562e1c27fe8",
   "lastOpenFiles": [
-    "管理花园/搭建/发布方案.md",
-    "工具/Mac/开发环境.md",
     "工具/Mac/iCloud 不同步指定文件.md",
+    "工具/Mac/开发环境.md",
+    "管理花园/搭建/换新设备.md",
+    "管理花园/搭建/发布方案.md",
     "工具/Mac/iCloud 同步卡住.md",
     "工具/Mac/Mac 应用已损坏.md",
     "AboutTheGarden.md",
@@ -160,7 +161,6 @@
     "学习笔记/Redis 核心技术与实战/33｜脑裂：一次奇怪的数据丢失.md",
     "学习笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
     "学习笔记/Redis 核心技术与实战/41｜第 35～40 讲课后思考题答案及常见问题答疑.md",
-    "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
     "auto_push.sh",
     "auto_push.log",
     "LICENSE",
