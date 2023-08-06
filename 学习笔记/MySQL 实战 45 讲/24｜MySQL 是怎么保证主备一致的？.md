@@ -7,22 +7,23 @@ publishDate: 2023-05-17T21:21:01+08:00
 
 ---
 
-- 本章的内容是所有 MySQL 高可用方案的基础
-- 将备库设置为只读模式（readonly）
+本章的内容是所有 MySQL 高可用方案的基础
 
-  - 1. 防止误操作
-  - 2. 防止切换逻辑有 bug，比如切换过程中出现双写造成主备不一致
-  - 3. 可以用 readonly 状态判断节点的角色
-  - 4. readonly 设置对超级权限用户（super）是无效的，用于同步更新的线程拥有超级权限
+## 将备库设置为只读模式（readonly）
 
-- 一个 update 语句在节点 A 执行，然后同步到节点 B 的完整流程图。（主备同步内部流程）
+1. 防止误操作
+2. 防止切换逻辑有 bug，比如切换过程中出现双写造成主备不一致
+3. 可以用 readonly 状态判断节点的角色
+4. readonly 设置对超级权限用户（super）无效，用于同步更新的线程拥有超级权限
+
+## 一个 update 语句在节点 A 执行，然后同步到节点 B 的完整流程图。（主备同步内部流程）
   - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-24-1.png)
 
 
   - 主备关系由备库指定
   - 搭建完成后由主库决定“要发数据给备库”
 
-- 一个事务日志同步的完整过程（基于长连接）
+## 一个事务日志同步的完整过程（基于长连接）
 
   - 1. 在备库 B 通过 change master 命令设置主库 A 的 IP、端口、用户名、密码，以及从哪个位置开始请求 binlog，这个位置包含文件名和日志偏移量
   - 2. 在备库 B 上执行 start slave 命令，这时候备库会启动两个线程，就是图中的 io_thread 和 sql_thread。其中 io_thread 负责与主库建立连接。
@@ -32,7 +33,7 @@ publishDate: 2023-05-17T21:21:01+08:00
 
     - 后来由于多线程复制方案的引入，sql_thread 演化成为了多个线程跟本章讲的原理没有直接关系
 
-- binlog 的三种格式对比
+## binlog 的三种格式对比
 
   - statement
 
@@ -58,7 +59,7 @@ publishDate: 2023-05-17T21:21:01+08:00
 
   - 建议设置为 row
 
-- 查看 binlog
+## 查看 binlog
 
   - 首先通过 show variables like 'log_%' 查看 log_bin 参数是否为 ON
   - mysql> show binary logs; #获取binlog文件列表
@@ -69,7 +70,7 @@ publishDate: 2023-05-17T21:21:01+08:00
 
     - 比如事务的 binlog 是从 8900 这个位置开始的，所以可以用 start-position 参数来指定从这个位置的日志开始解析mysqlbinlog -vv data/master.000001 --start-position=8900;
 
-- 越来越多的场景要求把格式设置为 row，最直接的好处是可以恢复数据
+## 越来越多的场景要求把格式设置为 row，最直接的好处是可以恢复数据
 
   - delete 语句
 
@@ -94,7 +95,7 @@ publishDate: 2023-05-17T21:21:01+08:00
     - 2. 把解析结果整个发给 MySQL 执行
     - 类似于：将 master.000001 文件里面从第 2738 字节到第 2973 字节中间这段内容解析出来，放到 MySQL 去执行。mysqlbinlog master.000001 --start-position=2738 --stop-position=2973 | mysql -h127.0.0.1 -P13000 -u$user -p$pwd;
 
-- 循环复制问题
+## 循环复制问题
 
   - 实际生产上使用比较多的是双 M 结构（互为主备）
 
@@ -107,7 +108,7 @@ publishDate: 2023-05-17T21:21:01+08:00
     - 2. 一个备库接到 binlog 并重放时，生成与原 binlog 的 server id 相同的新的 binlog
     - 3. 每个库在收到从自己的主库发过来的日志后，先判断 server id
 
-- 思考题
+## 思考题
 
   - 什么场景下会出现死循环？
 
@@ -119,7 +120,7 @@ publishDate: 2023-05-17T21:21:01+08:00
 
   - 怎么解决？
 
-- 评论区
+## 评论区
 
   - binlog 准备写到 binlog file 时都会先判断写入后是否超过设置的 max_binlog_size 值如果超过，rotate 自动生成下一个 binlog file 记录这条 binlog 信息
 
