@@ -4,6 +4,7 @@ title: 23｜MySQL 是怎么保证数据不丢的？
 tags:
 - MySQL
 publishDate: 2023-05-17T21:13:18+08:00
+updateDate: 2023-08-08T22:23:18+08:00
 
 ---
 
