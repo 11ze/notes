@@ -1,6 +1,6 @@
 ---
 title: Tips
-publishDate: 2023-05-07T00:00:00+08:00
+createdAt: 2023-05-07T00:00:00+08:00
 tags:
 - idea
 - 思考

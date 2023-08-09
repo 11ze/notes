@@ -4,7 +4,7 @@ title: 13｜GEO 是什么？还可以定义新的数据类型吗？
 tags:
 - Redis
 - mindmap-plugin: basic
-publishDate: 2023-05-22T21:16:00+08:00
+createdAt: 2023-05-22T21:16:00+08:00
 
 ---
 

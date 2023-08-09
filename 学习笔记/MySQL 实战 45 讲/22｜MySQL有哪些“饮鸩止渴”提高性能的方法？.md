@@ -3,7 +3,7 @@
 title: 22｜MySQL有哪些“饮鸩止渴”提高性能的方法？
 tags:
 - MySQL
-publishDate: 2023-05-17T21:07:09+08:00
+createdAt: 2023-05-17T21:07:09+08:00
 
 ---
 
@@ -59,14 +59,14 @@ publishDate: 2023-05-17T21:07:09+08:00
       2. 在实例 Y 上执行 DDL 语句。注意，这里并不需要关闭 binlog。
       3. 执行完成后，查出这个 DDL 语句对应的 GTID，并记为 server_uuid_of_Y:gno。
       4. 到实例 X 上执行以下语句序列：
-          
+
           ```sql
         set GTID_NEXT="server_uuid_of_Y:gno";
         begin;commit;
         set gtid_next=automatic;
-        start slave;    
+        start slave;
           ```
-          
+
       1. 这样做的目的在于，既可以让实例 Y 的更新有 binlog 记录，同时也可以确保不会在实例 X 上执行这条更新。接下来，执行完主备切换，然后照着上述流程再执行一遍即可。
 
   - 更稳妥的做法是考虑类似 gh-ost 的方案

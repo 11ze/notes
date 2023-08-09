@@ -4,7 +4,7 @@ title: 14｜如何在 Redis 中保存时间序列数据？
 tags:
 - Redis
 - mindmap-plugin: basic
-publishDate: 2023-05-22T21:18:22+08:00
+createdAt: 2023-05-22T21:18:22+08:00
 
 ---
 

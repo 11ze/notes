@@ -1,6 +1,6 @@
 ---
 title: Laravel Pint 使用
-publishDate: 2023-05-09T00:00:00+08:00
+createdAt: 2023-05-09T00:00:00+08:00
 tags:
 - PHP
 - WIP

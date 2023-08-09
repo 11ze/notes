@@ -1,6 +1,6 @@
 ---
 title: 本库自动提交到 GitHub
-publishDate: 2023-05-13T14:19:34+08:00
+createdAt: 2023-05-13T14:19:34+08:00
 tags:
 - 搭建
 ---

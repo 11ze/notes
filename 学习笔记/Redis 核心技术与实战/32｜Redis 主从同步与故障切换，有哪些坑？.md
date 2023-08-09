@@ -4,7 +4,7 @@ title: 32｜Redis 主从同步与故障切换，有哪些坑？
 tags:
 - Redis
 - mindmap-plugin: basic
-publishDate: 2023-05-24T21:10:58+08:00
+createdAt: 2023-05-24T21:10:58+08:00
 
 ---
 

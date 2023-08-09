@@ -3,7 +3,7 @@
 title: 16｜“order by”是怎么工作的？
 tags:
 - MySQL
-publishDate: 2023-05-17T20:29:51+08:00
+createdAt: 2023-05-17T20:29:51+08:00
 
 ---
 
@@ -26,17 +26,17 @@ publishDate: 2023-05-17T20:29:51+08:00
 
 
 - sort_buffer_size，是 MySQL 为排序开辟的内存（sort_buffer）的大小。如果要排序的数据量小于 sort_buffer_size，排序就在内存中完成。但如果排序数据量太大，内存放不下，则不得不利用磁盘临时文件辅助排序。
-- 确定一个排序语句是否使用了临时文件 
+- 确定一个排序语句是否使用了临时文件
 
 ```SQL
 /* 打开 optimizer_trace，只对本线程有效 */
-SET optimizer_trace='enabled=on'; 
+SET optimizer_trace='enabled=on';
 
 /* @a 保存 Innodb_rows_read 的初始值 */
 select VARIABLE_VALUE into @a from  performance_schema.session_status where variable_name = 'Innodb_rows_read';
 
 /* 执行语句 */
-select city, name,age from t where city='杭州' order by name limit 1000; 
+select city, name,age from t where city='杭州' order by name limit 1000;
 
 /* 查看 OPTIMIZER_TRACE 输出 */
 SELECT * FROM `information_schema`.`OPTIMIZER_TRACE`\G
@@ -111,5 +111,5 @@ select @b-@a;
 
   - using index condiction 索引下推
   - using index 索引覆盖
-  - using where 代表过滤元组，可以理解为使用了 where 
+  - using where 代表过滤元组，可以理解为使用了 where
   - using where 和 using index一起出现代表使用了索引过滤数据
