@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Obsidian/Obsidian 插件.md",
+                "file": "管理花园/问题/问题合集.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#获取binlog文件列表",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +89,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "管理花园/问题/问题合集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "管理花园/问题/问题合集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Mac/开发环境.md"
+                "file": "管理花园/问题/问题合集.md"
               }
             }
           },
@@ -181,12 +180,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9e2a251ef04586c6",
+  "active": "13057b9f2b417abf",
   "lastOpenFiles": [
     "工具/Obsidian/Obsidian 插件.md",
     "工具/Mac/开发环境.md",
-    "工具/软件/油猴脚本.md",
     "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
+    "工具/软件/油猴脚本.md",
     "工具/Obsidian/Vault.md",
     "工具/Mac/Mac 应用已损坏.md",
     "工具/软件/Capslock.md",
