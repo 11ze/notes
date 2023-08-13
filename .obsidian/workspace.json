@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9e2a251ef04586c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工具/Mac/开发环境.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/PHP/PHP 开发设置.md",
+                "file": "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/PHP/PHP 开发设置.md",
+                "file": "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/PHP/PHP 开发设置.md"
+                "file": "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md"
               }
             }
           },
@@ -163,8 +149,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1dcfed1424b65adb",
+  "active": "7ee78ceb198d06fb",
   "lastOpenFiles": [
+    "学习笔记/PHP/PHP 开发设置.md",
     "学习笔记/PHP/PHP 错误码设计.md",
     "学习笔记/PHP/Laravel Pint 使用.md",
     "管理花园/搭建/发布方案.md",
@@ -190,7 +177,6 @@
     "Extras/Templates/新文件模版.md",
     "学习笔记/MySQL 实战 45 讲/25｜MySQL 是怎么保证高可用的？.md",
     "学习笔记/MySQL 实战 45 讲/22｜MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
-    "学习笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
     "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",
