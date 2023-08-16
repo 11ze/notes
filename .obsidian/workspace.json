@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "复合",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
+                "file": "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md"
+                "file": "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md"
               }
             }
           },
@@ -149,13 +150,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7ee78ceb198d06fb",
+  "active": "ebfc4117a1f079da",
   "lastOpenFiles": [
+    "学习笔记/MySQL 实战 45 讲/20｜幻读是什么，幻读有什么问题？.md",
+    "学习笔记/MySQL 实战 45 讲/08｜事务到底是隔离的还是不隔离的？.md",
+    "学习笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
+    "学习笔记/MySQL 实战 45 讲/02｜日志系统：一条 SQL 更新语句是如何执行的？.md",
+    "学习笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
+    "学习笔记/MySQL 实战 45 讲/30｜答疑文章（二）：用动态的观点看加锁.md",
+    "学习笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md",
+    "学习笔记/MySQL 实战 45 讲/43｜要不要使用分区表？.md",
+    "学习笔记/MySQL 实战 45 讲/45｜自增 id 用完怎么办？.md",
+    "学习笔记/Redis 核心技术与实战/01｜基础架构：一个键值数据库包含什么？.md",
+    "学习笔记/MySQL 实战 45 讲/07｜行锁功过：怎么减少锁对性能的影响？.md",
+    "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
     "学习笔记/PHP/PHP 开发设置.md",
     "学习笔记/PHP/PHP 错误码设计.md",
     "学习笔记/PHP/Laravel Pint 使用.md",
     "管理花园/搭建/发布方案.md",
-    "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
     "工具/Mac/开发环境.md",
     "学习笔记/支付技术方案.md",
     "管理花园/问题/问题合集.md",
@@ -166,17 +178,6 @@
     "工具/软件/Capslock.md",
     "工具/软件/Obsidian.md",
     "工具/软件/Oh My Zsh.md",
-    "工具/软件/Linux 安装 oh-my-zsh.md",
-    "工具/软件/Crontab 执行提示没有权限.md",
-    "思考/3-2-1 的有趣想法.md",
-    "学习/收藏文章.md",
-    "学习/英语/Think in English.md",
-    "学习/英语/英语.md",
-    "学习/英语/背单词.md",
-    "学习笔记/MySQL 实战 45 讲/23｜MySQL 是怎么保证数据不丢的？.md",
-    "Extras/Templates/新文件模版.md",
-    "学习笔记/MySQL 实战 45 讲/25｜MySQL 是怎么保证高可用的？.md",
-    "学习笔记/MySQL 实战 45 讲/22｜MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
     "学习笔记/未命名",
     "学习笔记/Github",
     "学习笔记/PHP",
