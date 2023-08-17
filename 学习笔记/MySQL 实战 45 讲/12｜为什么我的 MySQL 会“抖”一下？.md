@@ -1,10 +1,9 @@
 ---
-
 title: 12｜为什么我的 MySQL 会“抖”一下？
 tags:
-- MySQL
-createdAt: 2023-05-17T15:19:54+08:00
-
+  - MySQL
+createdAt: 2023-08-17T14:32:34+08:00
+updatedAt: 2023-08-17T14:32:34+08:00
 ---
 
 ## 概念

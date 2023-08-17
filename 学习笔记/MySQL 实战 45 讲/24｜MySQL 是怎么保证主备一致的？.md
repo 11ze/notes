@@ -3,7 +3,7 @@ title: 24｜MySQL 是怎么保证主备一致的？
 tags:
   - MySQL
 createdAt: 2023-05-17T21:20:58+08:00
-updatedAt: 2023-08-09T14:25:17+08:00
+updatedAt: 2023-08-17T14:25:24+08:00
 ---
 
 本章的内容是所有 MySQL 高可用方案的基础
@@ -16,6 +16,7 @@ updatedAt: 2023-08-09T14:25:17+08:00
 4. readonly 设置对超级权限用户（super）无效，用于同步更新的线程拥有超级权限
 
 ## 一个 update 语句在节点 A 执行，然后同步到节点 B 的完整流程图。（主备同步内部流程）
+
 - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-24-1.png)
 
 - 主备关系由备库指定

@@ -1,10 +1,9 @@
 ---
-
 title: 14｜count(*) 这么慢，我该怎么办？
 tags:
-- MySQL
-createdAt: 2023-05-17T15:25:11+08:00
-
+  - MySQL
+createdAt: 2023-08-17T14:31:33+08:00
+updatedAt: 2023-08-17T14:31:33+08:00
 ---
 
 ## `count(*)` 的实现方式

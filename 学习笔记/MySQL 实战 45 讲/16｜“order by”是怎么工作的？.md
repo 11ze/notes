@@ -1,10 +1,9 @@
 ---
-
 title: 16｜“order by”是怎么工作的？
 tags:
-- MySQL
-createdAt: 2023-05-17T20:29:51+08:00
-
+  - MySQL
+createdAt: 2023-05-17T20:29:49+08:00
+updatedAt: 2023-08-17T14:25:36+08:00
 ---
 
 - MySQL 会给每个线程分配一块内存用于排序，称为 sort_buffer
@@ -23,7 +22,6 @@ createdAt: 2023-05-17T20:29:51+08:00
   - 7. 按照排序结果取前 1000 行返回给客户端。
   - 全字段排序
     - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-16-1.png)
-
 
 - sort_buffer_size，是 MySQL 为排序开辟的内存（sort_buffer）的大小。如果要排序的数据量小于 sort_buffer_size，排序就在内存中完成。但如果排序数据量太大，内存放不下，则不得不利用磁盘临时文件辅助排序。
 - 确定一个排序语句是否使用了临时文件
@@ -69,7 +67,6 @@ select @b-@a;
 
   - rowid 排序
     - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-16-2.png)
-
 
 - 全字段排序 VS rowid 排序
 

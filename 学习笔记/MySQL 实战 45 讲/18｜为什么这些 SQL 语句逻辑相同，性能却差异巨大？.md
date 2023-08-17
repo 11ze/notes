@@ -1,10 +1,9 @@
 ---
-
 title: 18｜为什么这些 SQL 语句逻辑相同，性能却差异巨大？
 tags:
-- MySQL
-createdAt: 2023-05-17T20:43:38+08:00
-
+  - MySQL
+createdAt: 2023-05-17T20:43:36+08:00
+updatedAt: 2023-08-17T14:25:33+08:00
 ---
 
 ## 案例一：条件字段函数操作
@@ -29,12 +28,12 @@ createdAt: 2023-05-17T20:43:38+08:00
 
 - 两个表的字符集不同，一个是 utf8，一个是 utf8mb4，所以做表连接查询的时候用不上关联字段的索引
   - utf8mb4 是 utf8 的超集。类似地，在程序设计语言里面，做自动类型转换的时候，为了避免数据在转换过程中由于截断导致数据错误，也都是“按数据长度增加的方向”进行转换的。
-  - 例子：`select * from trade_detail where CONVERT(traideid USING utf8mb4)=$L2.tradeid.value; `
+  - 例子：`select * from trade_detail where CONVERT(traideid USING utf8mb4)=$L2.tradeid.value;`
 - 优化方案
   1. 把两个表的字段的字符集改成 utf8mb4
-    - 推荐做法
+     - 推荐做法
   2. 如果表数据量太大，或者业务上暂时不能做这个 DDL 的话，只能采用修改 SQL 语句的方法
-    - `mysql> select d.* from tradelog l , trade_detail d where d.tradeid=CONVERT(l.tradeid USING utf8) and l.id=2; `
+  - `mysql> select d.* from tradelog l , trade_detail d where d.tradeid=CONVERT(l.tradeid USING utf8) and l.id=2;`
 
 ## 案例说明
 

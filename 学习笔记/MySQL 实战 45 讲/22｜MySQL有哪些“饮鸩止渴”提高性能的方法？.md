@@ -1,10 +1,9 @@
 ---
-
 title: 22｜MySQL有哪些“饮鸩止渴”提高性能的方法？
 tags:
-- MySQL
-createdAt: 2023-05-17T21:07:09+08:00
-
+  - MySQL
+createdAt: 2023-05-17T21:07:07+08:00
+updatedAt: 2023-08-17T14:25:27+08:00
 ---
 
 ## 短连接风暴
@@ -18,21 +17,21 @@ createdAt: 2023-05-17T21:07:09+08:00
 
   - 一、先处理掉那些占着连接但是不工作的线程
 
-      - wait_timeout 参数设置一个线程在多少秒后会被 MySQL 直接断开连接
-      - 在服务端执行命令：kill connection + id
+    - wait_timeout 参数设置一个线程在多少秒后会被 MySQL 直接断开连接
+    - 在服务端执行命令：kill connection + id
 
-        - 直到客户端在发起下一个请求的时候，才会收到这样的报错“ERROR 2013 (HY000): Lost connection to MySQL server during query”。
+      - 直到客户端在发起下一个请求的时候，才会收到这样的报错“ERROR 2013 (HY000): Lost connection to MySQL server during query”。
 
     - 在 show processlist 的结果里找到可以踢掉的连接
 
-      -   先断开事务外空闲的连接
-      -   还不够的情况下再考虑断开事务内空闲太久的连接
+      - 先断开事务外空闲的连接
+      - 还不够的情况下再考虑断开事务内空闲太久的连接
 
-        -   会导致事务回滚
+      - 会导致事务回滚
 
-      -   查看事务具体状态
+      - 查看事务具体状态
 
-        -   查 information_schema 库的 innodb_trx 表
+      - 查 information_schema 库的 innodb_trx 表
 
   - 二、减少连接过程的消耗
 
@@ -61,6 +60,7 @@ createdAt: 2023-05-17T21:07:09+08:00
       4. 到实例 X 上执行以下语句序列：
 
           ```sql
+
         set GTID_NEXT="server_uuid_of_Y:gno";
         begin;commit;
         set gtid_next=automatic;
@@ -76,7 +76,6 @@ createdAt: 2023-05-17T21:07:09+08:00
   - 5.7 提供了 query_rewrite 功能，可以把输入的一种语句改写成另外一种模式
   - 查看是否重写成功
     - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-22-1.png)
-
 
 - 3. MySQL 选错了索引
 

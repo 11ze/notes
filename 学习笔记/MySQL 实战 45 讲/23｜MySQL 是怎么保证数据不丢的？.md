@@ -1,11 +1,9 @@
 ---
-
 title: 23｜MySQL 是怎么保证数据不丢的？
 tags:
-- MySQL
-createdAt: 2023-05-17T21:13:18+08:00
-updatedAt: 2023-08-08T22:23:18+08:00
-
+  - MySQL
+createdAt: 2023-05-17T21:13:12+08:00
+updatedAt: 2023-08-17T14:25:25+08:00
 ---
 
 只要 redo log 和 binlog 保证持久化到磁盘，就能确保 MySQL 异常重启后，数据可以恢复。
@@ -19,7 +17,6 @@ updatedAt: 2023-08-08T22:23:18+08:00
     - 参数 binlog_cache_size 用于控制单个线程内 binlog cache 所占内存的大小。如果超过了这个参数规定的大小，就要暂存到磁盘。
   - 事务提交时，执行器把 binlog cache 里的完整事务写入到 binlog 中，并清空 binlog cache。状态如图所示。
     - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-23-1.png)
-
 
     - 图中的 write，指的就是指把日志写入到文件系统的 page cache，并没有把数据持久化到磁盘，所以速度比较快。
     - 图中的 fsync，才是将数据持久化到磁盘的操作。一般情况下，我们认为 fsync 才占磁盘的 IOPS。
@@ -67,7 +64,6 @@ updatedAt: 2023-08-08T22:23:18+08:00
 
 - 一次组提交里面，组员越多，节约磁盘 IOPS 的效果越好。但如果只有单线程压测，那就只能老老实实地一个事务对应一次持久化操作了。
   - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-23-3.png)
-
 
   - trx1 先到达，会被选为 leader
   - 开始写盘，因为组里有了三个事务，所以 LSN 变成了最大值 160
