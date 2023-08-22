@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AboutTheGarden.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AboutTheGarden.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AboutTheGarden.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AboutTheGarden.md"
+                "file": "index.md"
               }
             }
           },
@@ -162,15 +162,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1dcfed1424b65adb",
+  "active": "7ee78ceb198d06fb",
   "lastOpenFiles": [
     "Atlas/About Atlas.md",
     "学习笔记/MySQL 实战 45 讲/29｜如何判断一个数据库是不是出问题了？.md",
     "学习/英语/英语.md",
     "Atlas",
     "学习笔记/MySQL 实战 45 讲/41｜怎么最快地复制一张表？.md",
-    "AboutTheGarden.md",
-    "AboutTheGarden.md",
+    "index.md",
+    "index.md",
     "学习笔记/Rate Limit.md",
     "Templates/新文件模版.md",
     "工具/Mac/Mac 应用已损坏.md",
