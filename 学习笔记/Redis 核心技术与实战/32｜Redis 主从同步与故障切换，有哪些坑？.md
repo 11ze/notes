@@ -1,11 +1,9 @@
 ---
-
 title: 32｜Redis 主从同步与故障切换，有哪些坑？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-24T21:10:58+08:00
-
+  - Redis
+createdAt: 2023-05-24T21:10:55+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - 1. 主从数据不一致

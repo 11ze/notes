@@ -1,12 +1,10 @@
 ---
-
 title: Redis 核心技术与实战
 tags:
-- Redis
-- 极客时间
-- mindmap-plugin: basic
-createdAt: 2023-05-18T00:27:15+08:00
-
+  - Redis
+  - 极客时间
+createdAt: 2023-05-18T00:27:11+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 > 内容整理自极客时间[《Redis 核心技术与实战》](https://time.geekbang.org/column/intro/100056701)

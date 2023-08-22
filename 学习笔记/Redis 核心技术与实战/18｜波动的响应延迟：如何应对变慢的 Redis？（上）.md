@@ -1,11 +1,9 @@
 ---
-
 title: 18｜波动的响应延迟：如何应对变慢的 Redis？（上）
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-22T21:27:57+08:00
-
+  - Redis
+createdAt: 2023-05-22T21:27:55+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - Redis 真的变慢了吗？

@@ -1,11 +1,9 @@
 ---
-
 title: Redis 的使用规范小建议
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-24T21:51:12+08:00
-
+  - Redis
+createdAt: 2023-05-24T21:51:10+08:00
+updatedAt: 2023-08-22T21:36:37+08:00
 ---
 
 - 键值对使用规范

@@ -1,10 +1,14 @@
 ---
 title: 配置 Google Analytics
-createdAt: 2023-05-13T18:35:42+08:00
+createdAt: 2023-05-13T18:35:35+08:00
 tags:
-- 搭建
-- Google
+  - 搭建
+  - Google
+  - 未完成
+updatedAt: 2023-08-22T21:27:23+08:00
 ---
+
+Quartz 发布 v4，待更新此文章
 
 ## 配置方法
 

@@ -1,11 +1,9 @@
 ---
-
 title: 17｜为什么 CPU 结构也会影响 Redis 的性能？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-22T21:23:13+08:00
-
+  - Redis
+createdAt: 2023-05-22T21:23:11+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - NUMA 架构（Non-Uniform Memory Access 非统一内存访问架构）

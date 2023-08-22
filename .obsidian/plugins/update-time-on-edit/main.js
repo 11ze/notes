@@ -28,7 +28,7 @@ __export(main_exports, {
   default: () => UpdateTimeOnSavePlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian4 = require("obsidian");
+var import_obsidian5 = require("obsidian");
 
 // node_modules/date-fns/esm/_lib/requiredArgs/index.js
 function requiredArgs(required, args) {
@@ -3162,7 +3162,7 @@ function cleanEscapedString2(input) {
 }
 
 // src/Settings.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 
 // src/suggesters/FolderSuggester.ts
 var import_obsidian2 = require("obsidian");
@@ -4942,6 +4942,102 @@ function isAfter(dirtyDate, dirtyDateToCompare) {
   return date.getTime() > dateToCompare.getTime();
 }
 
+// src/UpdateAllModal.ts
+var import_obsidian3 = require("obsidian");
+var createTextSpan = (text) => {
+  const textSpan = document.createElement("span");
+  textSpan.setText(text);
+  return textSpan;
+};
+var createBr = () => document.createElement("br");
+var UpdateAllModal = class extends import_obsidian3.Modal {
+  constructor(app, plugin) {
+    super(app);
+    this.isOpened = false;
+    this.plugin = plugin;
+  }
+  async onRun() {
+    if (!this.divContainer) {
+      this.close();
+      return;
+    }
+    const allMdFiles = await this.plugin.getAllFilesPossiblyAffected();
+    const progress = document.createElement("progress");
+    progress.setAttr("max", allMdFiles.length);
+    const fileCounter = document.createElement("span");
+    const updateCount = (count) => {
+      progress.setAttr("value", count);
+      fileCounter.setText(`${count}/${allMdFiles.length}`);
+    };
+    updateCount(0);
+    const wrapperBar = document.createElement("div");
+    wrapperBar.append(progress, fileCounter);
+    wrapperBar.addClass("progress-section");
+    const header = createTextSpan("Updating files...");
+    this.divContainer.replaceChildren(header, wrapperBar);
+    if (this.settingsSection) {
+      this.contentEl.removeChild(this.settingsSection.settingEl);
+    }
+    for (let i = 0; i < allMdFiles.length; i++) {
+      if (!this.isOpened) {
+        new import_obsidian3.Notice("Bulk update for header stopped.", 2e3);
+        return;
+      }
+      updateCount(i + 1);
+      await this.plugin.handleFileChange(allMdFiles[i], "bulk");
+    }
+    const doneMessage = createTextSpan(
+      "Done ! You can safely close this modal."
+    );
+    const el = new import_obsidian3.Setting(this.containerEl).addButton((btn) => {
+      btn.setButtonText("Close").onClick(() => {
+        this.close();
+      });
+    }).settingEl;
+    this.divContainer.replaceChildren(doneMessage, createBr(), createBr(), el);
+  }
+  async onOpen() {
+    this.isOpened = true;
+    let { contentEl } = this;
+    const allMdFiles = await this.plugin.getAllFilesPossiblyAffected();
+    contentEl.createEl("h2", {
+      text: `Update all ${allMdFiles.length} files in the vault`
+    });
+    contentEl.addClass("update-time-on-edit--bulk-modal");
+    const div = contentEl.createDiv();
+    this.divContainer = div;
+    div.append(
+      div.createSpan({
+        text: "This will update all created and updated time on files affected by this plugin"
+      }),
+      createBr(),
+      createBr(),
+      div.createSpan({
+        text: `WARNING: this action will affect ${allMdFiles.length} in your vault. Make sure you tuned the settings correctly, and make a backup.`,
+        cls: "update-time-on-edit--settings--warn"
+      }),
+      createBr(),
+      createBr()
+    );
+    this.settingsSection = new import_obsidian3.Setting(contentEl).addButton((btn) => {
+      btn.setButtonText("Run").setCta().onClick(() => {
+        this.onRun();
+      });
+      this.runButton = btn;
+    }).addButton((btn) => {
+      this.cancelButton = btn;
+      btn.setButtonText("Cancel").onClick(() => {
+        this.close();
+      });
+    });
+  }
+  onClose() {
+    let { contentEl } = this;
+    contentEl.empty();
+    this.isOpened = false;
+  }
+};
+
 // src/Settings.ts
 var DEFAULT_SETTINGS = {
   dateFormat: "yyyy-MM-dd'T'HH:mm",
@@ -4952,7 +5048,7 @@ var DEFAULT_SETTINGS = {
   ignoreGlobalFolder: [],
   ignoreCreatedFolder: []
 };
-var UpdateTimeOnEditSettingsTab = class extends import_obsidian3.PluginSettingTab {
+var UpdateTimeOnEditSettingsTab = class extends import_obsidian4.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -4964,6 +5060,13 @@ var UpdateTimeOnEditSettingsTab = class extends import_obsidian3.PluginSettingTa
     this.addExcludedFoldersSetting();
     this.addTimeBetweenUpdates();
     this.addDateFormat();
+    new import_obsidian4.Setting(this.containerEl).setName("Update all files").setDesc(
+      "This plugin will only work on new files, but if you want to update all files in your vault at once, you can do it here."
+    ).addButton((cb) => {
+      cb.setButtonText("Update all files").onClick(() => {
+        new UpdateAllModal(this.app, this.plugin).open();
+      });
+    });
     containerEl.createEl("h2", { text: "Updated at" });
     this.addFrontMatterUpdated();
     containerEl.createEl("h2", { text: "Created at" });
@@ -5003,18 +5106,9 @@ var UpdateTimeOnEditSettingsTab = class extends import_obsidian3.PluginSettingTa
         descr.createEl("br"),
         `Obsidian default format for date properties: yyyy-MM-dd'T'HH:mm`
       );
-      if (getValue().includes("S")) {
-        descr.append(
-          descr.createEl("br"),
-          descr.createEl("span", {
-            text: "WARNING: Adding millisecond may trigger a loop.",
-            cls: "update-time-on-edit--settings--warn"
-          })
-        );
-      }
       return descr;
     };
-    let dformat = new import_obsidian3.Setting(this.containerEl).setName(name).setDesc(createDoc()).addText(
+    let dformat = new import_obsidian4.Setting(this.containerEl).setName(name).setDesc(createDoc()).addText(
       (text) => text.setPlaceholder(DEFAULT_SETTINGS.dateFormat).setValue(getValue()).onChange(async (value) => {
         setValue(value);
         dformat.setDesc(createDoc());
@@ -5023,7 +5117,7 @@ var UpdateTimeOnEditSettingsTab = class extends import_obsidian3.PluginSettingTa
     );
   }
   addTimeBetweenUpdates() {
-    new import_obsidian3.Setting(this.containerEl).setName("Minimum number of minutes between update").setDesc("If your files are updating too often, increase this.").addSlider(
+    new import_obsidian4.Setting(this.containerEl).setName("Minimum number of minutes between update").setDesc("If your files are updating too often, increase this.").addSlider(
       (slider) => slider.setLimits(1, 30, 1).setValue(this.plugin.settings.minMinutesBetweenSaves).onChange(async (value) => {
         this.plugin.settings.minMinutesBetweenSaves = value;
         await this.saveSettings();
@@ -5031,7 +5125,7 @@ var UpdateTimeOnEditSettingsTab = class extends import_obsidian3.PluginSettingTa
     );
   }
   addEnableCreated() {
-    new import_obsidian3.Setting(this.containerEl).setName("Enable the created front matter key update").setDesc("Currently, it is set to now if not present").addToggle(
+    new import_obsidian4.Setting(this.containerEl).setName("Enable the created front matter key update").setDesc("Currently, it is set to now if not present").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.enableCreateTime).onChange(async (newValue) => {
         this.plugin.settings.enableCreateTime = newValue;
         await this.saveSettings();
@@ -5040,7 +5134,7 @@ var UpdateTimeOnEditSettingsTab = class extends import_obsidian3.PluginSettingTa
     );
   }
   addFrontMatterUpdated() {
-    new import_obsidian3.Setting(this.containerEl).setName("Front matter updated name").setDesc("The key in the front matter yaml for the update time.").addText(
+    new import_obsidian4.Setting(this.containerEl).setName("Front matter updated name").setDesc("The key in the front matter yaml for the update time.").addText(
       (text) => {
         var _a;
         return text.setPlaceholder("updated").setValue((_a = this.plugin.settings.headerUpdated) != null ? _a : "").onChange(async (value) => {
@@ -5054,7 +5148,7 @@ var UpdateTimeOnEditSettingsTab = class extends import_obsidian3.PluginSettingTa
     if (!this.plugin.settings.enableCreateTime) {
       return;
     }
-    new import_obsidian3.Setting(this.containerEl).setName("Front matter created name").setDesc("The key in the front matter yaml for the creation time").addText(
+    new import_obsidian4.Setting(this.containerEl).setName("Front matter created name").setDesc("The key in the front matter yaml for the creation time").addText(
       (text) => {
         var _a;
         return text.setPlaceholder("updated").setValue((_a = this.plugin.settings.headerCreated) != null ? _a : "").onChange(async (value) => {
@@ -5095,7 +5189,7 @@ var UpdateTimeOnEditSettingsTab = class extends import_obsidian3.PluginSettingTa
     name
   }) {
     let searchInput;
-    new import_obsidian3.Setting(this.containerEl).setName(name).setDesc(description).addSearch((cb) => {
+    new import_obsidian4.Setting(this.containerEl).setName(name).setDesc(description).addSearch((cb) => {
       searchInput = cb;
       new FolderSuggest(this.app, cb.inputEl);
       cb.setPlaceholder("Example: folder1/folder2");
@@ -5115,7 +5209,7 @@ var UpdateTimeOnEditSettingsTab = class extends import_obsidian3.PluginSettingTa
       });
     });
     currentList.forEach(
-      (ignoreFolder) => new import_obsidian3.Setting(this.containerEl).setName(ignoreFolder).addButton(
+      (ignoreFolder) => new import_obsidian4.Setting(this.containerEl).setName(ignoreFolder).addButton(
         (button) => button.setButtonText("Remove").onClick(async () => {
           await setValue(currentList.filter((value) => value !== ignoreFolder));
           await this.saveSettings();
@@ -5127,7 +5221,7 @@ var UpdateTimeOnEditSettingsTab = class extends import_obsidian3.PluginSettingTa
 };
 
 // src/main.ts
-var UpdateTimeOnSavePlugin = class extends import_obsidian4.Plugin {
+var UpdateTimeOnSavePlugin = class extends import_obsidian5.Plugin {
   parseDate(input) {
     if (typeof input === "string") {
       try {
@@ -5162,12 +5256,22 @@ var UpdateTimeOnSavePlugin = class extends import_obsidian4.Plugin {
     }
     return (_a = this.settings.ignoreGlobalFolder) != null ? _a : [];
   }
-  shouldFileBeIgnored(path) {
+  shouldFileBeIgnored(file) {
+    if (!file.path) {
+      return true;
+    }
+    if (!file.path.endsWith(".md")) {
+      return true;
+    }
+    const isExcalidrawFile = this.isExcalidrawFile(file);
+    if (isExcalidrawFile) {
+      return true;
+    }
     const ignores = this.getIgnoreFolders();
     if (!ignores) {
       return false;
     }
-    return ignores.some((ignoreItem) => path.startsWith(ignoreItem));
+    return ignores.some((ignoreItem) => file.path.startsWith(ignoreItem));
   }
   shouldIgnoreCreated(path) {
     if (!this.settings.enableCreateTime) {
@@ -5193,16 +5297,15 @@ var UpdateTimeOnSavePlugin = class extends import_obsidian4.Plugin {
     );
     return ea ? ea.isExcalidrawFile(file) : false;
   }
+  async getAllFilesPossiblyAffected() {
+    return this.app.vault.getMarkdownFiles().filter((file) => !this.shouldFileBeIgnored(file));
+  }
   async handleFileChange(file, triggerSource) {
     if (!isTFile(file)) {
-      return;
+      return { status: "ignored" };
     }
-    if (!file.path || !file.path.endsWith(".md") || this.shouldFileBeIgnored(file.path)) {
-      return;
-    }
-    const isExcalidrawFile = this.isExcalidrawFile(file);
-    if (isExcalidrawFile) {
-      return;
+    if (this.shouldFileBeIgnored(file)) {
+      return { status: "ignored" };
     }
     try {
       await this.app.fileManager.processFrontMatter(file, (frontmatter) => {
@@ -5214,12 +5317,6 @@ var UpdateTimeOnSavePlugin = class extends import_obsidian4.Plugin {
         if (!mTime || !cTime) {
           this.log("Something wrong happen, skipping");
           return;
-        }
-        if (triggerSource === "create") {
-          if (frontmatter[createdKey]) {
-            this.log("skipping, this is probably startup create file");
-            return;
-          }
         }
         if (!this.shouldIgnoreCreated(file.path)) {
           frontmatter[createdKey] = this.formatDate(cTime);
@@ -5243,10 +5340,17 @@ var UpdateTimeOnSavePlugin = class extends import_obsidian4.Plugin {
 Malformed frontamtter on this file : ${file.path}
 
 ${e.message}`;
-        new import_obsidian4.Notice(errorMessage, 4e3);
+        new import_obsidian5.Notice(errorMessage, 4e3);
         console.error(errorMessage);
+        return {
+          status: "error",
+          error: e
+        };
       }
     }
+    return {
+      status: "ok"
+    };
   }
   setupOnEditHandler() {
     this.log("Setup handler");

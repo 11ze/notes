@@ -1,11 +1,9 @@
 ---
-
 title: 11｜“万金油”的 String，为什么不好用了？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-19T22:32:31+08:00
-
+  - Redis
+createdAt: 2023-05-19T22:32:27+08:00
+updatedAt: 2023-08-22T21:36:36+08:00
 ---
 
 - [Redis 容量预估工具](http://www.redis.cn/redis_memory/)

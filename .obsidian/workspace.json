@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/28｜读写分离有哪些坑？.md",
+                "file": "index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61ee8de0d05eaba8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "管理花园/搭建/配置 Google Analytics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/28｜读写分离有哪些坑？.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/28｜读写分离有哪些坑？.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/28｜读写分离有哪些坑？.md"
+                "file": "index.md"
               }
             }
           },
@@ -151,33 +164,33 @@
   },
   "active": "7ee78ceb198d06fb",
   "lastOpenFiles": [
+    "AboutTheGarden.md",
+    "index.md",
+    "学习笔记/Rate Limit.md",
+    "Extras/Templates/新文件模版.md",
+    "工具/Mac/Mac 应用已损坏.md",
+    "管理花园/搭建/同步方案.md",
+    "管理花园/搭建/添加评论区.md",
+    "管理花园/搭建/配置 Google Analytics.md",
+    "管理花园/搭建/配置自定义域名.md",
+    "管理花园/搭建/配置图床.md",
+    "管理花园/搭建/换新设备.md",
+    "管理花园/搭建/发布方案.md",
+    "管理花园/搭建/搭建数字花园.md",
+    "管理花园/搭建/本库自动提交到 GitHub.md",
+    "管理花园/搭建/本地预览.md",
+    "学习笔记/Nodejs/Egg.js 手动热更新.md",
+    "README.md",
+    "学习笔记/MySQL 实战 45 讲/28｜读写分离有哪些坑？.md",
+    "学习笔记/Github/GitHub 加速访问.md",
+    "学习笔记/Github/未命名.md",
     "学习笔记/MySQL 实战 45 讲/27｜主库出问题了，从库怎么办？.md",
     "学习笔记/MySQL 实战 45 讲/26｜备库为什么会延迟好几个小时？.md",
     "学习笔记/PHP/Laravel Pint 使用.md",
-    "学习笔记/Nodejs/Egg.js 手动热更新.md",
     "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
     "学习笔记/Nodejs",
     "学习笔记/PHP/PHP 开发设置.md",
     "学习笔记/PHP/PHP 错误码设计.md",
-    "管理花园/搭建/发布方案.md",
-    "工具/Mac/开发环境.md",
-    "学习笔记/支付技术方案.md",
-    "管理花园/问题/问题合集.md",
-    "工具/Obsidian/Obsidian 插件.md",
-    "工具/软件/油猴脚本.md",
-    "工具/Obsidian/Vault.md",
-    "工具/Mac/Mac 应用已损坏.md",
-    "工具/软件/Capslock.md",
-    "工具/软件/Obsidian.md",
-    "工具/软件/Oh My Zsh.md",
-    "工具/软件/Linux 安装 oh-my-zsh.md",
-    "工具/软件/Crontab 执行提示没有权限.md",
-    "思考/3-2-1 的有趣想法.md",
-    "学习/收藏文章.md",
-    "学习/英语/Think in English.md",
-    "学习/英语/英语.md",
-    "学习/英语/背单词.md",
-    "学习笔记/MySQL 实战 45 讲/23｜MySQL 是怎么保证数据不丢的？.md",
     "学习笔记/Github",
     "学习笔记/PHP",
     "工具/Obsidian",

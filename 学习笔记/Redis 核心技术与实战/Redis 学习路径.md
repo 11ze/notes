@@ -1,11 +1,9 @@
 ---
-
 title: Redis 学习路径
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-24T21:40:07+08:00
-
+  - Redis
+createdAt: 2023-05-24T21:40:05+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - 掌握数据结构和缓存的基本使用方法

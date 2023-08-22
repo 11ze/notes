@@ -1,11 +1,9 @@
 ---
-
 title: 经典的 Redis 学习资料
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-24T21:38:18+08:00
-
+  - Redis
+createdAt: 2023-05-24T21:38:17+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - 工具书：《Redis 使用手册》

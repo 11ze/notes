@@ -6,16 +6,18 @@ tags:
   - Eggjs
   - Nodejs
 createdAt: 2023-08-19T11:12:06+08:00
-updatedAt: 2023-08-19T11:23:00+08:00
+updatedAt: 2023-08-22T21:26:01+08:00
 ---
 
 package.json
 ```json
 {
-  "start": "egg-scripts start --daemon --title=egg-server",
-  "stop": "egg-scripts stop --daemon --title=egg-server",
-  "start-tmp": "egg-scripts start --daemon --title=egg-tmp-server --port=7002",
-  "stop-tmp": "egg-scripts stop --daemon --title=egg-tmp-server --port=7002",
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server",
+    "stop": "egg-scripts stop --daemon --title=egg-server",
+    "start-tmp": "egg-scripts start --daemon --title=egg-tmp-server --port=7002",
+    "stop-tmp": "egg-scripts stop --daemon --title=egg-tmp-server --port=7002"
+  }
 }
 ```
 

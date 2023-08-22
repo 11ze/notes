@@ -1,11 +1,9 @@
 ---
-
 title: 04｜AOF 日志：宕机了，Redis 如何避免数据丢失？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-18T21:13:32+08:00
-
+  - Redis
+createdAt: 2023-05-18T21:13:29+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - Redis 作为缓存使用

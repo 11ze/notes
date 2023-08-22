@@ -1,11 +1,9 @@
 ---
-
 title: 28｜Pika：如何基于 SSD 实现大容量 Redis？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-23T21:04:30+08:00
-
+  - Redis
+createdAt: 2023-05-23T21:04:28+08:00
+updatedAt: 2023-08-22T21:36:44+08:00
 ---
 
 - 基于大内存实现大容量 Redis 实例的潜在问题

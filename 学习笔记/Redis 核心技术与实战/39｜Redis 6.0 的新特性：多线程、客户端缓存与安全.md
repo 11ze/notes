@@ -1,11 +1,9 @@
 ---
-
 title: 39｜Redis 6.0 的新特性：多线程、客户端缓存与安全
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-24T21:29:34+08:00
-
+  - Redis
+createdAt: 2023-05-24T21:29:33+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - 多 IO 线程

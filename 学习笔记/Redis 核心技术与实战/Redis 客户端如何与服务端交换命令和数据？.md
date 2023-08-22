@@ -1,11 +1,9 @@
 ---
-
 title: Redis 客户端如何与服务端交换命令和数据？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-24T21:40:54+08:00
-
+  - Redis
+createdAt: 2023-05-24T21:40:49+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - 客户端和服务端交互内容

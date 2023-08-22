@@ -1,11 +1,9 @@
 ---
-
 title: 23｜旁路缓存：Redis 是如何工作的？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-23T20:57:57+08:00
-
+  - Redis
+createdAt: 2023-05-23T20:57:55+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - 旁路缓存：读取缓存、读取数据库和更新缓存的操作都需要在应用程序中完成

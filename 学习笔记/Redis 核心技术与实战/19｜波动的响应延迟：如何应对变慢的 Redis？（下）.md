@@ -1,11 +1,9 @@
 ---
-
 title: 19｜波动的响应延迟：如何应对变慢的 Redis？（下）
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-23T20:49:49+08:00
-
+  - Redis
+createdAt: 2023-05-23T20:49:44+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - 文件系统：AOF 模式

@@ -1,11 +1,9 @@
 ---
-
 title: 05｜内存快照：宕机后，Redis 如何实现快速恢复？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-18T21:16:43+08:00
-
+  - Redis
+createdAt: 2023-05-18T21:16:42+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - 和 AOF 相比，RDB 记录某一时刻的数据，恢复时直接把 RDB 文件读入内存

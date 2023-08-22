@@ -1,11 +1,9 @@
 ---
-
 title: 从微博的 Redis 实践中，我们可以学到哪些经验？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-24T21:54:19+08:00
-
+  - Redis
+createdAt: 2023-05-24T21:54:17+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - 微博对 Redis 的技术需求

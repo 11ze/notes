@@ -1,11 +1,9 @@
 ---
-
 title: 40｜Redis 的下一步：基于 NVM 内存的实践
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-24T21:34:18+08:00
-
+  - Redis
+createdAt: 2023-05-24T21:34:16+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - 特性

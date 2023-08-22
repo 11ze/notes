@@ -1,11 +1,9 @@
 ---
-
 title: 29｜无锁的原子操作：Redis 如何应对并发访问？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-23T21:09:35+08:00
-
+  - Redis
+createdAt: 2023-05-23T21:09:33+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - 加锁

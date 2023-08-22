@@ -1,11 +1,9 @@
 ---
-
 title: 36｜Redis 支撑秒杀场景的关键技术和实践都有哪些？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-24T21:23:19+08:00
-
+  - Redis
+createdAt: 2023-05-24T21:23:18+08:00
+updatedAt: 2023-08-22T21:35:22+08:00
 ---
 
 - 特征

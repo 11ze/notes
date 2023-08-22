@@ -1,11 +1,9 @@
 ---
-
 title: Redis 有哪些好用的运维工具？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-24T21:46:32+08:00
-
+  - Redis
+createdAt: 2023-05-24T21:46:30+08:00
+updatedAt: 2023-08-22T21:36:43+08:00
 ---
 
 - 最基本的监控命令：INFO 命令

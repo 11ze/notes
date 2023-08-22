@@ -1,11 +1,9 @@
 ---
-
 title: 30｜如何使用 Redis 实现分布式锁？
 tags:
-- Redis
-- mindmap-plugin: basic
-createdAt: 2023-05-23T21:12:16+08:00
-
+  - Redis
+createdAt: 2023-05-23T21:12:14+08:00
+updatedAt: 2023-08-22T21:36:43+08:00
 ---
 
 - 单机版
