@@ -1,9 +1,10 @@
 ---
 title: Linux 安装 oh-my-zsh
-createdAt: 2023-05-11T00:00:00+08:00
+created: 2023-05-12T01:11:06+08:00
 tags:
-- Linux
-- zsh
+  - Linux
+  - zsh
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 ## 安装 Zsh

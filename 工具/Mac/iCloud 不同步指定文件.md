@@ -1,8 +1,9 @@
 ---
 title: iCloud 不同步指定文件
-createdAt: 2023-05-12T00:00:00+08:00
+created: 2023-05-12T14:28:08+08:00
 tags:
-- iCloud
+  - iCloud
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 ## 说明

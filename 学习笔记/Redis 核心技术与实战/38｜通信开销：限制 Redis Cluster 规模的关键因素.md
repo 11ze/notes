@@ -2,8 +2,8 @@
 title: 38｜通信开销：限制 Redis Cluster 规模的关键因素
 tags:
   - Redis
-createdAt: 2023-05-24T21:26:48+08:00
-updatedAt: 2023-08-22T21:36:36+08:00
+created: 2023-05-24T21:26:48+08:00
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 - Redis Cluster 实例间以 Gossip 协议进行通信的机制

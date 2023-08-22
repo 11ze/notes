@@ -1,9 +1,10 @@
 ---
 title: PHP-FPM 配置
-createdAt: 2023-05-11T00:00:00+08:00
+created: 2023-05-12T01:11:06+08:00
 tags:
-- PHP
-- php-fpm
+  - PHP
+  - php-fpm
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 以下内容适用于 IO 密集型应用

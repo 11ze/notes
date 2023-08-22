@@ -1,11 +1,10 @@
 ---
-
 title: MySQL 实战 45 讲
 tags:
-- MySQL
-- 极客时间
-createdAt: 2023-05-17T09:23:16+08:00
-
+  - MySQL
+  - 极客时间
+created: 2023-05-17T09:23:07+08:00
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 > 内容整理自极客时间[《MySQL 实战 45 讲》](https://time.geekbang.org/column/intro/100020801)

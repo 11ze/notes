@@ -1,10 +1,9 @@
 ---
-
 title: 40｜insert 语句的锁为什么这么多？
 tags:
-- MySQL
-createdAt: 2023-05-17T22:17:02+08:00
-
+  - MySQL
+created: 2023-05-17T22:17:00+08:00
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 - insert … select 语句

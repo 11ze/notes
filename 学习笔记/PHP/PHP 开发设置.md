@@ -1,10 +1,10 @@
 ---
 title: PHP 开发设置
-createdAt: 2023-05-12T01:11:06+08:00
+created: 2023-05-12T01:11:06+08:00
 tags:
   - PHP
   - 未完成
-updatedAt: 2023-08-12T10:28:47+08:00
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 ## Laravel Pint

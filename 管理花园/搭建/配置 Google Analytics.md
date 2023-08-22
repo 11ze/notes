@@ -1,11 +1,11 @@
 ---
 title: 配置 Google Analytics
-createdAt: 2023-05-13T18:35:35+08:00
+created: 2023-05-13T18:35:35+08:00
 tags:
   - 搭建
   - Google
   - 未完成
-updatedAt: 2023-08-22T21:27:23+08:00
+updated: 2023-08-22T23:19:57+08:00
 ---
 
 Quartz 发布 v4，待更新此文章

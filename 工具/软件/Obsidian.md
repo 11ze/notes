@@ -2,8 +2,8 @@
 title: Obsidian
 tags:
   - 软件
-createdAt: 2023-05-12T16:34:58+08:00
-updatedAt: 2023-08-09T10:08:34+08:00
+created: 2023-05-12T16:34:58+08:00
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 - [官网](https://obsidian.md/)

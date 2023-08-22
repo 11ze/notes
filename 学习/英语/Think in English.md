@@ -1,10 +1,9 @@
 ---
-
 title: Think in English
 tags:
-- 英语
-createdAt: 2023-05-30T10:44:21+08:00
-
+  - 英语
+created: 2023-05-30T10:44:19+08:00
+updated: 2023-08-22T23:19:57+08:00
 ---
 
 [How to THINK in English | No More Translating in Your Head! - YouTube](https://www.youtube.com/watch?v=SJOnhWiJArM)

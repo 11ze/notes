@@ -2,8 +2,8 @@
 title: 13｜GEO 是什么？还可以定义新的数据类型吗？
 tags:
   - Redis
-createdAt: 2023-05-22T21:15:58+08:00
-updatedAt: 2023-08-22T21:35:22+08:00
+created: 2023-05-22T21:15:58+08:00
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 - LBS：位置信息服务（Location-Based Service）

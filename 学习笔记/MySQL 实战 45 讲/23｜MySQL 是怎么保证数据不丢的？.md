@@ -2,8 +2,8 @@
 title: 23｜MySQL 是怎么保证数据不丢的？
 tags:
   - MySQL
-createdAt: 2023-05-17T21:13:12+08:00
-updatedAt: 2023-08-17T14:25:25+08:00
+created: 2023-05-17T21:13:12+08:00
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 只要 redo log 和 binlog 保证持久化到磁盘，就能确保 MySQL 异常重启后，数据可以恢复。

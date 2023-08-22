@@ -5,8 +5,8 @@ tags:
   - 热更新
   - Eggjs
   - Nodejs
-createdAt: 2023-08-19T11:12:06+08:00
-updatedAt: 2023-08-22T21:26:01+08:00
+created: 2023-08-19T11:12:06+08:00
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 package.json

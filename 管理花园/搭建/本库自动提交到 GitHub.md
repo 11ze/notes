@@ -1,8 +1,9 @@
 ---
 title: 本库自动提交到 GitHub
-createdAt: 2023-05-13T14:19:34+08:00
+created: 2023-05-13T14:19:26+08:00
 tags:
-- 搭建
+  - 搭建
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 - 配置 crontab 每天自动执行 [auto_push.sh](https://github.com/11ze/knowledge-garden/blob/main/auto_push.sh)

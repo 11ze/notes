@@ -1,7 +1,7 @@
 ---
 title: Obsidian 插件
-createdAt: 2023-05-12T01:11:06+08:00
-updatedAt: 2023-08-09T10:22:50+08:00
+created: 2023-05-12T01:11:06+08:00
+updated: 2023-08-22T23:19:56+08:00
 tags:
   - Obsidian
 ---

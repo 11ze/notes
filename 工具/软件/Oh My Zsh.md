@@ -1,9 +1,10 @@
 ---
 title: Oh My Zsh
-createdAt: 2023-05-11T00:00:00+08:00
+created: 2023-05-12T01:11:06+08:00
 tags:
-- 工具
-- 软件
+  - 工具
+  - 软件
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 Linux 用户请看：[[Linux 安装 oh-my-zsh]]

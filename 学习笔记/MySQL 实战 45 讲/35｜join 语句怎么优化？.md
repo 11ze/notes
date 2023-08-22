@@ -1,10 +1,9 @@
 ---
-
 title: 35｜join 语句怎么优化？
 tags:
-- MySQL
-createdAt: 2023-05-17T22:03:17+08:00
-
+  - MySQL
+created: 2023-05-17T22:03:15+08:00
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 - Multi-Range Read 优化（MRR）

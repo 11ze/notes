@@ -1,10 +1,9 @@
 ---
-
 title: 34｜到底可不可以使用 join ？
 tags:
-- MySQL
-createdAt: 2023-05-17T21:59:52+08:00
-
+  - MySQL
+created: 2023-05-17T21:59:37+08:00
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 - Index Nested-Loop Join（NLJ）

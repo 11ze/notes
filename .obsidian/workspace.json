@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "AboutTheGarden.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "本地的",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "AboutTheGarden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "AboutTheGarden.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "AboutTheGarden.md"
               }
             }
           },
@@ -162,12 +162,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7ee78ceb198d06fb",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
+    "Atlas/About Atlas.md",
+    "学习笔记/MySQL 实战 45 讲/29｜如何判断一个数据库是不是出问题了？.md",
+    "学习/英语/英语.md",
+    "Atlas",
+    "学习笔记/MySQL 实战 45 讲/41｜怎么最快地复制一张表？.md",
     "AboutTheGarden.md",
-    "index.md",
+    "AboutTheGarden.md",
     "学习笔记/Rate Limit.md",
-    "Extras/Templates/新文件模版.md",
+    "Templates/新文件模版.md",
     "工具/Mac/Mac 应用已损坏.md",
     "管理花园/搭建/同步方案.md",
     "管理花园/搭建/添加评论区.md",
@@ -186,11 +191,7 @@
     "学习笔记/Github/未命名.md",
     "学习笔记/MySQL 实战 45 讲/27｜主库出问题了，从库怎么办？.md",
     "学习笔记/MySQL 实战 45 讲/26｜备库为什么会延迟好几个小时？.md",
-    "学习笔记/PHP/Laravel Pint 使用.md",
-    "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
     "学习笔记/Nodejs",
-    "学习笔记/PHP/PHP 开发设置.md",
-    "学习笔记/PHP/PHP 错误码设计.md",
     "学习笔记/Github",
     "学习笔记/PHP",
     "工具/Obsidian",
@@ -199,7 +200,6 @@
     "工具",
     "学习笔记/Redis 核心技术与实战",
     "学习笔记/MySQL 实战 45 讲",
-    "Other",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
     "Pasted image 20230508195502.png",

@@ -2,8 +2,8 @@
 title: 16｜“order by”是怎么工作的？
 tags:
   - MySQL
-createdAt: 2023-05-17T20:29:49+08:00
-updatedAt: 2023-08-17T14:25:36+08:00
+created: 2023-05-17T20:29:49+08:00
+updated: 2023-08-22T23:19:56+08:00
 ---
 
 - MySQL 会给每个线程分配一块内存用于排序，称为 sort_buffer
