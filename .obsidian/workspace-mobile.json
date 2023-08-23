@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+                "file": "工具/Mac/开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+            "file": "工具/Mac/开发环境.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
+            "file": "工具/Mac/开发环境.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md"
+            "file": "工具/Mac/开发环境.md"
           }
         }
       }
@@ -133,8 +133,9 @@
       "templates:插入模板": false
     }
   },
-  "active": "8f0ff2ce831a25cb",
+  "active": "f753d562e1c27fe8",
   "lastOpenFiles": [
+    "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
     "index.md",
     "工具/Mac/iCloud 同步卡住.md",
     "Atlas/About Atlas.md",
@@ -161,7 +162,6 @@
     "学习笔记/Redis 核心技术与实战/38｜通信开销：限制 Redis Cluster 规模的关键因素.md",
     "学习笔记/Redis 核心技术与实战/35｜Codis VS Redis Cluster：我该选择哪一个集群方案？.md",
     "学习笔记/Redis 核心技术与实战/从微博的 Redis 实践中，我们可以学到哪些经验？.md",
-    "学习笔记/Redis 核心技术与实战/37｜数据分布优化：如何应对数据倾斜？.md",
     "auto_push.sh",
     "auto_push.log",
     "LICENSE",

@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e60cc0866c44e062",
+        "id": "b62923f3492985fa",
         "type": "tabs",
         "children": [
           {
-            "id": "7ee78ceb198d06fb",
+            "id": "32e89aaf50b7a711",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9e3bc00e79ba4f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "管理花园/搭建/配置 Google Analytics.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -91,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md"
+                "file": "index.md"
               }
             }
           },
@@ -162,8 +149,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7ee78ceb198d06fb",
+  "active": "32e89aaf50b7a711",
   "lastOpenFiles": [
+    "管理花园/搭建/本库自动提交到 GitHub.md",
+    "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
     "README.md",
     "index.md",
     "AboutTheGarden.md",
@@ -176,7 +165,6 @@
     "管理花园/搭建/配置自定义域名.md",
     "管理花园/搭建/配置 Google Analytics.md",
     "管理花园/搭建/搭建数字花园.md",
-    "管理花园/搭建/本库自动提交到 GitHub.md",
     "管理花园/搭建/发布方案.md",
     "管理花园/搭建/本地预览.md",
     "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
