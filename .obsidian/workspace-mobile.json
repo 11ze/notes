@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Mac/iCloud 同步卡住.md",
+                "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "工具/Mac/iCloud 同步卡住.md",
+            "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "工具/Mac/iCloud 同步卡住.md",
+            "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "工具/Mac/iCloud 同步卡住.md"
+            "file": "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md"
           }
         }
       }
@@ -133,14 +133,19 @@
       "templates:插入模板": false
     }
   },
-  "active": "f753d562e1c27fe8",
+  "active": "8f0ff2ce831a25cb",
   "lastOpenFiles": [
+    "index.md",
+    "工具/Mac/iCloud 同步卡住.md",
+    "Atlas/About Atlas.md",
+    "vercel.json",
+    "学习笔记/Github/GitHub 加速访问.md",
+    "学习笔记/Nodejs/Egg.js 手动热更新.md",
     "工具/Mac/iCloud 不同步指定文件.md",
     "工具/Mac/开发环境.md",
     "学习/英语/Think in English.md",
     "管理花园/搭建/换新设备.md",
     "管理花园/搭建/发布方案.md",
-    "工具/Mac/iCloud 同步卡住.md",
     "工具/Mac/Mac 应用已损坏.md",
     "AboutTheGarden.md",
     "管理花园/搭建/本地预览.md",
@@ -157,10 +162,6 @@
     "学习笔记/Redis 核心技术与实战/35｜Codis VS Redis Cluster：我该选择哪一个集群方案？.md",
     "学习笔记/Redis 核心技术与实战/从微博的 Redis 实践中，我们可以学到哪些经验？.md",
     "学习笔记/Redis 核心技术与实战/37｜数据分布优化：如何应对数据倾斜？.md",
-    "学习笔记/Redis 核心技术与实战/36｜Redis 支撑秒杀场景的关键技术和实践都有哪些？.md",
-    "学习笔记/Redis 核心技术与实战/33｜脑裂：一次奇怪的数据丢失.md",
-    "学习笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
-    "学习笔记/Redis 核心技术与实战/41｜第 35～40 讲课后思考题答案及常见问题答疑.md",
     "auto_push.sh",
     "auto_push.log",
     "LICENSE",
@@ -169,7 +170,6 @@
     "Garden/Mac",
     "Garden/PHP",
     "Garden/Think",
-    "Garden/Ideas",
-    "Garden/Obsidian"
+    "Garden/Ideas"
   ]
 }

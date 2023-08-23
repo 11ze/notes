@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "61ee8de0d05eaba8",
+            "id": "d9e3bc00e79ba4f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "本地的",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md"
               }
             }
           },
@@ -164,42 +164,41 @@
   },
   "active": "7ee78ceb198d06fb",
   "lastOpenFiles": [
+    "README.md",
+    "index.md",
+    "AboutTheGarden.md",
     "vercel.json",
-    "Atlas/About Atlas.md",
-    "学习笔记/MySQL 实战 45 讲/29｜如何判断一个数据库是不是出问题了？.md",
-    "学习/英语/英语.md",
-    "Atlas",
-    "学习笔记/MySQL 实战 45 讲/41｜怎么最快地复制一张表？.md",
-    "index.md",
-    "index.md",
-    "学习笔记/Rate Limit.md",
+    "Atlas 2/About Atlas.md",
+    "Atlas 2",
     "Templates/新文件模版.md",
-    "工具/Mac/Mac 应用已损坏.md",
-    "管理花园/搭建/同步方案.md",
+    "Templates",
     "管理花园/搭建/添加评论区.md",
-    "管理花园/搭建/配置 Google Analytics.md",
     "管理花园/搭建/配置自定义域名.md",
-    "管理花园/搭建/配置图床.md",
-    "管理花园/搭建/换新设备.md",
-    "管理花园/搭建/发布方案.md",
+    "管理花园/搭建/配置 Google Analytics.md",
     "管理花园/搭建/搭建数字花园.md",
     "管理花园/搭建/本库自动提交到 GitHub.md",
+    "管理花园/搭建/发布方案.md",
     "管理花园/搭建/本地预览.md",
-    "学习笔记/Nodejs/Egg.js 手动热更新.md",
-    "README.md",
-    "学习笔记/MySQL 实战 45 讲/28｜读写分离有哪些坑？.md",
+    "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
+    "学习笔记/Redis 核心技术与实战/00｜开篇词.md",
+    "学习/英语/Think in English.md",
     "学习笔记/Github/GitHub 加速访问.md",
-    "学习笔记/Github/未命名.md",
+    "学习笔记/Github/常见错误.md",
+    "学习笔记/MySQL 实战 45 讲/28｜读写分离有哪些坑？.md",
     "学习笔记/MySQL 实战 45 讲/27｜主库出问题了，从库怎么办？.md",
+    "学习笔记/MySQL 实战 45 讲/26｜备库为什么会延迟好几个小时？.md",
+    "学习笔记/PHP/Laravel Pint 使用.md",
+    "学习笔记/Nodejs/Egg.js 手动热更新.md",
+    "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
     "学习笔记/Nodejs",
+    "学习笔记/PHP/PHP 开发设置.md",
+    "学习笔记/PHP/PHP 错误码设计.md",
     "学习笔记/Github",
     "学习笔记/PHP",
     "工具/Obsidian",
     "工具/软件",
     "工具/Mac",
     "工具",
-    "学习笔记/Redis 核心技术与实战",
-    "学习笔记/MySQL 实战 45 讲",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
     "Pasted image 20230508195502.png",
