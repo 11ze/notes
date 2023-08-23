@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b62923f3492985fa",
+        "id": "8f31e6d14f513100",
         "type": "tabs",
         "children": [
           {
-            "id": "32e89aaf50b7a711",
+            "id": "c8955038d9c9c5d0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "index.md"
-              }
+              "state": {}
             }
           },
           {
@@ -149,38 +140,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "32e89aaf50b7a711",
+  "active": "c8955038d9c9c5d0",
   "lastOpenFiles": [
-    "管理花园/搭建/本库自动提交到 GitHub.md",
-    "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
     "README.md",
     "index.md",
-    "AboutTheGarden.md",
-    "vercel.json",
-    "Atlas 2/About Atlas.md",
-    "Atlas 2",
-    "Templates/新文件模版.md",
-    "Templates",
-    "管理花园/搭建/添加评论区.md",
-    "管理花园/搭建/配置自定义域名.md",
-    "管理花园/搭建/配置 Google Analytics.md",
-    "管理花园/搭建/搭建数字花园.md",
-    "管理花园/搭建/发布方案.md",
-    "管理花园/搭建/本地预览.md",
-    "学习笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
-    "学习笔记/Redis 核心技术与实战/00｜开篇词.md",
-    "学习/英语/Think in English.md",
+    "学习笔记/Rate Limit.md",
     "学习笔记/Github/GitHub 加速访问.md",
     "学习笔记/Github/常见错误.md",
-    "学习笔记/MySQL 实战 45 讲/28｜读写分离有哪些坑？.md",
-    "学习笔记/MySQL 实战 45 讲/27｜主库出问题了，从库怎么办？.md",
-    "学习笔记/MySQL 实战 45 讲/26｜备库为什么会延迟好几个小时？.md",
-    "学习笔记/PHP/Laravel Pint 使用.md",
-    "学习笔记/Nodejs/Egg.js 手动热更新.md",
-    "学习笔记/MySQL 实战 45 讲/24｜MySQL 是怎么保证主备一致的？.md",
+    "学习/学习方法.md",
+    "学习/收藏文章.md",
+    "学习/英语/Think in English.md",
+    "学习/英语/英语.md",
+    "学习/英语/背单词.md",
+    "思考/3-2-1 的有趣想法.md",
+    "思考/Tips.md",
+    "管理花园/问题/问题合集.md",
+    "管理花园/搭建/搭建数字花园.md",
+    "管理花园/问题/发布笔记 404.md",
+    "管理花园/问题/特殊字符.md",
+    "管理花园/问题/文章最后更新时间错误.md",
+    "管理花园/搭建/同步方案.md",
+    "管理花园/搭建/添加评论区.md",
+    "管理花园/搭建/配置自定义域名.md",
+    "管理花园/搭建/配置图床.md",
+    "管理花园/搭建/发布方案.md",
+    "管理花园/搭建/换新设备.md",
+    "管理花园/搭建/配置 Google Analytics.md",
+    "管理花园/搭建/本库自动提交到 GitHub.md",
+    "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
+    "vercel.json",
+    "Atlas 2",
+    "Templates",
     "学习笔记/Nodejs",
-    "学习笔记/PHP/PHP 开发设置.md",
-    "学习笔记/PHP/PHP 错误码设计.md",
     "学习笔记/Github",
     "学习笔记/PHP",
     "工具/Obsidian",
