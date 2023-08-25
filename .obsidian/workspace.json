@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/31｜误删数据后除了跑路，还能怎么办？.md",
+                "file": "工具/Mac/开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "本地的",
+                "query": "ra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/31｜误删数据后除了跑路，还能怎么办？.md",
+                "file": "工具/Mac/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/31｜误删数据后除了跑路，还能怎么办？.md",
+                "file": "工具/Mac/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/MySQL 实战 45 讲/31｜误删数据后除了跑路，还能怎么办？.md"
+                "file": "工具/Mac/开发环境.md"
               }
             }
           },
@@ -149,44 +150,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "61ee8de0d05eaba8",
+  "active": "ebfc4117a1f079da",
   "lastOpenFiles": [
-    "学习笔记/MySQL 实战 45 讲/30｜答疑文章（二）：用动态的观点看加锁.md",
-    "学习笔记/MySQL 实战 45 讲/31｜误删数据后除了跑路，还能怎么办？.md",
-    "学习笔记/MySQL 实战 45 讲/29｜如何判断一个数据库是不是出问题了？.md",
-    "学习笔记/MySQL 实战 45 讲/28｜读写分离有哪些坑？.md",
-    "工具/Mac/开发环境.md",
-    "管理花园/搭建/配置 Google Analytics.md",
-    "学习笔记/Redis 核心技术与实战/22｜第 11～21 讲课后思考题答案及常见问题答疑.md",
-    "学习/英语/英语.md",
+    "笔记/Docker/Docker 不常见问题.md",
+    "学习/收藏文章.md",
+    "学习/英语/Think in English.md",
     "index.md",
+    "笔记/Docker/Docker.md",
+    "笔记/Docker",
+    "Extras/About Extras.md",
+    "Extras/未命名.md",
+    "学习笔记/MySQL 实战 45 讲/32｜为什么还有 kill 不掉的语句？.md",
+    "笔记/Redis 核心技术与实战/经典的 Redis 学习资料.md",
+    "笔记/Redis 核心技术与实战/从微博的 Redis 实践中，我们可以学到哪些经验？.md",
+    "笔记/Redis 核心技术与实战/Redis 的使用规范小建议.md",
+    "笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
+    "笔记/Redis 核心技术与实战/Redis 有哪些好用的运维工具？.md",
+    "笔记/Redis 核心技术与实战/Redis 客户端如何与服务端交换命令和数据？.md",
+    "笔记/Redis 核心技术与实战/Redis 学习路径.md",
+    "笔记/Redis 核心技术与实战/41｜第 35～40 讲课后思考题答案及常见问题答疑.md",
+    "笔记/Redis 核心技术与实战/40｜Redis 的下一步：基于 NVM 内存的实践.md",
+    "笔记/Redis 核心技术与实战/39｜Redis 6.0 的新特性：多线程、客户端缓存与安全.md",
+    "笔记/Redis 核心技术与实战/38｜通信开销：限制 Redis Cluster 规模的关键因素.md",
+    "笔记/Redis 核心技术与实战/37｜数据分布优化：如何应对数据倾斜？.md",
+    "笔记/Redis 核心技术与实战/36｜Redis 支撑秒杀场景的关键技术和实践都有哪些？.md",
+    "笔记/Redis 核心技术与实战/35｜Codis VS Redis Cluster：我该选择哪一个集群方案？.md",
+    "笔记/Redis 核心技术与实战/33｜脑裂：一次奇怪的数据丢失.md",
+    "笔记/Redis 核心技术与实战/32｜Redis 主从同步与故障切换，有哪些坑？.md",
+    "笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
+    "笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
+    "笔记/Redis 核心技术与实战",
+    "笔记/PHP",
+    "笔记/Nodejs",
+    "笔记/MySQL 实战 45 讲",
+    "笔记/Github",
+    "笔记",
+    "Extras/Templates",
+    "Extras",
     "vercel.json",
-    "Atlas/About Atlas.md",
-    "Atlas",
-    "学习笔记/MySQL 实战 45 讲/41｜怎么最快地复制一张表？.md",
-    "学习笔记/Rate Limit.md",
-    "Templates/新文件模版.md",
-    "工具/Mac/Mac 应用已损坏.md",
-    "管理花园/搭建/同步方案.md",
-    "管理花园/搭建/添加评论区.md",
-    "管理花园/搭建/配置自定义域名.md",
-    "管理花园/搭建/配置图床.md",
-    "管理花园/搭建/换新设备.md",
-    "管理花园/搭建/发布方案.md",
-    "管理花园/搭建/搭建数字花园.md",
-    "管理花园/搭建/本库自动提交到 GitHub.md",
-    "管理花园/搭建/本地预览.md",
-    "学习笔记/Nodejs/Egg.js 手动热更新.md",
-    "README.md",
-    "学习笔记/Github/GitHub 加速访问.md",
-    "学习笔记/Nodejs",
-    "学习笔记/Github",
-    "学习笔记/PHP",
-    "工具/Obsidian",
-    "工具/软件",
-    "工具/Mac",
-    "工具",
-    "学习笔记/Redis 核心技术与实战",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
     "Pasted image 20230508195502.png",
