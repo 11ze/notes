@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ra",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Mac/开发环境.md"
+                "file": "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md"
               }
             }
           },
@@ -150,12 +149,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ebfc4117a1f079da",
+  "active": "61ee8de0d05eaba8",
   "lastOpenFiles": [
-    "笔记/Docker/Docker 不常见问题.md",
-    "学习/收藏文章.md",
-    "学习/英语/Think in English.md",
+    "笔记/MySQL 实战 45 讲/35｜join 语句怎么优化？.md",
+    "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
+    "笔记/Github/常见错误.md",
+    "学习方法.md",
+    "英语/英语.md",
+    "收藏文章.md",
     "index.md",
+    "README.md",
+    "英语/背单词.md",
+    "工具/Mac/开发环境.md",
+    "笔记/Docker/Docker 不常见问题.md",
+    "英语/Think in English.md",
     "笔记/Docker/Docker.md",
     "笔记/Docker",
     "Extras/About Extras.md",
@@ -171,14 +178,6 @@
     "笔记/Redis 核心技术与实战/41｜第 35～40 讲课后思考题答案及常见问题答疑.md",
     "笔记/Redis 核心技术与实战/40｜Redis 的下一步：基于 NVM 内存的实践.md",
     "笔记/Redis 核心技术与实战/39｜Redis 6.0 的新特性：多线程、客户端缓存与安全.md",
-    "笔记/Redis 核心技术与实战/38｜通信开销：限制 Redis Cluster 规模的关键因素.md",
-    "笔记/Redis 核心技术与实战/37｜数据分布优化：如何应对数据倾斜？.md",
-    "笔记/Redis 核心技术与实战/36｜Redis 支撑秒杀场景的关键技术和实践都有哪些？.md",
-    "笔记/Redis 核心技术与实战/35｜Codis VS Redis Cluster：我该选择哪一个集群方案？.md",
-    "笔记/Redis 核心技术与实战/33｜脑裂：一次奇怪的数据丢失.md",
-    "笔记/Redis 核心技术与实战/32｜Redis 主从同步与故障切换，有哪些坑？.md",
-    "笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
-    "笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
     "笔记/Nodejs",
