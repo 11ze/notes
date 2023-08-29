@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
+                "file": "笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
+                "file": "笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
+                "file": "笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md"
+                "file": "笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md"
               }
             }
           },
@@ -149,15 +149,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1dcfed1424b65adb",
+  "active": "61ee8de0d05eaba8",
   "lastOpenFiles": [
+    "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
     "index.md",
     "README.md",
     "管理花园/搭建/搭建数字花园.md",
     "管理花园/搭建/发布方案.md",
     "英语/英语.md",
     "tags.md",
-    "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
     "笔记/MySQL 实战 45 讲/35｜join 语句怎么优化？.md",
     "笔记/MySQL 实战 45 讲/34｜到底可不可以使用 join ？.md",
     "笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
