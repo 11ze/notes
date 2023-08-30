@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
+                "file": "笔记/Docker/Docker 不常见问题.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
+                "file": "笔记/Docker/Docker 不常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
+                "file": "笔记/Docker/Docker 不常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md"
+                "file": "笔记/Docker/Docker 不常见问题.md"
               }
             }
           },
@@ -151,6 +151,11 @@
   },
   "active": "61ee8de0d05eaba8",
   "lastOpenFiles": [
+    "笔记/Docker/Docker.md",
+    "笔记/Docker/Docker 不常见问题.md",
+    "笔记/MySQL 实战 45 讲/39｜自增主键为什么不是连续的？.md",
+    "笔记/MySQL 实战 45 讲/38｜都说 InnoDB 好，那还要不要使用 Memory 引擎？.md",
+    "笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
     "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
     "index.md",
     "README.md",
@@ -160,24 +165,19 @@
     "tags.md",
     "笔记/MySQL 实战 45 讲/35｜join 语句怎么优化？.md",
     "笔记/MySQL 实战 45 讲/34｜到底可不可以使用 join ？.md",
-    "笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
     "思考/Tips.md",
     "笔记/Github/常见错误.md",
     "学习方法.md",
     "收藏文章.md",
     "英语/背单词.md",
     "工具/Mac/开发环境.md",
-    "笔记/Docker/Docker 不常见问题.md",
     "英语/Think in English.md",
-    "笔记/Docker/Docker.md",
     "笔记/Docker",
     "Extras/About Extras.md",
     "Extras/未命名.md",
     "学习笔记/MySQL 实战 45 讲/32｜为什么还有 kill 不掉的语句？.md",
     "笔记/Redis 核心技术与实战/经典的 Redis 学习资料.md",
     "笔记/Redis 核心技术与实战/从微博的 Redis 实践中，我们可以学到哪些经验？.md",
-    "笔记/Redis 核心技术与实战/Redis 的使用规范小建议.md",
-    "笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
     "笔记/Nodejs",
