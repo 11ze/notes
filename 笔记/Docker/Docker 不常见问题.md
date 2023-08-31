@@ -3,7 +3,7 @@ title: 不常见问题
 tags:
   - docker
 created: 2023-08-25T19:33:15+08:00
-updated: 2023-08-25T19:33:15+08:00
+updated: 2023-08-31T19:52:15+08:00
 ---
 
 ## 修改宿主机 hosts
@@ -15,4 +15,6 @@ updated: 2023-08-25T19:33:15+08:00
 
 ## crontab
 
-1. 到容器里执行 /usr/sbin/crond -b 启动服务
+1. 指定用户执行：crontab -u www-data -e
+2. 到容器里执行 /usr/sbin/crond -b 启动服务
+3. 可以把配置文件，比如 www-data 命名的文件映射到容器的 /etc/crontabs/ 下
