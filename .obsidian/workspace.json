@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Docker/Docker 不常见问题.md",
+                "file": "笔记/Redis 核心技术与实战/01｜基础架构：一个键值数据库包含什么？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/Docker/Docker 不常见问题.md",
+                "file": "笔记/Redis 核心技术与实战/01｜基础架构：一个键值数据库包含什么？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/Docker/Docker 不常见问题.md",
+                "file": "笔记/Redis 核心技术与实战/01｜基础架构：一个键值数据库包含什么？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/Docker/Docker 不常见问题.md"
+                "file": "笔记/Redis 核心技术与实战/01｜基础架构：一个键值数据库包含什么？.md"
               }
             }
           },
@@ -151,33 +151,33 @@
   },
   "active": "61ee8de0d05eaba8",
   "lastOpenFiles": [
-    "笔记/Docker/Docker.md",
-    "笔记/Docker/Docker 不常见问题.md",
+    "笔记/Redis 核心技术与实战/00｜开篇词.md",
+    "笔记/MySQL 实战 45 讲/45｜自增 id 用完怎么办？.md",
+    "笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
+    "index.md",
+    "笔记/Redis 核心技术与实战/Redis 有哪些好用的运维工具？.md",
+    "笔记/Redis 核心技术与实战/Redis 学习路径.md",
+    "笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md",
+    "笔记/MySQL 实战 45 讲/43｜要不要使用分区表？.md",
+    "笔记/MySQL 实战 45 讲/42｜grant 之后要跟着 flush privileges 吗？.md",
+    "笔记/MySQL 实战 45 讲/19｜为什么我只查一行的语句，也执行这么慢？.md",
+    "笔记/MySQL 实战 45 讲/09｜普通索引和唯一索引，应该怎么选择？.md",
+    "笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
+    "笔记/MySQL 实战 45 讲/33｜我查这么多数据，会不会把数据库内存打爆？.md",
     "笔记/MySQL 实战 45 讲/39｜自增主键为什么不是连续的？.md",
+    "笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
+    "笔记/MySQL 实战 45 讲/().md",
+    "笔记/MySQL 实战 45 讲/41｜怎么最快地复制一张表？.md",
+    "笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md",
+    "笔记/Docker/Docker 不常见问题.md",
+    "笔记/Docker/Docker.md",
     "笔记/MySQL 实战 45 讲/38｜都说 InnoDB 好，那还要不要使用 Memory 引擎？.md",
     "笔记/MySQL 实战 45 讲/37｜什么时候会使用内部临时表？.md",
     "笔记/MySQL 实战 45 讲/36｜为什么临时表可以重名？.md",
-    "index.md",
     "README.md",
     "管理花园/搭建/搭建数字花园.md",
     "管理花园/搭建/发布方案.md",
-    "英语/英语.md",
-    "tags.md",
-    "笔记/MySQL 实战 45 讲/35｜join 语句怎么优化？.md",
-    "笔记/MySQL 实战 45 讲/34｜到底可不可以使用 join ？.md",
-    "思考/Tips.md",
-    "笔记/Github/常见错误.md",
-    "学习方法.md",
-    "收藏文章.md",
-    "英语/背单词.md",
-    "工具/Mac/开发环境.md",
-    "英语/Think in English.md",
     "笔记/Docker",
-    "Extras/About Extras.md",
-    "Extras/未命名.md",
-    "学习笔记/MySQL 实战 45 讲/32｜为什么还有 kill 不掉的语句？.md",
-    "笔记/Redis 核心技术与实战/经典的 Redis 学习资料.md",
-    "笔记/Redis 核心技术与实战/从微博的 Redis 实践中，我们可以学到哪些经验？.md",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
     "笔记/Nodejs",
