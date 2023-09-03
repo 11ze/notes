@@ -3,7 +3,7 @@ title: 03｜高性能 IO 模型：为什么单线程 Redis 那么快？
 tags:
   - Redis
 created: 2023-05-18T21:11:45+08:00
-updated: 2023-08-22T23:19:56+08:00
+updated: 2023-09-03T17:52:56+08:00
 ---
 
 - Redis 的网络 IO 和键值对读写由一个线程完成
@@ -24,5 +24,5 @@ updated: 2023-08-22T23:19:56+08:00
 
     -   事件队列
 
-- 基于多路服用的 Redis 高性能 IO 模型
+- 基于多路复用的 Redis 高性能 IO 模型
   - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/redis-03-1.png)

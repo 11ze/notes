@@ -3,7 +3,7 @@ title: 04｜AOF 日志：宕机了，Redis 如何避免数据丢失？
 tags:
   - Redis
 created: 2023-05-18T21:13:29+08:00
-updated: 2023-08-22T23:19:56+08:00
+updated: 2023-09-03T18:01:56+08:00
 ---
 
 - Redis 作为缓存使用
@@ -20,7 +20,7 @@ updated: 2023-08-22T23:19:56+08:00
 
 - 日志格式示例
 
-  - Redis 命令 set testkey testvalue
+  - 执行 set testkey testvalue
   - AOF 文件（Append Only File）
     - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/redis-04-1.png)
 
@@ -40,7 +40,7 @@ updated: 2023-08-22T23:19:56+08:00
 
 - 重写机制
 
-  - 如多个操作同一个键值的命令合并为一个命令
+  - 多个操作同一个键值的命令合并为一个命令
   - 避免重写日志过大
   - 直接根据数据库里数据的最新状态，生成这些数据的插入命令，作为新日志
   - 一个拷贝
