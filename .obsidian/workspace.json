@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Redis 核心技术与实战/06｜数据同步：主从库如何实现数据一致？.md",
+                "file": "笔记/Redis 核心技术与实战/08｜哨兵集群：哨兵挂了，主从库还能切换吗？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/Redis 核心技术与实战/06｜数据同步：主从库如何实现数据一致？.md",
+                "file": "笔记/Redis 核心技术与实战/08｜哨兵集群：哨兵挂了，主从库还能切换吗？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/Redis 核心技术与实战/06｜数据同步：主从库如何实现数据一致？.md",
+                "file": "笔记/Redis 核心技术与实战/08｜哨兵集群：哨兵挂了，主从库还能切换吗？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/Redis 核心技术与实战/06｜数据同步：主从库如何实现数据一致？.md"
+                "file": "笔记/Redis 核心技术与实战/08｜哨兵集群：哨兵挂了，主从库还能切换吗？.md"
               }
             }
           },
@@ -149,11 +149,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "61ee8de0d05eaba8",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
-    "笔记/Redis 核心技术与实战/05｜内存快照：宕机后，Redis 如何实现快速恢复？.md",
+    "笔记/Redis 核心技术与实战/07｜哨兵机制：主库挂了，如何不间断服务？.md",
+    "笔记/Redis 核心技术与实战/08｜哨兵集群：哨兵挂了，主从库还能切换吗？.md",
     "笔记/Redis 核心技术与实战/06｜数据同步：主从库如何实现数据一致？.md",
-    "笔记/Redis 核心技术与实战/04｜AOF 日志：宕机了，Redis 如何避免数据丢失？.md",
+    "笔记/Redis 核心技术与实战/05｜内存快照：宕机后，Redis 如何实现快速恢复？.md",
     "笔记/Redis 核心技术与实战/03｜高性能 IO 模型：为什么单线程 Redis 那么快？.md",
     "笔记/Redis 核心技术与实战/02｜数据结构：快速的 Redis 有哪些慢操作？.md",
     "笔记/Redis 核心技术与实战/01｜基础架构：一个键值数据库包含什么？.md",
@@ -176,7 +177,6 @@
     "笔记/MySQL 实战 45 讲/41｜怎么最快地复制一张表？.md",
     "笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md",
     "笔记/Docker/Docker 不常见问题.md",
-    "笔记/Docker/Docker.md",
     "笔记/Docker",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
