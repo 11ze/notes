@@ -3,7 +3,7 @@ title: 15｜消息队列的考验：Redis 有哪些解决方案？
 tags:
   - Redis
 created: 2023-05-22T21:19:46+08:00
-updated: 2023-08-22T23:19:56+08:00
+updated: 2023-09-05T14:42:56+08:00
 ---
 
 - 消息队列的三大需求：消息保序、重复消息处理、消息可靠性保证
@@ -22,4 +22,4 @@ updated: 2023-08-22T23:19:56+08:00
 - 两者比较
   - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/redis-15-1.png)
 
-- 不能丢数据的场景应该采用专业的队列中间件：Kafka + Zookeeper、RabbitMQ
+- ⚠️ 不能丢数据的场景应该采用专业的队列中间件：Kafka + Zookeeper、RabbitMQ

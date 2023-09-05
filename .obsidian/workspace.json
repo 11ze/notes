@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Redis 核心技术与实战/08｜哨兵集群：哨兵挂了，主从库还能切换吗？.md",
+                "file": "笔记/Redis 核心技术与实战/21｜缓冲区：一个可能引发“惨案”的地方.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/Redis 核心技术与实战/08｜哨兵集群：哨兵挂了，主从库还能切换吗？.md",
+                "file": "笔记/Redis 核心技术与实战/21｜缓冲区：一个可能引发“惨案”的地方.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/Redis 核心技术与实战/08｜哨兵集群：哨兵挂了，主从库还能切换吗？.md",
+                "file": "笔记/Redis 核心技术与实战/21｜缓冲区：一个可能引发“惨案”的地方.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/Redis 核心技术与实战/08｜哨兵集群：哨兵挂了，主从库还能切换吗？.md"
+                "file": "笔记/Redis 核心技术与实战/21｜缓冲区：一个可能引发“惨案”的地方.md"
               }
             }
           },
@@ -149,10 +149,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1dcfed1424b65adb",
+  "active": "61ee8de0d05eaba8",
   "lastOpenFiles": [
-    "笔记/Redis 核心技术与实战/07｜哨兵机制：主库挂了，如何不间断服务？.md",
+    "笔记/Redis 核心技术与实战/20｜删除数据后，为什么内存占用率还是很高？.md",
+    "笔记/Redis 核心技术与实战/19｜波动的响应延迟：如何应对变慢的 Redis？（下）.md",
+    "笔记/Redis 核心技术与实战/18｜波动的响应延迟：如何应对变慢的 Redis？（上）.md",
+    "笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
+    "笔记/Redis 核心技术与实战/17｜为什么 CPU 结构也会影响 Redis 的性能？.md",
+    "笔记/Redis 核心技术与实战/16｜异步机制：如何避免单线程模型的阻塞？.md",
+    "笔记/Redis 核心技术与实战/15｜消息队列的考验：Redis 有哪些解决方案？.md",
+    "笔记/Redis 核心技术与实战/14｜如何在 Redis 中保存时间序列数据？.md",
+    "笔记/Redis 核心技术与实战/13｜GEO 是什么？还可以定义新的数据类型吗？.md",
+    "笔记/Redis 核心技术与实战/12｜有一亿个 keys 要统计，应该用哪种集合？.md",
+    "笔记/Redis 核心技术与实战/11｜“万金油”的 String，为什么不好用了？.md",
+    "笔记/Redis 核心技术与实战/09｜切片集群：数据增多了，是该加内存还是加实例？.md",
     "笔记/Redis 核心技术与实战/08｜哨兵集群：哨兵挂了，主从库还能切换吗？.md",
+    "index.md",
+    "README.md",
+    "笔记/Redis 核心技术与实战/07｜哨兵机制：主库挂了，如何不间断服务？.md",
     "笔记/Redis 核心技术与实战/06｜数据同步：主从库如何实现数据一致？.md",
     "笔记/Redis 核心技术与实战/05｜内存快照：宕机后，Redis 如何实现快速恢复？.md",
     "笔记/Redis 核心技术与实战/03｜高性能 IO 模型：为什么单线程 Redis 那么快？.md",
@@ -160,23 +174,9 @@
     "笔记/Redis 核心技术与实战/01｜基础架构：一个键值数据库包含什么？.md",
     "笔记/Redis 核心技术与实战/00｜开篇词.md",
     "笔记/MySQL 实战 45 讲/45｜自增 id 用完怎么办？.md",
-    "笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
-    "index.md",
     "笔记/Redis 核心技术与实战/Redis 有哪些好用的运维工具？.md",
     "笔记/Redis 核心技术与实战/Redis 学习路径.md",
     "笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md",
-    "笔记/MySQL 实战 45 讲/43｜要不要使用分区表？.md",
-    "笔记/MySQL 实战 45 讲/42｜grant 之后要跟着 flush privileges 吗？.md",
-    "笔记/MySQL 实战 45 讲/19｜为什么我只查一行的语句，也执行这么慢？.md",
-    "笔记/MySQL 实战 45 讲/09｜普通索引和唯一索引，应该怎么选择？.md",
-    "笔记/MySQL 实战 45 讲/06｜全局锁和表锁：给表加个字段怎么有这么多阻碍？.md",
-    "笔记/MySQL 实战 45 讲/33｜我查这么多数据，会不会把数据库内存打爆？.md",
-    "笔记/MySQL 实战 45 讲/39｜自增主键为什么不是连续的？.md",
-    "笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
-    "笔记/MySQL 实战 45 讲/().md",
-    "笔记/MySQL 实战 45 讲/41｜怎么最快地复制一张表？.md",
-    "笔记/MySQL 实战 45 讲/40｜insert 语句的锁为什么这么多？.md",
-    "笔记/Docker/Docker 不常见问题.md",
     "笔记/Docker",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",

@@ -3,7 +3,7 @@ title: 11｜“万金油”的 String，为什么不好用了？
 tags:
   - Redis
 created: 2023-05-19T22:32:27+08:00
-updated: 2023-08-22T23:19:56+08:00
+updated: 2023-09-05T10:15:56+08:00
 ---
 
 - [Redis 容量预估工具](http://www.redis.cn/redis_memory/)
@@ -13,22 +13,19 @@ updated: 2023-08-22T23:19:56+08:00
   - int 编码方式：当保存 64 位有符号整数时，会保存为 8 字节的 Long 类型整数
   - 简单动态字符串（Simple Dynamic String，SDS）结构体的组成
 
-    - 图 SDS
-      - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/redis-11-1.png)
     - buf：字节数组，保存实际数据。为了表示字节数组的结束，Redis 会自动在数组最后加一个“\0”，这就会额外占用 1 个字节的开销
     - len：占 4 个字节，表示 buf 的已用长度
     - alloc：也占 4 个字节，表示 buf 的实际分配长度，一般大于 len
+    - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/redis-11-1.png)
 
   - RedisObject 结构体
-
-    - 图
-      - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/redis-11-2.png)
 
     - 包含了 8 字节的元数据和一个 8 字节指针
     - 指针指向实际数据，如 SDS
     - int 编码：当保存 Long 类型整数时，指针直接赋值为整数数据
     - embstr 编码：保存 <= 44 字节的字符串数据，元数据、指针和 SDS 是一块连续的内存区域
     - raw 编码：保存 > 44 字节的字符串数据，给 SDS 分配独立的空间
+    - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/redis-11-2.png)
 
 - 哈希表的每一项是一个 dictEntry 的结构体，指向一个键值对
 
