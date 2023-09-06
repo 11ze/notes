@@ -3,7 +3,7 @@ title: 19｜波动的响应延迟：如何应对变慢的 Redis？（下）
 tags:
   - Redis
 created: 2023-05-23T20:49:44+08:00
-updated: 2023-08-22T23:19:56+08:00
+updated: 2023-09-06T09:24:56+08:00
 ---
 
 - 文件系统：AOF 模式
@@ -61,3 +61,5 @@ updated: 2023-08-22T23:19:56+08:00
     - d. 合理配置 repl-backlog 和 slave-clent-output-buffer-limit 避免全量同步
     - e. 视情况关闭 AOF
     - f. 监控 latest_fork_usec 耗时是否变长
+
+  - [[32｜Redis 主从同步与故障切换，有哪些坑？]]

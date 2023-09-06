@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e60cc0866c44e062",
+        "id": "bd451992062f2d6c",
         "type": "tabs",
         "children": [
           {
-            "id": "61ee8de0d05eaba8",
+            "id": "ae0c53fd8480139d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Redis 核心技术与实战/21｜缓冲区：一个可能引发“惨案”的地方.md",
+                "file": "工具/Mac/开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "开发环境",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,11 +58,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 293.5
   },
   "right": {
     "id": "a0aa357a115ebd80",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/Redis 核心技术与实战/21｜缓冲区：一个可能引发“惨案”的地方.md",
+                "file": "工具/Mac/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/Redis 核心技术与实战/21｜缓冲区：一个可能引发“惨案”的地方.md",
+                "file": "工具/Mac/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/Redis 核心技术与实战/21｜缓冲区：一个可能引发“惨案”的地方.md"
+                "file": "工具/Mac/开发环境.md"
               }
             }
           },
@@ -149,34 +150,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "61ee8de0d05eaba8",
+  "active": "ae0c53fd8480139d",
   "lastOpenFiles": [
-    "笔记/Redis 核心技术与实战/20｜删除数据后，为什么内存占用率还是很高？.md",
-    "笔记/Redis 核心技术与实战/19｜波动的响应延迟：如何应对变慢的 Redis？（下）.md",
-    "笔记/Redis 核心技术与实战/18｜波动的响应延迟：如何应对变慢的 Redis？（上）.md",
-    "笔记/Redis 核心技术与实战/Redis 核心技术与实战.md",
-    "笔记/Redis 核心技术与实战/17｜为什么 CPU 结构也会影响 Redis 的性能？.md",
-    "笔记/Redis 核心技术与实战/16｜异步机制：如何避免单线程模型的阻塞？.md",
-    "笔记/Redis 核心技术与实战/15｜消息队列的考验：Redis 有哪些解决方案？.md",
-    "笔记/Redis 核心技术与实战/14｜如何在 Redis 中保存时间序列数据？.md",
-    "笔记/Redis 核心技术与实战/13｜GEO 是什么？还可以定义新的数据类型吗？.md",
-    "笔记/Redis 核心技术与实战/12｜有一亿个 keys 要统计，应该用哪种集合？.md",
-    "笔记/Redis 核心技术与实战/11｜“万金油”的 String，为什么不好用了？.md",
-    "笔记/Redis 核心技术与实战/09｜切片集群：数据增多了，是该加内存还是加实例？.md",
-    "笔记/Redis 核心技术与实战/08｜哨兵集群：哨兵挂了，主从库还能切换吗？.md",
-    "index.md",
-    "README.md",
-    "笔记/Redis 核心技术与实战/07｜哨兵机制：主库挂了，如何不间断服务？.md",
-    "笔记/Redis 核心技术与实战/06｜数据同步：主从库如何实现数据一致？.md",
-    "笔记/Redis 核心技术与实战/05｜内存快照：宕机后，Redis 如何实现快速恢复？.md",
-    "笔记/Redis 核心技术与实战/03｜高性能 IO 模型：为什么单线程 Redis 那么快？.md",
-    "笔记/Redis 核心技术与实战/02｜数据结构：快速的 Redis 有哪些慢操作？.md",
-    "笔记/Redis 核心技术与实战/01｜基础架构：一个键值数据库包含什么？.md",
-    "笔记/Redis 核心技术与实战/00｜开篇词.md",
-    "笔记/MySQL 实战 45 讲/45｜自增 id 用完怎么办？.md",
+    "工具/Mac/Mac 应用已损坏.md",
+    "笔记/Redis 核心技术与实战/Redis 的使用规范小建议.md",
     "笔记/Redis 核心技术与实战/Redis 有哪些好用的运维工具？.md",
+    "笔记/Redis 核心技术与实战/Redis 客户端如何与服务端交换命令和数据？.md",
+    "笔记/Redis 核心技术与实战/从微博的 Redis 实践中，我们可以学到哪些经验？.md",
+    "笔记/Redis 核心技术与实战/32｜Redis 主从同步与故障切换，有哪些坑？.md",
     "笔记/Redis 核心技术与实战/Redis 学习路径.md",
-    "笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md",
+    "笔记/Redis 核心技术与实战/经典的 Redis 学习资料.md",
+    "笔记/Redis 核心技术与实战/41｜第 35～40 讲课后思考题答案及常见问题答疑.md",
+    "笔记/Redis 核心技术与实战/40｜Redis 的下一步：基于 NVM 内存的实践.md",
+    "笔记/Redis 核心技术与实战/39｜Redis 6.0 的新特性：多线程、客户端缓存与安全.md",
+    "笔记/Redis 核心技术与实战/38｜通信开销：限制 Redis Cluster 规模的关键因素.md",
+    "笔记/Redis 核心技术与实战/37｜数据分布优化：如何应对数据倾斜？.md",
+    "笔记/Redis 核心技术与实战/36｜Redis 支撑秒杀场景的关键技术和实践都有哪些？.md",
+    "笔记/Redis 核心技术与实战/35｜Codis VS Redis Cluster：我该选择哪一个集群方案？.md",
+    "笔记/Redis 核心技术与实战/33｜脑裂：一次奇怪的数据丢失.md",
+    "笔记/Redis 核心技术与实战/19｜波动的响应延迟：如何应对变慢的 Redis？（下）.md",
+    "笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
+    "笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
+    "思考/Tips.md",
+    "笔记/PHP/PHP.md",
+    "笔记/PHP/PHP-FPM 配置.md",
+    "笔记/PHP/PHP 开发设置.md",
+    "笔记/PHP/PHP 错误码设计.md",
+    "笔记/PHP/Laravel Pint 使用.md",
+    "笔记/支付技术方案.md",
     "笔记/Docker",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
