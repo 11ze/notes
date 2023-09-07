@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/秒杀系统.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/秒杀系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/秒杀系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Mac/开发环境.md"
+                "file": "笔记/秒杀系统.md"
               }
             }
           },
@@ -150,8 +149,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ae0c53fd8480139d",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
+    "笔记/Rate Limit.md",
+    "笔记/支付技术方案.md",
+    "笔记/抢红包系统.md",
+    "笔记/秒杀系统.md",
+    "笔记/Github/GitHub 加速访问.md",
+    "笔记/Github/常见错误.md",
+    "笔记/Docker/Docker.md",
+    "工具/Mac/开发环境.md",
     "工具/Mac/Mac 应用已损坏.md",
     "笔记/Redis 核心技术与实战/Redis 的使用规范小建议.md",
     "笔记/Redis 核心技术与实战/Redis 有哪些好用的运维工具？.md",
@@ -170,14 +177,6 @@
     "笔记/Redis 核心技术与实战/33｜脑裂：一次奇怪的数据丢失.md",
     "笔记/Redis 核心技术与实战/19｜波动的响应延迟：如何应对变慢的 Redis？（下）.md",
     "笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
-    "笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
-    "思考/Tips.md",
-    "笔记/PHP/PHP.md",
-    "笔记/PHP/PHP-FPM 配置.md",
-    "笔记/PHP/PHP 开发设置.md",
-    "笔记/PHP/PHP 错误码设计.md",
-    "笔记/PHP/Laravel Pint 使用.md",
-    "笔记/支付技术方案.md",
     "笔记/Docker",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
