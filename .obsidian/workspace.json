@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/秒杀系统.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/秒杀系统.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/秒杀系统.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/秒杀系统.md"
+                "file": "index.md"
               }
             }
           },
@@ -128,6 +128,16 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "281d14ba55ae34b2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -149,12 +159,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1dcfed1424b65adb",
+  "active": "ae0c53fd8480139d",
   "lastOpenFiles": [
+    "README.md",
+    "index.md",
+    "笔记/秒杀系统.md",
     "笔记/Rate Limit.md",
     "笔记/支付技术方案.md",
     "笔记/抢红包系统.md",
-    "笔记/秒杀系统.md",
     "笔记/Github/GitHub 加速访问.md",
     "笔记/Github/常见错误.md",
     "笔记/Docker/Docker.md",
@@ -175,8 +187,6 @@
     "笔记/Redis 核心技术与实战/36｜Redis 支撑秒杀场景的关键技术和实践都有哪些？.md",
     "笔记/Redis 核心技术与实战/35｜Codis VS Redis Cluster：我该选择哪一个集群方案？.md",
     "笔记/Redis 核心技术与实战/33｜脑裂：一次奇怪的数据丢失.md",
-    "笔记/Redis 核心技术与实战/19｜波动的响应延迟：如何应对变慢的 Redis？（下）.md",
-    "笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
     "笔记/Docker",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
