@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ff6079a6f546562f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工具/软件/Linux 安装 oh-my-zsh.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "开发环境",
+                "query": "zsh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "工具/软件/Linux 安装 oh-my-zsh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "工具/软件/Linux 安装 oh-my-zsh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "工具/软件/Linux 安装 oh-my-zsh.md"
               }
             }
           },
@@ -159,10 +174,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "26e724af3a8cf65c",
+  "active": "ff6079a6f546562f",
   "lastOpenFiles": [
-    "笔记/Github/GitHub 加速访问.md",
     "笔记/Docker/Docker 不常见问题.md",
+    "笔记/Github/GitHub 加速访问.md",
     "笔记/Github/常见错误.md",
     "笔记/Docker/Docker.md",
     "index.md",
