@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ff6079a6f546562f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工具/软件/Linux 安装 oh-my-zsh.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -72,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -93,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/软件/Linux 安装 oh-my-zsh.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/软件/Linux 安装 oh-my-zsh.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/软件/Linux 安装 oh-my-zsh.md"
+                "file": "README.md"
               }
             }
           },
@@ -174,14 +159,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ff6079a6f546562f",
+  "active": "26e724af3a8cf65c",
   "lastOpenFiles": [
-    "笔记/Docker/Docker 不常见问题.md",
     "笔记/Github/GitHub 加速访问.md",
+    "笔记/Docker/Docker 不常见问题.md",
+    "README.md",
+    "工具/软件/Linux 安装 oh-my-zsh.md",
     "笔记/Github/常见错误.md",
     "笔记/Docker/Docker.md",
     "index.md",
-    "README.md",
     "笔记/秒杀系统.md",
     "笔记/Rate Limit.md",
     "笔记/支付技术方案.md",
@@ -201,7 +187,6 @@
     "笔记/Redis 核心技术与实战/38｜通信开销：限制 Redis Cluster 规模的关键因素.md",
     "笔记/Redis 核心技术与实战/37｜数据分布优化：如何应对数据倾斜？.md",
     "笔记/Redis 核心技术与实战/36｜Redis 支撑秒杀场景的关键技术和实践都有哪些？.md",
-    "笔记/Redis 核心技术与实战/35｜Codis VS Redis Cluster：我该选择哪一个集群方案？.md",
     "笔记/Docker",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
