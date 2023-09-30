@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "工具/Mac/开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zsh",
+                "query": "开发环境",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "工具/Mac/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "工具/Mac/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "工具/Mac/开发环境.md"
               }
             }
           },
@@ -161,9 +162,9 @@
   },
   "active": "26e724af3a8cf65c",
   "lastOpenFiles": [
+    "README.md",
     "笔记/Github/GitHub 加速访问.md",
     "笔记/Docker/Docker 不常见问题.md",
-    "README.md",
     "工具/软件/Linux 安装 oh-my-zsh.md",
     "笔记/Github/常见错误.md",
     "笔记/Docker/Docker.md",
