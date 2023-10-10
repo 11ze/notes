@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "思考/3-2-1 的有趣想法.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "思考/3-2-1 的有趣想法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "思考/3-2-1 的有趣想法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Mac/开发环境.md"
+                "file": "思考/3-2-1 的有趣想法.md"
               }
             }
           },
@@ -162,6 +161,7 @@
   },
   "active": "26e724af3a8cf65c",
   "lastOpenFiles": [
+    "工具/Mac/开发环境.md",
     "README.md",
     "笔记/Github/GitHub 加速访问.md",
     "笔记/Docker/Docker 不常见问题.md",
@@ -173,7 +173,6 @@
     "笔记/Rate Limit.md",
     "笔记/支付技术方案.md",
     "笔记/抢红包系统.md",
-    "工具/Mac/开发环境.md",
     "工具/Mac/Mac 应用已损坏.md",
     "笔记/Redis 核心技术与实战/Redis 的使用规范小建议.md",
     "笔记/Redis 核心技术与实战/Redis 有哪些好用的运维工具？.md",
