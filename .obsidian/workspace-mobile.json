@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/PHP/PHP-FPM 配置.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "工具/Mac/开发环境.md",
+            "file": "笔记/PHP/PHP-FPM 配置.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "工具/Mac/开发环境.md",
+            "file": "笔记/PHP/PHP-FPM 配置.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "工具/Mac/开发环境.md"
+            "file": "笔记/PHP/PHP-FPM 配置.md"
           }
         }
       }
@@ -133,8 +133,16 @@
       "templates:插入模板": false
     }
   },
-  "active": "f753d562e1c27fe8",
+  "active": "8f0ff2ce831a25cb",
   "lastOpenFiles": [
+    "笔记/PHP/PHP 错误码设计.md",
+    "笔记/PHP/PHP.md",
+    "笔记/PHP/PHP 开发设置.md",
+    "笔记/PHP/Laravel Pint 使用.md",
+    "工具/Mac/开发环境.md",
+    "笔记/Docker/Docker 不常见问题.md",
+    "笔记/Docker/Docker.md",
+    "Extras/About Extras.md",
     "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
     "index.md",
     "工具/Mac/iCloud 同步卡住.md",
@@ -143,7 +151,6 @@
     "学习笔记/Github/GitHub 加速访问.md",
     "学习笔记/Nodejs/Egg.js 手动热更新.md",
     "工具/Mac/iCloud 不同步指定文件.md",
-    "工具/Mac/开发环境.md",
     "学习/英语/Think in English.md",
     "管理花园/搭建/换新设备.md",
     "管理花园/搭建/发布方案.md",
@@ -155,13 +162,6 @@
     "学习笔记/Redis 核心技术与实战/Redis 的使用规范小建议.md",
     "学习笔记/Redis 核心技术与实战/32｜Redis 主从同步与故障切换，有哪些坑？.md",
     "学习笔记/Redis 核心技术与实战/39｜Redis 6.0 的新特性：多线程、客户端缓存与安全.md",
-    "学习笔记/Redis 核心技术与实战/40｜Redis 的下一步：基于 NVM 内存的实践.md",
-    "学习笔记/Redis 核心技术与实战/Redis 客户端如何与服务端交换命令和数据？.md",
-    "学习笔记/Redis 核心技术与实战/经典的 Redis 学习资料.md",
-    "学习笔记/Redis 核心技术与实战/Redis 有哪些好用的运维工具？.md",
-    "学习笔记/Redis 核心技术与实战/38｜通信开销：限制 Redis Cluster 规模的关键因素.md",
-    "学习笔记/Redis 核心技术与实战/35｜Codis VS Redis Cluster：我该选择哪一个集群方案？.md",
-    "学习笔记/Redis 核心技术与实战/从微博的 Redis 实践中，我们可以学到哪些经验？.md",
     "auto_push.sh",
     "auto_push.log",
     "LICENSE",
