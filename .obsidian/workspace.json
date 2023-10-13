@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md",
+                "file": "工具/Mac/开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -58,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md",
+                "file": "工具/Mac/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md",
+                "file": "工具/Mac/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md"
+                "file": "工具/Mac/开发环境.md"
               }
             }
           },
@@ -161,6 +162,7 @@
   },
   "active": "26e724af3a8cf65c",
   "lastOpenFiles": [
+    "思考/3-2-1 的有趣想法.md",
     "工具/Mac/开发环境.md",
     "README.md",
     "笔记/Github/GitHub 加速访问.md",
@@ -186,7 +188,6 @@
     "笔记/Redis 核心技术与实战/39｜Redis 6.0 的新特性：多线程、客户端缓存与安全.md",
     "笔记/Redis 核心技术与实战/38｜通信开销：限制 Redis Cluster 规模的关键因素.md",
     "笔记/Redis 核心技术与实战/37｜数据分布优化：如何应对数据倾斜？.md",
-    "笔记/Redis 核心技术与实战/36｜Redis 支撑秒杀场景的关键技术和实践都有哪些？.md",
     "笔记/Docker",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
