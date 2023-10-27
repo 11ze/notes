@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "开发环境",
+                "query": "读提交",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Mac/开发环境.md"
+                "file": "笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md"
               }
             }
           },
@@ -162,8 +162,13 @@
   },
   "active": "26e724af3a8cf65c",
   "lastOpenFiles": [
-    "思考/3-2-1 的有趣想法.md",
+    "笔记/MySQL 实战 45 讲/08｜事务到底是隔离的还是不隔离的？.md",
+    "笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
+    "笔记/MySQL 实战 45 讲/20｜幻读是什么，幻读有什么问题？.md",
+    "笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
+    "笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
     "工具/Mac/开发环境.md",
+    "思考/3-2-1 的有趣想法.md",
     "README.md",
     "笔记/Github/GitHub 加速访问.md",
     "笔记/Docker/Docker 不常见问题.md",
@@ -183,11 +188,6 @@
     "笔记/Redis 核心技术与实战/32｜Redis 主从同步与故障切换，有哪些坑？.md",
     "笔记/Redis 核心技术与实战/Redis 学习路径.md",
     "笔记/Redis 核心技术与实战/经典的 Redis 学习资料.md",
-    "笔记/Redis 核心技术与实战/41｜第 35～40 讲课后思考题答案及常见问题答疑.md",
-    "笔记/Redis 核心技术与实战/40｜Redis 的下一步：基于 NVM 内存的实践.md",
-    "笔记/Redis 核心技术与实战/39｜Redis 6.0 的新特性：多线程、客户端缓存与安全.md",
-    "笔记/Redis 核心技术与实战/38｜通信开销：限制 Redis Cluster 规模的关键因素.md",
-    "笔记/Redis 核心技术与实战/37｜数据分布优化：如何应对数据倾斜？.md",
     "笔记/Docker",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
