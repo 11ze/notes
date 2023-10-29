@@ -72,6 +72,16 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "b09be0e66b70f254",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
       }
     ],
     "currentTab": 0
