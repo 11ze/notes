@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
+                "file": "工具/Mac/开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
+                "file": "工具/Mac/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
+                "file": "工具/Mac/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md"
+                "file": "工具/Mac/开发环境.md"
               }
             }
           },
@@ -162,32 +161,32 @@
   },
   "active": "26e724af3a8cf65c",
   "lastOpenFiles": [
+    "笔记/Rate Limit.md",
+    "笔记/PHP/PHP 开发设置.md",
+    "笔记/PHP/PHP 错误码设计.md",
+    "笔记/PHP/Laravel Pint 使用.md",
+    "笔记/PHP/PHP.md",
+    "笔记/Nodejs/Egg.js 手动热更新.md",
+    "工具/Mac/Mac 应用已损坏.md",
+    "工具/Mac/开发环境.md",
+    "工具/Mac/iCloud 不同步指定文件.md",
+    "笔记/Github/GitHub 加速访问.md",
+    "思考/3-2-1 的有趣想法.md",
+    "笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
     "笔记/MySQL 实战 45 讲/08｜事务到底是隔离的还是不隔离的？.md",
     "笔记/MySQL 实战 45 讲/03｜事务隔离：为什么你改了为还看不见？.md",
     "笔记/MySQL 实战 45 讲/20｜幻读是什么，幻读有什么问题？.md",
     "笔记/MySQL 实战 45 讲/MySQL 实战 45 讲.md",
-    "笔记/MySQL 实战 45 讲/21｜为什么我只改一行的语句，锁这么多？.md",
-    "工具/Mac/开发环境.md",
-    "思考/3-2-1 的有趣想法.md",
     "README.md",
-    "笔记/Github/GitHub 加速访问.md",
     "笔记/Docker/Docker 不常见问题.md",
     "工具/软件/Linux 安装 oh-my-zsh.md",
     "笔记/Github/常见错误.md",
     "笔记/Docker/Docker.md",
     "index.md",
     "笔记/秒杀系统.md",
-    "笔记/Rate Limit.md",
     "笔记/支付技术方案.md",
     "笔记/抢红包系统.md",
-    "工具/Mac/Mac 应用已损坏.md",
     "笔记/Redis 核心技术与实战/Redis 的使用规范小建议.md",
-    "笔记/Redis 核心技术与实战/Redis 有哪些好用的运维工具？.md",
-    "笔记/Redis 核心技术与实战/Redis 客户端如何与服务端交换命令和数据？.md",
-    "笔记/Redis 核心技术与实战/从微博的 Redis 实践中，我们可以学到哪些经验？.md",
-    "笔记/Redis 核心技术与实战/32｜Redis 主从同步与故障切换，有哪些坑？.md",
-    "笔记/Redis 核心技术与实战/Redis 学习路径.md",
-    "笔记/Redis 核心技术与实战/经典的 Redis 学习资料.md",
     "笔记/Docker",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
