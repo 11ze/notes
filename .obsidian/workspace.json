@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/PHP/Laravel.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/PHP/Laravel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "笔记/PHP/Laravel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Mac/开发环境.md"
+                "file": "笔记/PHP/Laravel.md"
               }
             }
           },
@@ -161,8 +161,9 @@
   },
   "active": "26e724af3a8cf65c",
   "lastOpenFiles": [
-    "工具/软件/Capslock.md",
     "工具/Mac/开发环境.md",
+    "笔记/PHP/Laravel.md",
+    "工具/软件/Capslock.md",
     "工具/Mac/iCloud 不同步指定文件.md",
     "工具/Mac/iCloud 同步卡住.md",
     "笔记/PHP/Laravel Pint 使用.md",
@@ -186,7 +187,6 @@
     "笔记/Github/常见错误.md",
     "笔记/Docker/Docker.md",
     "index.md",
-    "笔记/秒杀系统.md",
     "笔记/Docker",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
