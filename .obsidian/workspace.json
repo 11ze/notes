@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "Mac/开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "开发环境",
+                "query": "tag:设置",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "Mac/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Mac/开发环境.md",
+                "file": "Mac/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Mac/开发环境.md"
+                "file": "Mac/开发环境.md"
               }
             }
           },
@@ -159,44 +160,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "26e724af3a8cf65c",
+  "active": "ebfc4117a1f079da",
   "lastOpenFiles": [
+    "工具/Mac/开发环境.md",
+    "软件/油猴脚本.md",
+    "软件/Oh My Zsh.md",
+    "软件/Obsidian.md",
+    "软件/Linux 安装 oh-my-zsh.md",
+    "软件/Crontab 执行提示没有权限.md",
+    "软件/Capslock.md",
+    "软件",
+    "思考/学习方法.md",
+    "Mac/开发环境.md",
+    "Mac/iCloud 同步卡住.md",
+    "Mac/iCloud 不同步指定文件.md",
+    "Mac/Mac 应用已损坏.md",
+    "Mac",
+    "搭建花园/配置自定义域名.md",
+    "搭建花园/同步方案.md",
+    "搭建花园/添加评论区.md",
+    "搭建花园/配置图床.md",
+    "搭建花园/本库自动提交到 GitHub.md",
+    "搭建花园/特殊字符.md",
+    "搭建花园/搭建数字花园.md",
+    "搭建花园/换新设备.md",
+    "搭建花园/发布笔记 404.md",
+    "搭建花园/发布方案.md",
+    "搭建花园",
+    "Obsidian/Vault.md",
+    "Obsidian/Obsidian 插件.md",
+    "Obsidian",
     "英语/背单词.md",
     "英语/英语.md",
-    "英语/Think in English.md",
-    "README.md",
-    "index.md",
-    "学习方法.md",
-    "工具/Mac/开发环境.md",
-    "笔记/Docker/Docker 不常见问题.md",
-    "笔记/Docker/Docker.md",
-    "笔记/Github/常见错误.md",
-    "笔记/Github/GitHub 加速访问.md",
-    "笔记/PHP/Laravel 开发注意事项.md",
-    "笔记/PHP/PHP.md",
-    "笔记/PHP/Laravel.md",
-    "笔记/Redis 核心技术与实战/00｜开篇词.md",
-    "工具/软件/Capslock.md",
-    "工具/Mac/iCloud 不同步指定文件.md",
-    "工具/Mac/iCloud 同步卡住.md",
-    "笔记/PHP/Laravel Pint 使用.md",
-    "思考/3-2-1 的有趣想法.md",
-    "笔记/PHP/PHP 开发设置.md",
-    "笔记/PHP/PHP 错误码设计.md",
-    "笔记/PHP/PHP 测试.md",
-    "笔记/Rate Limit.md",
-    "笔记/Nodejs/Egg.js 手动热更新.md",
-    "工具/Mac/Mac 应用已损坏.md",
     "笔记/Docker",
     "笔记/Redis 核心技术与实战",
     "笔记/PHP",
     "笔记/Nodejs",
     "笔记/MySQL 实战 45 讲",
     "笔记/Github",
-    "笔记",
-    "Extras/Templates",
-    "Extras",
-    "vercel.json",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
     "Pasted image 20230508195502.png",
