@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Github/GitHub 加速访问.md",
+                "file": "Mac/开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:设置",
+                "query": "nvm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/Github/GitHub 加速访问.md",
+                "file": "Mac/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/Github/GitHub 加速访问.md",
+                "file": "Mac/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/Github/GitHub 加速访问.md"
+                "file": "Mac/开发环境.md"
               }
             }
           },
@@ -159,8 +160,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "26e724af3a8cf65c",
+  "active": "ebfc4117a1f079da",
   "lastOpenFiles": [
+    "笔记/Github/GitHub 加速访问.md",
     "笔记/Docker/Docker 不常见问题.md",
     "笔记/PHP/PHP-FPM 配置.md",
     "笔记/PHP/PHP 开发设置.md",
@@ -188,7 +190,6 @@
     "搭建花园/配置图床.md",
     "搭建花园/本库自动提交到 GitHub.md",
     "搭建花园/特殊字符.md",
-    "搭建花园/搭建数字花园.md",
     "搭建花园",
     "Obsidian",
     "笔记/Docker",
