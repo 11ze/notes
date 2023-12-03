@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md",
+                "file": "Mac/开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md",
+                "file": "Mac/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md",
+                "file": "Mac/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md"
+                "file": "Mac/开发环境.md"
               }
             }
           },
@@ -161,6 +161,7 @@
   },
   "active": "26e724af3a8cf65c",
   "lastOpenFiles": [
+    "思考/3-2-1 的有趣想法.md",
     "Mac/开发环境.md",
     "笔记/Github/GitHub 加速访问.md",
     "笔记/Docker/Docker 不常见问题.md",
@@ -188,7 +189,6 @@
     "搭建花园/添加评论区.md",
     "搭建花园/配置图床.md",
     "搭建花园/本库自动提交到 GitHub.md",
-    "搭建花园/特殊字符.md",
     "搭建花园",
     "Obsidian",
     "笔记/Docker",
