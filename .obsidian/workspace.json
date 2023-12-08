@@ -145,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5,
-    "collapsed": true
+    "width": 201.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,8 +160,9 @@
   },
   "active": "26e724af3a8cf65c",
   "lastOpenFiles": [
-    "Mac/iCloud 不同步指定文件.md",
+    "笔记/PHP/Laravel 开发注意事项.md",
     "英语/英语.md",
+    "Mac/iCloud 不同步指定文件.md",
     "英语/Think in English.md",
     "Mac/开发环境.md",
     "思考/3-2-1 的有趣想法.md",
@@ -170,7 +170,6 @@
     "笔记/Docker/Docker 不常见问题.md",
     "笔记/PHP/PHP-FPM 配置.md",
     "笔记/PHP/PHP 开发设置.md",
-    "笔记/PHP/Laravel 开发注意事项.md",
     "笔记/PHP/Laravel Pint 使用.md",
     "笔记/PHP/PHP.md",
     "笔记/PHP/PHP 测试.md",

@@ -147,3 +147,12 @@ protected $proxies = '*';
 ```PHP
 $request->ip();
 ```
+
+## 修改 storage_path() 默认路径
+
+```
+# .env
+
+# 自定义 storage_path() 路径
+LARAVEL_STORAGE_PATH=/custom_path
+```
