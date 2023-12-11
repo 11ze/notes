@@ -4,7 +4,7 @@ created: 2023-05-12T01:11:06+08:00
 tags:
   - Linux
   - zsh
-updated: 2023-09-21T16:08:56+08:00
+updated: 2023-12-11T10:08:54+08:00
 ---
 
 ## 安装 Zsh
@@ -27,11 +27,7 @@ updated: 2023-09-21T16:08:56+08:00
 ## 安装 Oh-my-zsh
 
 - <https://ohmyz.sh/#install>
-- 若安装时遇到网络问题
-  - 可以手动下载 ohmyzsh 仓库文件重命名为 ~/.oh-my-zsh
-  - 删除 install 脚本里的 setup_ohmyzsh() 和执行方法
-  - 删除 `if [ -d "$ZSH" ]; then` 块
-  - 最后手动执行 sh -c install.sh
+- 若安装时遇到网络问题，如 443，则 [[GitHub 加速访问]]
 
 ## 插件
 
