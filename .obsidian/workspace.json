@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件/Linux 安装 oh-my-zsh.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件/Linux 安装 oh-my-zsh.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件/Linux 安装 oh-my-zsh.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件/Linux 安装 oh-my-zsh.md"
+                "file": "index.md"
               }
             }
           },
@@ -160,8 +160,8 @@
   },
   "active": "26e724af3a8cf65c",
   "lastOpenFiles": [
-    "软件/Obsidian.md",
     "软件/Linux 安装 oh-my-zsh.md",
+    "软件/Obsidian.md",
     "软件/Oh My Zsh.md",
     "笔记/Github/GitHub 加速访问.md",
     "英语/英语.md",
