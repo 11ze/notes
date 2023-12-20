@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -159,18 +158,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ebfc4117a1f079da",
+  "active": "26e724af3a8cf65c",
   "lastOpenFiles": [
+    "笔记/Redis 核心技术与实战/04｜AOF 日志：宕机了，Redis 如何避免数据丢失？.md",
+    "Mac/开发环境.md",
+    "软件/Oh My Zsh.md",
+    "笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
     "index.md",
     "软件/Linux 安装 oh-my-zsh.md",
     "软件/Obsidian.md",
-    "软件/Oh My Zsh.md",
     "笔记/Github/GitHub 加速访问.md",
     "英语/英语.md",
     "笔记/PHP/Laravel 开发注意事项.md",
     "Mac/iCloud 不同步指定文件.md",
     "英语/Think in English.md",
-    "Mac/开发环境.md",
     "思考/3-2-1 的有趣想法.md",
     "笔记/Docker/Docker 不常见问题.md",
     "笔记/PHP/PHP-FPM 配置.md",
@@ -187,8 +188,6 @@
     "Mac/iCloud 同步卡住.md",
     "Mac/Mac 应用已损坏.md",
     "Mac",
-    "搭建花园/配置自定义域名.md",
-    "搭建花园/同步方案.md",
     "搭建花园",
     "Obsidian",
     "笔记/Docker",
