@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "搭建花园/添加评论区.md",
+                "file": "Mac/开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "WIP",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,12 +58,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 293.5
   },
   "right": {
     "id": "a0aa357a115ebd80",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "搭建花园/添加评论区.md",
+                "file": "Mac/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "搭建花园/添加评论区.md",
+                "file": "Mac/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "搭建花园/添加评论区.md"
+                "file": "Mac/开发环境.md"
               }
             }
           },
@@ -163,33 +162,33 @@
   },
   "active": "26e724af3a8cf65c",
   "lastOpenFiles": [
-    "笔记/支付技术方案.md",
-    "笔记/PHP/PHP 错误码设计.md",
-    "笔记/PHP/PHP 开发设置.md",
-    "搭建花园/添加评论区.md",
-    "笔记/Rate Limit.md",
-    "笔记/抢红包系统.md",
-    "笔记/秒杀系统.md",
-    "搭建花园/配置图床.md",
-    "搭建花园/搭建数字花园.md",
-    "index.md",
-    "笔记/Docker/Docker.md",
-    "README.md",
-    "软件/Linux 安装 oh-my-zsh.md",
-    "笔记/Github/GitHub 加速访问.md",
-    "笔记/Redis 核心技术与实战/00｜开篇词.md",
-    "Mac/开发环境.md",
     "笔记/Redis 核心技术与实战/04｜AOF 日志：宕机了，Redis 如何避免数据丢失？.md",
+    "Mac/开发环境.md",
     "软件/Oh My Zsh.md",
     "笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
+    "index.md",
+    "软件/Linux 安装 oh-my-zsh.md",
     "软件/Obsidian.md",
+    "笔记/Github/GitHub 加速访问.md",
     "英语/英语.md",
     "笔记/PHP/Laravel 开发注意事项.md",
     "Mac/iCloud 不同步指定文件.md",
     "英语/Think in English.md",
     "思考/3-2-1 的有趣想法.md",
     "笔记/Docker/Docker 不常见问题.md",
+    "笔记/PHP/PHP-FPM 配置.md",
+    "笔记/PHP/PHP 开发设置.md",
+    "笔记/PHP/Laravel Pint 使用.md",
+    "笔记/PHP/PHP.md",
+    "笔记/PHP/PHP 测试.md",
+    "工具/Mac/开发环境.md",
+    "软件/油猴脚本.md",
+    "软件/Crontab 执行提示没有权限.md",
+    "软件/Capslock.md",
     "软件",
+    "思考/学习方法.md",
+    "Mac/iCloud 同步卡住.md",
+    "Mac/Mac 应用已损坏.md",
     "Mac",
     "搭建花园",
     "Obsidian",
