@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f7546c3e7ec160e0",
+        "id": "62746c433bb1cadf",
         "type": "tabs",
         "children": [
           {
-            "id": "26e724af3a8cf65c",
+            "id": "801994ef82dfd083",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 257.5
   },
   "right": {
     "id": "a0aa357a115ebd80",
@@ -160,10 +160,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "26e724af3a8cf65c",
+  "active": "801994ef82dfd083",
   "lastOpenFiles": [
-    "笔记/Redis 核心技术与实战/04｜AOF 日志：宕机了，Redis 如何避免数据丢失？.md",
     "Mac/开发环境.md",
+    "笔记/Redis 核心技术与实战/04｜AOF 日志：宕机了，Redis 如何避免数据丢失？.md",
     "软件/Oh My Zsh.md",
     "笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
     "index.md",

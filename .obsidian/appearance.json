@@ -4,7 +4,7 @@
   "baseFontSize": 14,
   "cssTheme": "",
   "interfaceFontFamily": "JetBrains Mono",
-  "translucency": true,
+  "translucency": false,
   "nativeMenus": true,
   "showViewHeader": true,
   "monospaceFontFamily": "JetBrains Mono",
