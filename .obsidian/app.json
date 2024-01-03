@@ -11,6 +11,8 @@
   "livePreview": true,
   "showInlineTitle": true,
   "newFileLocation": "current",
-  "showLineNumber": true,
-  "foldIndent": false
+  "showLineNumber": false,
+  "foldIndent": false,
+  "showIndentGuide": true,
+  "rightToLeft": false
 }
