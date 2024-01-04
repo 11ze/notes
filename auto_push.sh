@@ -9,7 +9,7 @@
 # 可能遇到的问题：https://itprohelper.com/how-to-fix-cron-operation-not-permitted-error-in-macos/
 
 # 代理，可修改或删除
-export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+# export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 
 timestamp=$(date "+%Y-%m-%d %H:%M:%S")
 

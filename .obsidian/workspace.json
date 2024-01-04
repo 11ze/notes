@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mac/开发环境.md",
+                "file": "index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "effa3b5759f0b334",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/Github/GitHub 加速访问.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mac/开发环境.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mac/开发环境.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mac/开发环境.md"
+                "file": "index.md"
               }
             }
           },
@@ -143,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -163,13 +176,15 @@
   "active": "801994ef82dfd083",
   "lastOpenFiles": [
     "Mac/开发环境.md",
+    "笔记/Github/GitHub 加速访问.md",
+    "笔记/PHP/Laravel Pint 使用.md",
+    "笔记/Github/常见错误.md",
     "笔记/Redis 核心技术与实战/04｜AOF 日志：宕机了，Redis 如何避免数据丢失？.md",
     "软件/Oh My Zsh.md",
     "笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
     "index.md",
     "软件/Linux 安装 oh-my-zsh.md",
     "软件/Obsidian.md",
-    "笔记/Github/GitHub 加速访问.md",
     "英语/英语.md",
     "笔记/PHP/Laravel 开发注意事项.md",
     "Mac/iCloud 不同步指定文件.md",
@@ -178,7 +193,6 @@
     "笔记/Docker/Docker 不常见问题.md",
     "笔记/PHP/PHP-FPM 配置.md",
     "笔记/PHP/PHP 开发设置.md",
-    "笔记/PHP/Laravel Pint 使用.md",
     "笔记/PHP/PHP.md",
     "笔记/PHP/PHP 测试.md",
     "工具/Mac/开发环境.md",
@@ -188,7 +202,6 @@
     "软件",
     "思考/学习方法.md",
     "Mac/iCloud 同步卡住.md",
-    "Mac/Mac 应用已损坏.md",
     "Mac",
     "搭建花园",
     "Obsidian",
