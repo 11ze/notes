@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/PHP/PHP-FPM 配置.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "笔记/PHP/PHP-FPM 配置.md",
+            "file": "index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "笔记/PHP/PHP-FPM 配置.md",
+            "file": "index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -125,7 +125,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "笔记/PHP/PHP-FPM 配置.md"
+            "file": "index.md"
           }
         }
       }
@@ -143,8 +143,9 @@
       "templates:插入模板": false
     }
   },
-  "active": "8f0ff2ce831a25cb",
+  "active": "f753d562e1c27fe8",
   "lastOpenFiles": [
+    "笔记/PHP/PHP-FPM 配置.md",
     "笔记/PHP/PHP 错误码设计.md",
     "笔记/PHP/PHP.md",
     "笔记/PHP/PHP 开发设置.md",
@@ -171,7 +172,6 @@
     "学习笔记/Redis 核心技术与实战/Redis 学习路径.md",
     "学习笔记/Redis 核心技术与实战/Redis 的使用规范小建议.md",
     "学习笔记/Redis 核心技术与实战/32｜Redis 主从同步与故障切换，有哪些坑？.md",
-    "学习笔记/Redis 核心技术与实战/39｜Redis 6.0 的新特性：多线程、客户端缓存与安全.md",
     "auto_push.sh",
     "auto_push.log",
     "LICENSE",

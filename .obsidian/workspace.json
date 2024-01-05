@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Mac/开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Mac/开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Mac/开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Mac/开发环境.md"
               }
             }
           },
@@ -175,6 +175,7 @@
   },
   "active": "801994ef82dfd083",
   "lastOpenFiles": [
+    "index.md",
     "Mac/开发环境.md",
     "笔记/Github/GitHub 加速访问.md",
     "笔记/PHP/Laravel Pint 使用.md",
@@ -182,7 +183,6 @@
     "笔记/Redis 核心技术与实战/04｜AOF 日志：宕机了，Redis 如何避免数据丢失？.md",
     "软件/Oh My Zsh.md",
     "笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
-    "index.md",
     "软件/Linux 安装 oh-my-zsh.md",
     "软件/Obsidian.md",
     "英语/英语.md",
