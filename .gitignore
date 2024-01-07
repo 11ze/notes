@@ -47,5 +47,6 @@ publish.js
 .DS_Store
 .trash
 
-# 自动提交日志文件屏蔽
+# 日志文件屏蔽
 auto_push.log
+auto_updated.log
