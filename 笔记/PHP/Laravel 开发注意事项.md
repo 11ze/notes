@@ -5,7 +5,7 @@ tags:
   - 开发
   - 规范
 created: 2023-11-21T10:09:09+08:00
-updated: 2023-11-21T10:09:09+08:00
+updated: 2024-01-08T11:54:43+08:00
 ---
 
 ## MySQL
@@ -150,9 +150,13 @@ $request->ip();
 
 ## 修改 storage_path() 默认路径
 
-```
+```shell
 # .env
 
 # 自定义 storage_path() 路径
 LARAVEL_STORAGE_PATH=/custom_path
 ```
+
+## laravel-ide-helper
+
+[GitHub - barryvdh/laravel-ide-helperl](https://github.com/barryvdh/laravel-ide-helper)

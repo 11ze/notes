@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md",
+                "file": "笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md",
+                "file": "笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md",
+                "file": "笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md"
+                "file": "笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md"
               }
             }
           },
@@ -162,11 +162,12 @@
   },
   "active": "801994ef82dfd083",
   "lastOpenFiles": [
+    "Mac/开发环境.md",
+    "思考/3-2-1 的有趣想法.md",
     "英语/Think in English.md",
     "英语/背单词.md",
     "英语/英语.md",
     "auto_updated.log",
-    "Mac/开发环境.md",
     "README.md",
     "README copy中 文.md",
     "README copy中 文.md-e",
@@ -189,7 +190,6 @@
     "软件/Obsidian.md",
     "笔记/PHP/Laravel 开发注意事项.md",
     "Mac/iCloud 不同步指定文件.md",
-    "思考/3-2-1 的有趣想法.md",
     "笔记/Docker/Docker 不常见问题.md",
     "笔记/PHP/PHP-FPM 配置.md",
     "笔记/PHP/PHP 开发设置.md",
