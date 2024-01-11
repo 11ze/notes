@@ -4,7 +4,7 @@ created: 2023-05-12T01:11:06+08:00
 tags:
   - Mac
   - iCloud
-updated: 2023-08-22T23:19:56+08:00
+updated: 2024-01-11T10:00:00+08:00
 ---
 
 ## 解决方案
@@ -27,11 +27,11 @@ updated: 2023-08-22T23:19:56+08:00
    - ![iCloud-sync-failed.png](https://cdn.jsdelivr.net/gh/11ze/static/images/iCloud-sync-failed.png)
    - ![iCloud-sync-stuck.png](https://cdn.jsdelivr.net/gh/11ze/static/images/iCloud-sync-stuck.png)
 
-4. 每小时执行一次确保 iCloud 同步
+4. 每 10 分钟执行一次确保 iCloud 正常同步
 
     ```bash
     $ crontab -e
-    0 * * * * killall bird && killall cloudd # 每小时 kill 一次 iCloud 进程
+    */10 * * * * killall bird && killall cloudd # kill iCloud 进程
     ```
 
 ## 参考
