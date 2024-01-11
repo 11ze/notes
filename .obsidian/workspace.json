@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "开发设置",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,11 +162,11 @@
   },
   "active": "801994ef82dfd083",
   "lastOpenFiles": [
+    "Mac/开发环境.md",
+    "Mac/让应用支持 iCloud 同步.md",
     "笔记/疑难杂症.md",
     "笔记/抢红包系统.md",
-    "Mac/让应用支持 iCloud 同步.md",
     "笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md",
-    "Mac/开发环境.md",
     "思考/3-2-1 的有趣想法.md",
     "英语/Think in English.md",
     "英语/背单词.md",

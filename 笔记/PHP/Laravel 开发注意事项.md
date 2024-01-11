@@ -5,7 +5,7 @@ tags:
   - 开发
   - 规范
 created: 2023-11-21T10:09:09+08:00
-updated: 2024-01-08T11:54:43+08:00
+updated: 2024-01-11T13:57:00+08:00
 ---
 
 ## MySQL
@@ -160,3 +160,8 @@ LARAVEL_STORAGE_PATH=/custom_path
 ## laravel-ide-helper
 
 [GitHub - barryvdh/laravel-ide-helperl](https://github.com/barryvdh/laravel-ide-helper)
+
+## 在线查看日志
+
+- [GitHub - rap2hpoutre/laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer)
+- [GitHub - ARCANEDEV/LogViewer](https://github.com/ARCANEDEV/LogViewer) 日志一多会内存溢出。20240111

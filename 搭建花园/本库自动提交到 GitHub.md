@@ -3,7 +3,7 @@ title: 本库自动提交到 GitHub
 created: 2023-05-13T14:19:26+08:00
 tags:
   - 搭建
-updated: 2023-08-22T23:19:56+08:00
+updated: 2024-01-11T15:56:00+08:00
 ---
 
 - 在文档仓库根目录添加文件：[auto_push.sh](https://github.com/11ze/knowledge-garden/blob/main/auto_push.sh)

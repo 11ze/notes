@@ -143,8 +143,11 @@
       "templates:插入模板": false
     }
   },
-  "active": "f753d562e1c27fe8",
+  "active": "8f0ff2ce831a25cb",
   "lastOpenFiles": [
+    "Mac/开发环境.md",
+    "Mac/开发环境.md-e",
+    "思考/3-2-1 的有趣想法.md",
     "index.md",
     "笔记/PHP/PHP-FPM 配置.md",
     "笔记/PHP/PHP 错误码设计.md",
@@ -170,8 +173,6 @@
     "管理花园/搭建/本地预览.md",
     "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
     "学习笔记/Redis 核心技术与实战/Redis 学习路径.md",
-    "学习笔记/Redis 核心技术与实战/Redis 的使用规范小建议.md",
-    "学习笔记/Redis 核心技术与实战/32｜Redis 主从同步与故障切换，有哪些坑？.md",
     "auto_push.sh",
     "auto_push.log",
     "LICENSE",
@@ -179,7 +180,6 @@
     "Garden/Use",
     "Garden/Mac",
     "Garden/PHP",
-    "Garden/Think",
-    "Garden/Ideas"
+    "Garden/Think"
   ]
 }
