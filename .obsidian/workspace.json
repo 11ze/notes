@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "开发设置",
+                "query": "实战",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,11 +58,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "a0aa357a115ebd80",
@@ -162,6 +164,8 @@
   },
   "active": "801994ef82dfd083",
   "lastOpenFiles": [
+    "英语/英语.md",
+    "index.md",
     "Mac/开发环境.md",
     "Mac/让应用支持 iCloud 同步.md",
     "笔记/疑难杂症.md",
@@ -170,7 +174,6 @@
     "思考/3-2-1 的有趣想法.md",
     "英语/Think in English.md",
     "英语/背单词.md",
-    "英语/英语.md",
     "auto_updated.log",
     "README.md",
     "README copy中 文.md",
@@ -183,7 +186,6 @@
     "README copy.md",
     "modify_updated.sh",
     "auto_push copy.sh",
-    "index.md",
     "笔记/Github/GitHub 加速访问.md",
     "笔记/PHP/Laravel Pint 使用.md",
     "笔记/Github/常见错误.md",
