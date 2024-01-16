@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mac/开发环境.md",
+                "file": "笔记/疑难杂症.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mac/开发环境.md",
+                "file": "笔记/疑难杂症.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mac/开发环境.md",
+                "file": "笔记/疑难杂症.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mac/开发环境.md"
+                "file": "笔记/疑难杂症.md"
               }
             }
           },
@@ -162,8 +162,8 @@
   },
   "active": "801994ef82dfd083",
   "lastOpenFiles": [
-    "周刊/第一期.md",
     "Mac/开发环境.md",
+    "周刊/第一期.md",
     "周刊",
     "英语/英语.md",
     "index.md",
