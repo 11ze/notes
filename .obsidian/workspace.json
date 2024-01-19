@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/疑难杂症.md",
+                "file": "开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/疑难杂症.md",
+                "file": "开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/疑难杂症.md",
+                "file": "开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/疑难杂症.md"
+                "file": "开发环境.md"
               }
             }
           },
@@ -160,15 +160,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "801994ef82dfd083",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
-    "Mac/开发环境.md",
+    "笔记/Java/Java 小问题.md",
+    "开发环境.md",
+    "笔记/Java",
+    "Mac/Mac 应用已损坏.md",
+    "Mac/iCloud 同步卡住.md",
+    "Mac/iCloud 不同步指定文件.md",
+    "软件/油猴脚本.md",
+    "笔记/疑难杂症.md",
     "周刊/第一期.md",
     "周刊",
     "英语/英语.md",
     "index.md",
     "Mac/让应用支持 iCloud 同步.md",
-    "笔记/疑难杂症.md",
     "笔记/抢红包系统.md",
     "笔记/MySQL 实战 45 讲/44｜答疑文章（三）：说一说这些好问题.md",
     "思考/3-2-1 的有趣想法.md",
@@ -192,12 +198,6 @@
     "笔记/Redis 核心技术与实战/04｜AOF 日志：宕机了，Redis 如何避免数据丢失？.md",
     "软件/Oh My Zsh.md",
     "笔记/Redis 核心技术与实战/31｜事务机制｜Redis 能实现 ACID 属性吗？.md",
-    "软件/Linux 安装 oh-my-zsh.md",
-    "软件/Obsidian.md",
-    "笔记/PHP/Laravel 开发注意事项.md",
-    "Mac/iCloud 不同步指定文件.md",
-    "笔记/Docker/Docker 不常见问题.md",
-    "软件",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
     "Pasted image 20230508195502.png",
