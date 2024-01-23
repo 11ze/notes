@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "思考/3-2-1 的有趣想法.md",
+                "file": "笔记/Rate Limit.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "思考/3-2-1 的有趣想法.md",
+            "file": "笔记/Rate Limit.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "思考/3-2-1 的有趣想法.md",
+            "file": "笔记/Rate Limit.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -125,7 +125,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "思考/3-2-1 的有趣想法.md"
+            "file": "笔记/Rate Limit.md"
           }
         }
       }
@@ -145,9 +145,11 @@
   },
   "active": "8f0ff2ce831a25cb",
   "lastOpenFiles": [
+    "笔记/Git.md",
+    "笔记/服务器疑难杂症.md",
+    "思考/3-2-1 的有趣想法.md",
     "Mac/开发环境.md",
     "Mac/开发环境.md-e",
-    "思考/3-2-1 的有趣想法.md",
     "index.md",
     "笔记/PHP/PHP-FPM 配置.md",
     "笔记/PHP/PHP 错误码设计.md",
@@ -171,8 +173,6 @@
     "工具/Mac/Mac 应用已损坏.md",
     "AboutTheGarden.md",
     "管理花园/搭建/本地预览.md",
-    "学习笔记/Redis 核心技术与实战/30｜如何使用 Redis 实现分布式锁？.md",
-    "学习笔记/Redis 核心技术与实战/Redis 学习路径.md",
     "auto_push.sh",
     "auto_push.log",
     "LICENSE",

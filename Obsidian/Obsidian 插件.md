@@ -1,16 +1,14 @@
 ---
 title: Obsidian 插件
 created: 2023-05-12T01:11:06+08:00
-updated: 2024-01-08T10:15:00+08:00
+updated: 2024-01-23T12:34:01+08:00
 tags:
   - Obsidian
 ---
 
 ## 推荐
 
-- [Enhancing Mindmap](https://github.com/MarkMindCkm/obsidian-enhancing-mindmap) 文档转成思维导图，只需修改文档头，没有额外学习成本
-- [Update time on edit](obsidian://show-plugin?id=update-time-on-edit) 自动更新文档的创建、更新时间
-  - 改用仓库根目录下的 modify_updated.sh 脚本 + crontab
+- [Enhancing Mindmap](https://github.com/MarkMindCkm/obsidian-enhancing-mindmap) 使用思维导图视图查看文档，只需修改文档头
 
 ## 待折腾
 

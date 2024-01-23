@@ -14,5 +14,8 @@
   "showLineNumber": false,
   "foldIndent": false,
   "showIndentGuide": true,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "userIgnoreFilters": [
+    ".git"
+  ]
 }
