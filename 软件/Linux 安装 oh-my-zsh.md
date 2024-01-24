@@ -6,7 +6,6 @@ tags:
   - zsh
 updated: 2023-12-27T10:47:54+08:00
 ---
-
 ## 安装 Zsh
 
 - <https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH>
@@ -24,7 +23,7 @@ updated: 2023-12-27T10:47:54+08:00
   echo $SHELL
   ```
 
-## 安装 Oh-my-zsh
+## 安装 oh-my-zsh
 
 - <https://ohmyz.sh/#install>
 - 若安装时遇到网络问题则 [[GitHub 加速访问]]
