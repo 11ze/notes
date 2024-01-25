@@ -17,5 +17,6 @@
   "rightToLeft": false,
   "userIgnoreFilters": [
     ".git"
-  ]
+  ],
+  "propertiesInDocument": "source"
 }
