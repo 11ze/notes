@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发环境.md",
+                "file": "思考/3-2-1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发环境.md",
+                "file": "思考/3-2-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开发环境.md",
+                "file": "思考/3-2-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发环境.md"
+                "file": "思考/3-2-1.md"
               }
             }
           },
@@ -180,7 +180,7 @@
     "Mac/让应用支持 iCloud 同步.md",
     "思考/学习方法.md",
     "思考/Tips.md",
-    "思考/3-2-1 的有趣想法.md",
+    "思考/3-2-1.md",
     "Obsidian/Vault.md",
     "Obsidian/Obsidian 插件.md",
     "Mac/Mac 应用已损坏.md",
