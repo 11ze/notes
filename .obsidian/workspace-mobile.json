@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "周刊/第一期.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "周刊/第一期.md",
+            "file": "README.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "周刊/第一期.md",
+            "file": "README.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -125,7 +125,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "周刊/第一期.md"
+            "file": "README.md"
           }
         }
       }
@@ -143,10 +143,12 @@
       "templates:插入模板": false
     }
   },
-  "active": "8f0ff2ce831a25cb",
+  "active": "f753d562e1c27fe8",
   "lastOpenFiles": [
-    "笔记/Github/GitHub 加速访问.md",
+    "3-2-1.md",
     "开发环境.md",
+    "周刊/第一期.md",
+    "笔记/Github/GitHub 加速访问.md",
     "笔记/Rate Limit.md",
     "笔记/Git.md",
     "笔记/服务器疑难杂症.md",
@@ -171,8 +173,6 @@
     "学习笔记/Nodejs/Egg.js 手动热更新.md",
     "工具/Mac/iCloud 不同步指定文件.md",
     "学习/英语/Think in English.md",
-    "管理花园/搭建/换新设备.md",
-    "管理花园/搭建/发布方案.md",
     "auto_push.sh",
     "auto_push.log",
     "LICENSE",
