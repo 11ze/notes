@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "周刊/第四期.md",
+                "file": "开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "实战",
+                "query": "icopy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "周刊/第四期.md",
+                "file": "开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "周刊/第四期.md",
+                "file": "开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "周刊/第四期.md"
+                "file": "开发环境.md"
               }
             }
           },
@@ -162,14 +163,14 @@
   },
   "active": "801994ef82dfd083",
   "lastOpenFiles": [
-    "开发环境.md",
-    "周刊/第四期.md",
-    "学习方法.md",
     "周刊/第三期.md",
-    "周刊/第二期.md",
+    "周刊/第四期.md",
+    "开发环境.md",
     "软件/Oh My Zsh.md",
     "3-2-1.md",
+    "学习方法.md",
     "思考/3-2-1.md",
+    "周刊/第二期.md",
     "周刊/第一期.md",
     "软件/Linux 安装 oh-my-zsh.md",
     "Atlas/About Atlas.md",
