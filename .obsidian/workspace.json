@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发环境.md",
+                "file": "英语/英语语法.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发环境.md",
+                "file": "英语/英语语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开发环境.md",
+                "file": "英语/英语语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发环境.md"
+                "file": "英语/英语语法.md"
               }
             }
           },
@@ -163,9 +162,12 @@
   },
   "active": "801994ef82dfd083",
   "lastOpenFiles": [
+    "英语/Think in English.md",
+    "英语/英语.md",
+    "英语/英语语法.md",
+    "开发环境.md",
     "周刊/第三期.md",
     "周刊/第四期.md",
-    "开发环境.md",
     "软件/Oh My Zsh.md",
     "3-2-1.md",
     "学习方法.md",
@@ -175,7 +177,6 @@
     "软件/Linux 安装 oh-my-zsh.md",
     "Atlas/About Atlas.md",
     "Extras/About Extras.md",
-    "英语/英语语法.md",
     "英语/未命名.md",
     "周刊/周刊第一期.md",
     "About Atlas.md",
@@ -187,8 +188,6 @@
     "思考/学习方法.md",
     "思考/Tips.md",
     "Obsidian/Vault.md",
-    "Obsidian/Obsidian 插件.md",
-    "Mac/Mac 应用已损坏.md",
     "笔记/Java",
     "周刊",
     "auto_updated.log",
