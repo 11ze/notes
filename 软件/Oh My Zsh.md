@@ -38,8 +38,9 @@ updated: 2024-02-04T10:54:00+08:00
 
      ```bash
      cd ~/Downloads
-     git clone git://github.com/altercation/solarized.git
+     git clone https://github.com/altercation/solarized.git
      ```
 
 3. 打开终端，按「⌘ + ,」打开终端偏好设置，点击「描述文件 > ⚙︎⌄ > 导入」，选择「osx-terminal…ors-solarized/xterm 256 color」
 4. 能在 iTerm2 生效
+  1. 如果安装了 p10k，执行一次 p10k configure 可以触发字体安装选项

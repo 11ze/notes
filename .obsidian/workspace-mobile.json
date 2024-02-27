@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "周刊/第一期.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "README.md",
+            "file": "周刊/第一期.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "README.md",
+            "file": "周刊/第一期.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -127,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "README.md"
+            "file": "周刊/第一期.md"
           }
         }
       }
@@ -145,11 +145,16 @@
       "templates:插入模板": false
     }
   },
-  "active": "f753d562e1c27fe8",
+  "active": "8f0ff2ce831a25cb",
   "lastOpenFiles": [
-    "3-2-1.md",
-    "开发环境.md",
+    "周刊/第二期.md",
+    "周刊/第三期.md",
+    "周刊/第四期.md",
     "周刊/第一期.md",
+    "Mac/iCloud 同步卡住.md",
+    "3-2-1.md",
+    "README.md",
+    "开发环境.md",
     "笔记/Github/GitHub 加速访问.md",
     "笔记/Rate Limit.md",
     "笔记/Git.md",
@@ -169,12 +174,7 @@
     "Extras/About Extras.md",
     "学习笔记/MySQL 实战 45 讲/01｜基础架构：一条 SQL 查询语句是如何执行的？.md",
     "工具/Mac/iCloud 同步卡住.md",
-    "Atlas/About Atlas.md",
     "vercel.json",
-    "学习笔记/Github/GitHub 加速访问.md",
-    "学习笔记/Nodejs/Egg.js 手动热更新.md",
-    "工具/Mac/iCloud 不同步指定文件.md",
-    "学习/英语/Think in English.md",
     "auto_push.sh",
     "auto_push.log",
     "LICENSE",
