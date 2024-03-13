@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发环境.md",
+                "file": "学习方法.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发环境.md",
+                "file": "学习方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开发环境.md",
+                "file": "学习方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发环境.md"
+                "file": "学习方法.md"
               }
             }
           },
@@ -165,21 +165,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "random-note:Open random note": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "random-note:开始漫游笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bfb4e01e8c4fb902",
+  "active": "1dcfed1424b65adb",
   "lastOpenFiles": [
-    "LeetCode 学习算法.md",
     "开发环境.md",
+    "Github/Git.md",
+    "笔记/秒杀系统.md",
+    "笔记/服务器疑难杂症.md",
+    "笔记/支付技术方案.md",
+    "笔记/抢红包系统.md",
+    "笔记/Rate Limit.md",
+    "笔记",
     "周刊/第一期.md",
-    "软件/Oh My Zsh.md",
+    "LeetCode 学习算法.md",
+    "工具/Oh My Zsh.md",
     "英语/英语语法.md",
     "英语/Think in English.md",
     "英语/英语.md",
@@ -189,20 +196,14 @@
     "学习方法.md",
     "思考/3-2-1.md",
     "周刊/第二期.md",
-    "软件/Linux 安装 oh-my-zsh.md",
+    "工具/Linux 安装 oh-my-zsh.md",
     "Atlas/About Atlas.md",
     "Extras/About Extras.md",
     "英语/未命名.md",
     "周刊/周刊第一期.md",
     "About Atlas.md",
     "Atlas/About Extras.md",
-    "软件/Obsidian.md",
-    "软件/油猴脚本.md",
-    "笔记/Java/Java 学习.md",
-    "Mac/让应用支持 iCloud 同步.md",
-    "思考/学习方法.md",
-    "思考/Tips.md",
-    "笔记/Java",
+    "Java",
     "周刊",
     "auto_updated.log",
     "README copy中 文.md-e",
@@ -211,7 +212,6 @@
     "modify_updated2.sh",
     "modify_updated copy.sh",
     "modify_updated.sh",
-    "auto_push copy.sh",
     "Pasted image 20230509142351.png",
     "未命名.canvas",
     "Pasted image 20230508195502.png",
