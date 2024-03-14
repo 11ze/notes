@@ -1,10 +1,10 @@
 ---
-title: 让应用支持 iCloud 同步
+title: 用 iCloud 同步应用设置
 tags:
   - iCloud
   - Mac
 created: 2024-01-09T13:27:18+08:00
-updated: 2024-01-25T10:32:01+08:00
+updated: 2024-03-14T16:32:52+08:00
 ---
 
 - 先退出要同步的应用
