@@ -3,11 +3,16 @@ title: iCloud 同步卡住
 created: 2023-05-12T01:11:06+08:00
 tags:
   - Mac
+  - iOS
   - iCloud
-updated: 2024-01-23T12:34:01+08:00
+updated: 2024-03-14T16:29:01+08:00
 ---
 
-## 解决方案
+## iOS
+
+- 重新登录 Apple ID。
+
+## Mac
 
 1. 终端执行命令 kill iCloud 进程
 
