@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apple/用 iCloud 同步应用设置.md",
+                "file": "index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f58b632a58b6231",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我的开发环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apple/用 iCloud 同步应用设置.md",
+                "file": "我的开发环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apple/用 iCloud 同步应用设置.md",
+                "file": "我的开发环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apple/用 iCloud 同步应用设置.md"
+                "file": "我的开发环境.md"
               }
             }
           },
@@ -160,12 +174,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "682384b37743a82f",
+  "active": "0f58b632a58b6231",
   "lastOpenFiles": [
+    "index.md",
+    "README.md",
     "Apple/iCloud 同步卡住.md",
+    "Apple/用 iCloud 同步应用设置.md",
     "Apple/iCloud 同步卡住，iOS.md",
     "Egg.js 手动热更新.md",
-    "index.md",
     "LeetCode 学习算法.md",
     "周刊/第二期.md",
     "周刊/第四期.md",
@@ -175,7 +191,7 @@
     "英语/Think in English.md",
     "英语/英语语法.md",
     "英语/背单词.md",
-    "开发环境.md",
+    "我的开发环境.md",
     "Github/Git.md",
     "笔记/秒杀系统.md",
     "笔记/服务器疑难杂症.md",
@@ -187,8 +203,6 @@
     "3-2-1.md",
     "学习方法.md",
     "思考/3-2-1.md",
-    "工具/Linux 安装 oh-my-zsh.md",
-    "Atlas/About Atlas.md",
     "Java",
     "周刊",
     "auto_updated.log",
