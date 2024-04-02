@@ -5,7 +5,7 @@ tags:
   - 开发
   - 设计
   - 编程
-updated: 2023-08-22T23:19:56+08:00
+updated: 2024-04-03T00:52:00+08:00
 ---
 
 ## 功能
@@ -16,7 +16,7 @@ updated: 2023-08-22T23:19:56+08:00
 
 ```JavaScript
 key: {
-  current_count: number; // 也可以不要该字段，每次请求都算一次队列长度
+  current_count: number;
   started_at: date;
   request_time_queue: date[];
   time_range: number; // 时间窗口大小
@@ -24,7 +24,7 @@ key: {
 }
 ```
 
-## 实现流程
+## 处理流程
 
 1. 请求进来
 2. 拼接出 key
