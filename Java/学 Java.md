@@ -1,5 +1,5 @@
 ---
-title: Java 学习
+title: 学 Java
 tags:
   - Java
   - 资料
