@@ -1,12 +1,11 @@
 ---
 title: Egg.js 手动热更新
 tags:
-  - 部署
   - 热更新
   - Egg.js
   - Node.js
 created: 2023-08-19T11:12:06+08:00
-updated: 2024-04-05T23:00:00+08:00
+updated: 2024-04-06T02:01:01+08:00
 ---
 
 package.json

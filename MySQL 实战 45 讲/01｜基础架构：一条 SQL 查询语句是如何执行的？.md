@@ -3,7 +3,7 @@ title: 01｜基础架构：一条 SQL 查询语句是如何执行的？
 tags:
   - MySQL
 created: 2023-05-17T09:36:26+08:00
-updated: 2023-08-22T23:19:56+08:00
+updated: 2024-04-06T02:30:00+08:00
 ---
 
 ## MySQL 的逻辑链接架构图
@@ -23,9 +23,10 @@ updated: 2023-08-22T23:19:56+08:00
 
 ## 2. 查询缓存
 
-- 建议不使用查询缓存，弊大于利
-  - 对一个表的更新，表上所有的查询缓存都会被清空
-  - 设置 `query_cache_type = DEMAND`，对于默认的 SQL 语句都不使用查询缓存，用 SQL_CACHE 显示置顶要使用查询缓存的语句 `select SQL_CACHE * from T`;
+- 建议不使用查询缓存
+- 对一个表的更新，表上所有的查询缓存都会被清空
+- 设置 `query_cache_type = DEMAND`，对于默认的 SQL 语句都不使用查询缓存
+- 用 SQL_CACHE 显示要使用查询缓存的语句 `select SQL_CACHE * from T`;
 - ⚠️ MySQL 8.0 版本删除此功能
 
 ## 3. 分析器
