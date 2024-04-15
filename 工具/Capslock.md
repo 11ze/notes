@@ -5,7 +5,7 @@ tags:
   - 软件
   - 工具
   - Mac
-updated: 2024-01-10T13:40:00+08:00
+updated: 2024-04-15T14:25:00+08:00
 ---
 
 ## 功能
@@ -16,6 +16,7 @@ updated: 2024-01-10T13:40:00+08:00
 
 - [Github](https://github.com/Vonng/Capslock)
 - 到系统设置 - 键盘 - 键盘快捷键 - Modifier Keys 里选择键盘
+
 ## 设置单击 Caps 切换输入法
 
 - 打开配置文件 `~/.config/karabiner/karabiner.json`
