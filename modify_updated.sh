@@ -2,8 +2,8 @@
 
 # 说明：
 
-# 请在 crontab 中配置定时任务，例如每分钟执行一次
-#   * * * * * cd "dirname" && ./modify_updated.sh
+# 请在 crontab 中配置定时任务，如每分钟执行一次
+# * * * * * cd "dirname" && ./modify_updated.sh
 
 current_time=$(date +"%Y-%m-%dT%H:%M:%S+08:00")
 
