@@ -4,7 +4,7 @@ created: 2023-05-12T01:11:06+08:00
 tags:
   - 工具
   - 软件
-updated: 2024-04-02T22:57:00+08:00
+updated: 2024-04-24T12:03:00+08:00
 ---
 
 - Linux 用户看：[[Linux 安装 oh-my-zsh]]
@@ -35,7 +35,7 @@ updated: 2024-04-02T22:57:00+08:00
 
 1. 安装 [Powerlevel10k](https://github.com/romkatv/powerlevel10k#getting-started)
 2. 下载 [配色方案](https://github.com/altercation/solarized)
-3. 打开终端，按「⌘ + ,」打开终端偏好设置，点击「描述文件 > ⚙︎⌄ > 导入」，选择「osx-terminal…ors-solarized/xterm 256 color」
+3. 打开 Terminal，Settings > Profiles > ⚙︎⌄ > Import > osx-terminal…ors-solarized/xterm 256 color
 4. 每次应用配色方案后修改字体为 MesloLGS NF Regular
 5. 能在 iTerm2 生效
   1. 执行 p10k configure 可以触发字体安装

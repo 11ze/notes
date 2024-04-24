@@ -14,18 +14,18 @@
 
 timestamp=$(date "+%Y-%m-%d %H:%M:%S")
 
-echo "==== $timestamp ====" >> auto_push.log
+echo $timestamp >> auto_push.log
 
-echo "$ git pull:" >> auto_push.log
+echo "git pull:" >> auto_push.log
 git pull >> auto_push.log 2>&1
 
-# echo "$ git add ." >> auto_push.log
+# echo "git add ." >> auto_push.log
 git add . >> auto_push.log 2>&1
 
-# echo "$ git commit" >> auto_push.log
-git commit -m "docs: auto push to GitHub" >> auto_push.log 2>&1
+# echo "git commit" >> auto_push.log
+git commit -m "docs: auto update" >> auto_push.log 2>&1
 
-# echo "$ git push" >> auto_push.log
+# echo "git push" >> auto_push.log
 git push >> auto_push.log 2>&1
 
-echo "Git operations completed." >> auto_push.log
+echo "Git operations completed.\n" >> auto_push.log
