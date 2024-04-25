@@ -3,7 +3,7 @@ title: 02｜日志系统：一条 SQL 更新语句是如何执行的？
 tags:
   - MySQL
 created: 2023-05-17T09:52:24+08:00
-updated: 2023-08-22T23:19:56+08:00
+updated: 2024-04-25T16:10:00+08:00
 ---
 
 ## Update 语句执行流程
@@ -12,10 +12,10 @@ updated: 2023-08-22T23:19:56+08:00
 
 ## 重要的日志模块：redo Log
 
-- 是 InnoDB 引擎特有的日志
-- WAL（Write-Ahead Logging）技术
+- InnoDB 引擎特有的日志
+- WAL（Write-Ahead Logging）
   - 先写日志，再写磁盘
-  - 当有一条记录需要更新的时候，InnoDB 引擎先把记录写到 redo log，并更新内存，引擎会在适当的时候，将这个操作记录更新到磁盘，这个更新往往是在系统比较空闲的时候做
+  - 当有一条记录需要更新的时候，InnoDB 引擎先把记录写到 redo log 并更新内存，引擎会在适当的时候，将这个操作记录更新到磁盘，这个更新往往是在系统比较空闲的时候做
 - redo log 大小固定，比如可以配置为一组 4 个文件，每个文件的大小是 1GB，所有文件组成一块“粉板”
   - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/mysql45-02-2.png)
   - write pos 是当前记录的位置，一边写一边后移，写到文件末尾后会回到文件开头
@@ -26,10 +26,10 @@ updated: 2023-08-22T23:19:56+08:00
 
 ## 重要的日志模块：binlog（归档日志）
 
-- 是 Server 层的日志
+- Server 层的日志
 - `statement` 格式：记 SQL 语句
 - `row` 格式：记录行的内容，记两条，更新前和更新后都有
-  - 建议使用
+- 建议使用 `row` 格式
 
 ## Redo Log 和 Binlog 的不同
 
