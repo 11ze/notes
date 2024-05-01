@@ -3,8 +3,8 @@ title: PHP 错误码设计
 created: 2023-05-12T01:11:06+08:00
 tags:
   - PHP
-  - WIP
-updated: 2023-08-22T23:19:56+08:00
+  - draft
+updated: 2024-05-01T14:57:00+08:00
 ---
 
 ## 目标
