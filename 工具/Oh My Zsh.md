@@ -4,7 +4,7 @@ created: 2023-05-12T01:11:06+08:00
 tags:
   - 工具
   - 软件
-updated: 2024-05-02T20:58:00+08:00
+updated: 2024-05-06T16:49:01+08:00
 ---
 
 - Linux 用户看：[[Linux 安装 oh-my-zsh]]
@@ -33,7 +33,7 @@ updated: 2024-05-02T20:58:00+08:00
 
 ## 美化
 
-1. 安装 [Powerlevel10k](https://github.com/romkatv/powerlevel10k#getting-started)
+1. 安装 [Powerlevel10k](https://github.com/romkatv/powerlevel10k#getting-started) 主题
 2. 下载 [配色方案](https://github.com/altercation/solarized)
 3. 打开 Terminal，Settings > Profiles > ⚙︎⌄ > Import > osx-terminal…ors-solarized/xterm 256 color
 4. 每次应用配色方案后修改字体为 MesloLGS NF Regular
