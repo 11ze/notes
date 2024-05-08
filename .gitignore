@@ -48,7 +48,8 @@ publish.js
 
 # 日志文件屏蔽
 auto_push.log
-auto_updated.log
+update_updated.log
+update_title.log
 
 .git.nosync
 

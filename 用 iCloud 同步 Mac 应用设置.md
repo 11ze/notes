@@ -1,10 +1,10 @@
 ---
-title: 用 iCloud 同步 Mac 应用设置
+title: 用 iCloud 同步 Mac 应用设置
 tags:
   - iCloud
   - Mac
 created: 2024-01-09T13:27:18+08:00
-updated: 2024-05-07T16:24:01+08:00
+updated: 2024-05-08T21:13:44+08:00
 ---
 
 - 先退出要同步的应用

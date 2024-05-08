@@ -1,11 +1,11 @@
 ---
-title: PHP 开发注意事项
+title: Laravel 开发注意事项
 tags:
   - PHP
   - 开发
   - 规范
 created: 2023-11-21T10:09:09+08:00
-updated: 2024-05-07T16:24:01+08:00
+updated: 2024-05-08T21:13:44+08:00
 ---
 
 ## MySQL
