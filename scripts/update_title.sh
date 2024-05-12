@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# 每个 md 文件的元属性都有一个 title，这个脚本用于更新 title，值为没有路径和后缀的文件名
+# 每个笔记文件都有一个 title 元属性，这个脚本用于更新 title 为没有后缀的文件名
 
 logFile="scripts/update_title.log"
+currentTime=$(date +"%Y-%m-%dT%H:%M:%S+08:00")
+
+echo $currentTime >> $logFile
 
 cd ..
 
@@ -31,3 +34,5 @@ find . -not -path "./.trash/*" -not -path "./README.md" -not -path "./index.md" 
         echo "添加 title：$filePath" >> $logFile
     fi
 done
+
+echo "" >> $logFile

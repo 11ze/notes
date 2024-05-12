@@ -1,15 +1,11 @@
 #!/bin/bash
 
-# 说明：
-
-# 请在 crontab 中配置定时任务，如每分钟执行一次
-# * * * * * cd "dirname" && ./modify_updated.sh
-
 cd ..
 
 logFile="scripts/update_updated.log"
+currentTime=$(date +"%Y-%m-%dT%H:%M:%S+08:00")
 
-current_time=$(date +"%Y-%m-%dT%H:%M:%S+08:00")
+echo $currentTime >> $logFile
 
 # 获取 git status 的输出
 gitStatus=$(git status)
@@ -34,8 +30,8 @@ if echo "$gitStatus" | grep -q ".md"; then
   # 检查每个文件的前 10 行是否包含 "updated:" 字段
   if head -10 "$filename" | grep -q "updated:"; then
       # 使用 sed 命令将 "updated:" 之后的内容替换为当前时间
-      echo "updated: $current_time $filename" >> $logFile
-      sed -i -e "1,10s/\(updated: \).*/\1$current_time/" "$filename"
+      echo "updated: $filename" >> $logFile
+      sed -i -e "1,10s/\(updated: \).*/\1$currentTime/" "$filename"
 
       # 删除 sed 命令生成的备份文件
       if [ -f "$filename-e" ]; then
@@ -47,3 +43,5 @@ if echo "$gitStatus" | grep -q ".md"; then
 
   done
 fi
+
+echo "" >> $logFile
