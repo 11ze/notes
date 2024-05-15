@@ -4,7 +4,7 @@ created: 2023-05-12T01:11:06+08:00
 tags:
   - Linux
   - zsh
-updated: 2023-12-27T10:47:54+08:00
+updated: 2024-05-15T23:00:01+08:00
 ---
 ## 安装 Zsh
 
@@ -36,5 +36,5 @@ updated: 2023-12-27T10:47:54+08:00
 - autojump
   - Ubuntu：sudo apt install autojump
   - Centos：yum install autojump-zsh
-- 修改 ~/.zshrc 文件的内容
+- 到 ~/.zshrc 文件启用插件
   - `plugins=(git autojump zsh-autosuggestions zsh-syntax-highlighting)`
