@@ -4,7 +4,7 @@ tags:
   - 域名
   - Cloudflare
 created: 2024-05-04T00:15:14+08:00
-updated: 2024-05-07T16:24:01+08:00
+updated: 2024-05-29T23:00:01+08:00
 ---
 
 ## 重定向到 www 的好处
@@ -16,7 +16,7 @@ updated: 2024-05-07T16:24:01+08:00
 ## Cloudflare 设置方法
 
 - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/20240503234218.png)
-- 如果网址打不开，试试添加 DNS 解析到 192.0.2.1
+- 如果设置后网址打不开，试试添加 DNS 解析 @ 到 192.0.2.1
 
 ## 参考文章
 

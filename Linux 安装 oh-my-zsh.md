@@ -4,19 +4,20 @@ created: 2023-05-12T01:11:06+08:00
 tags:
   - Linux
   - zsh
-updated: 2024-05-15T23:00:01+08:00
+updated: 2024-05-29T23:00:01+08:00
 ---
 ## 安装 Zsh
 
 - <https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH>
 
   ```shell
-  sudo apt install zsh
-
-  # 查看所有可用 shell
+  # 查看系统已有 shell
   chsh -l
 
-  # 将终端默认 shell 切换到 zsh，后面要输入实际看到的 zsh 路径
+  # 如果没有 zsh
+  sudo apt install zsh
+
+  # 将终端默认 shell 切换到 zsh（输入 chsh -l 看到的路径）
   chsh -s /bin/zsh
 
   # 新开一个终端确认是否切换成功
@@ -25,8 +26,8 @@ updated: 2024-05-15T23:00:01+08:00
 
 ## 安装 oh-my-zsh
 
-- <https://ohmyz.sh/#install>
-- 若安装时遇到网络问题则 [[GitHub 加速访问]]
+- 安装：<https://ohmyz.sh/#install>
+- 若安装时遇到网络问题：[[GitHub 加速访问]]
 
 ## 插件
 

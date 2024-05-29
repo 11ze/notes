@@ -1,1 +1,1 @@
-# [11ze](https://wangze.tech)
+# 个人笔记
