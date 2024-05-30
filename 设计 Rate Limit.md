@@ -1,5 +1,5 @@
 ---
-title: Rate Limit
+title: 设计 Rate Limit
 created: 2023-05-12T01:11:06+08:00
 tags:
   - 开发
@@ -8,7 +8,7 @@ tags:
 updated: 2024-05-07T16:24:01+08:00
 ---
 
-## 功能
+## 说明
 
 限制接口请求数
 

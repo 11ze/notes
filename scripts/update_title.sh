@@ -5,9 +5,9 @@
 logFile="scripts/update_title.log"
 currentTime=$(date +"%Y-%m-%dT%H:%M:%S+08:00")
 
-echo $currentTime >> $logFile
-
 cd ..
+
+echo $currentTime >> $logFile
 
 # 执行 find 命令并遍历结果，忽略 .trash 目录、README.md、index.md
 find . -not -path "./.trash/*" -not -path "./README.md" -not -path "./index.md" -name "*.md" | while read -r filePath; do

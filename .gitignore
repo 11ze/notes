@@ -49,6 +49,9 @@ publish.js
 # 日志文件屏蔽
 *.log
 
-.git.nosync
-
 .obsidian/workspace*.json
+.obsidian
+
+Private
+
+.git.nosync

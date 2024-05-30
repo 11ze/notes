@@ -4,9 +4,12 @@ created: 2023-05-12T01:11:06+08:00
 tags:
   - Linux
   - zsh
-updated: 2024-05-29T23:00:01+08:00
+updated: 2024-05-30T23:00:00+08:00
 ---
-## 安装 Zsh
+
+- Mac 用户看：[[Mac 安装 oh-my-zsh]]
+
+## 安装 zsh
 
 - <https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH>
 
@@ -26,10 +29,10 @@ updated: 2024-05-29T23:00:01+08:00
 
 ## 安装 oh-my-zsh
 
-- 安装：<https://ohmyz.sh/#install>
+- 官网：<https://ohmyz.sh>
 - 若安装时遇到网络问题：[[GitHub 加速访问]]
 
-## 插件
+## 安装插件
 
 - git clone 到 .oh-my-zsh/custom/plugins
   - <https://github.com/zsh-users/zsh-syntax-highlighting.git>

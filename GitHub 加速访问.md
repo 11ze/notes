@@ -7,4 +7,4 @@ updated: 2024-05-29T23:00:01+08:00
 ---
 
 - [GitHub Hosts | hosts](https://ineo6.github.io/hosts/)
-- 按照说明设置即可。
+    - 按照说明设置即可。
