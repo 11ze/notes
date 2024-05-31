@@ -22,7 +22,7 @@ echo $currentTime >> $logFile
 
 git pull >> $logFile 2>&1
 git add . >> $logFile 2>&1
-git commit -m "docs: auto commit" >> $logFile 2>&1
+git commit -m "docs: auto push" >> $logFile 2>&1
 git push >> $logFile 2>&1
 
 echo "" >> $logFile
