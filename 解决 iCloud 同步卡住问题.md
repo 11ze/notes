@@ -5,7 +5,7 @@ tags:
   - Mac
   - iOS
   - iCloud
-updated: 2024-05-30T23:00:00+08:00
+updated: 2024-06-07T23:00:00+08:00
 ---
 
 ## iOS
@@ -14,7 +14,7 @@ updated: 2024-05-30T23:00:00+08:00
 
 ## Mac
 
-1. 终端执行命令 kill iCloud 进程
+1. 终端执行命令 kill iCloud 进程，会自动重启
 
     ```bash
     killall bird && killall cloudd
