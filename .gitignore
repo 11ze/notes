@@ -52,6 +52,6 @@ publish.js
 .obsidian/workspace*.json
 .obsidian
 
-Private
+private
 
 .git.nosync
