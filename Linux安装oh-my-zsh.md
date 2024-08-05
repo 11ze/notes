@@ -1,14 +1,14 @@
 ---
-title: Linux 安装 oh-my-zsh
+title: Linux安装oh-my-zsh
 created: 2023-05-12T01:11:06+08:00
 tags:
   - 软件
   - Linux
   - zsh
-updated: 2024-06-07T23:00:00+08:00
+updated: 2024-08-05T23:00:01+08:00
 ---
 
-- Mac 用户看：[[Mac 安装 oh-my-zsh]]
+- Mac 用户看：[[Mac安装oh-my-zsh]]
 
 ## 安装 zsh
 
@@ -31,7 +31,7 @@ updated: 2024-06-07T23:00:00+08:00
 ## 安装 oh-my-zsh
 
 - 官网：<https://ohmyz.sh>
-- 若安装时遇到网络问题：[[GitHub 加速访问]]
+- 若安装时遇到网络问题：[[GitHub加速访问]]
 
 ## 安装插件
 

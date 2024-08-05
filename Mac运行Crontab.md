@@ -1,11 +1,11 @@
 ---
-title: Mac 运行 Crontab
+title: Mac运行Crontab
 tags:
   - Mac
   - Crontab
   - 定时任务
 created: 2024-04-03T00:52:24+08:00
-updated: 2024-05-30T23:00:00+08:00
+updated: 2024-08-05T23:00:01+08:00
 ---
 
 ## 没有权限执行 iCloud 里的文件

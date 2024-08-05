@@ -1,10 +1,10 @@
 ---
-title: 让 iCloud 不同步指定文件
+title: 让iCloud不同步指定文件
 created: 2023-05-12T14:28:08+08:00
 tags:
   - iCloud
   - Mac
-updated: 2024-05-30T23:00:00+08:00
+updated: 2024-08-05T23:00:01+08:00
 ---
 
 ## 说明

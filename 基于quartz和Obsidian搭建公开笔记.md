@@ -1,7 +1,7 @@
 ---
-title: 基于 quartz 和 Obsidian 搭建公开笔记
+title: 基于quartz和Obsidian搭建公开笔记
 created: 2023-05-12T19:46:22+08:00
-updated: 2024-07-11T23:00:06+08:00
+updated: 2024-08-05T23:00:01+08:00
 tags:
   - 笔记
   - 第二大脑
@@ -15,7 +15,7 @@ tags:
 - Remotely Sync：Obsidian 的第三方插件，可以自动和手动同步，免费
 - iCloud：实时同步，免费
 
-### 我使用的同步方案 iCloud
+### 我使用的同步方案iCloud
 
 1. iPhone 安装 Obsidian
 2. 进入 Obsidian 创建一个打开 iCloud 同步功能的 Vault
@@ -117,7 +117,7 @@ tags:
 
 - 在文档仓库根目录添加文件：[auto_push.sh](https://github.com/11ze/notes/blob/main/scripts/auto_push.sh)
 - 配置 crontab 每天自动执行文档仓库的 auto_push.sh
-  - [[Crontab 执行任务提示没有权限]]
+  - [[Crontab执行任务提示没有权限]]
 - 我的文档仓库已配置 GitHub Action，自动提交后会触发发布仓库的 Github Action 自动部署网站
   - content 仓库 -> quartz repository 的 v4 分支 -> 生成网站内容到 quartz 仓库的 master 分支 -> Cloudflare 检测到 master 更新，自动部署 Pages
 
@@ -129,4 +129,4 @@ tags:
   - 解决一：改用 ISO8601 的日期格式
   - 解决二：在 ci 里指定时区，未尝试
 
-### [[解决 iCloud 同步卡住问题]]
+### [[解决iCloud同步卡住问题]]

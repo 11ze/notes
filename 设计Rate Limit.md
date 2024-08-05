@@ -1,11 +1,11 @@
 ---
-title: 设计 Rate Limit
+title: 设计Rate Limit
 created: 2023-05-12T01:11:06+08:00
 tags:
   - 开发
   - 设计
   - 编程
-updated: 2024-05-07T16:24:01+08:00
+updated: 2024-08-05T23:00:01+08:00
 ---
 
 ## 说明

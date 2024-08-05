@@ -1,9 +1,9 @@
 ---
-title: PHP 开发设置
+title: PHP开发设置
 created: 2023-05-12T01:11:06+08:00
 tags:
   - PHP
-updated: 2024-05-30T23:00:00+08:00
+updated: 2024-08-05T23:00:01+08:00
 ---
 
 ## Laravel Pint
